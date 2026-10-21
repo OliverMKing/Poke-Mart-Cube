@@ -1,0 +1,361 @@
+section,line,name,set,number,api_id,price_usd,version,note
+Grass,Decidueye,Rowlet,Shrouded Fable,3,sv6pt5-3,0.19,normal,Add On: draw 1
+Grass,Decidueye,Dartrix,Shrouded Fable,4,sv6pt5-4,0.14,normal,
+Grass,Decidueye,Decidueye,Shrouded Fable,5,sv6pt5-5,0.11,normal,draw to 7 / 170 for G
+Grass,Rillaboom,Grookey,Sword & Shield,11,swsh1-11,0.20,normal,
+Grass,Rillaboom,Thwackey,Sword & Shield,12,swsh1-12,0.05,normal,
+Grass,Rillaboom,Rillaboom,Shining Fates,13,swsh45-13,0.24,holofoil,Voltage Beat: 2 Grass from deck
+Grass,Lurantis,Fomantis,Sun & Moon,14,sm1-14,0.01,normal,
+Grass,Lurantis,Lurantis,SM Black Star Promos,SM25,smp-SM25,4.25,holofoil,Sunny Day: Grass and Fire +20
+Grass,Eldegoss,Gossifleur,Sword & Shield,20,swsh1-20,0.13,normal,Call for Family
+Grass,Eldegoss,Eldegoss,Evolving Skies,16,swsh7-16,0.31,holofoil,Cotton Lift: 2 basic Energy
+Grass,Breloom,Shroomish,Temporal Forces,6,sv5-6,0.17,normal,
+Grass,Breloom,Breloom,Temporal Forces,7,sv5-7,0.19,normal,120 for GC
+Grass,Yanmega,Yanma,Crown Zenith,8,swsh12pt5-8,0.16,normal,
+Grass,Yanmega,Yanmega,Crown Zenith,9,swsh12pt5-9,0.18,normal,160 for GGC
+Grass,Basics,Exeggcute,Plasma Freeze,4,bw9-4,4.42,normal,Propagation
+Grass,Basics,Shaymin,Destined Rivals,10,sv10-10,0.28,normal,Flower Curtain: Bench shield
+Grass,Basics,Celebi,Shining Fates,3,swsh45-3,0.29,normal,Woodland Stroll
+Grass,Basics,Zarude,Chilling Reign,19,swsh6-19,0.31,holofoil,Pack Call
+Grass,Basics,Shuckle,Lost Thunder,16,sm8-16,0.38,normal,Fresh Squeezed
+Grass,Basics,Tropius,Evolving Skies,6,swsh7-6,0.21,normal,
+Grass,Basics,Heracross,Lost Thunder,18,sm8-18,0.34,normal,
+Fire,Charizard,Charmander,Vivid Voltage,23,swsh4-23,0.30,normal,Collect
+Fire,Charizard,Charmeleon,Dragon Majesty,2,sm75-2,0.86,normal,Burning Fighter
+Fire,Charizard,Charizard,Pokémon GO,10,pgo-10,3.84,holofoil,Burn Brightly: basic Fire = FF
+Fire,Cinderace,Scorbunny,Sword & Shield,31,swsh1-31,0.20,normal,
+Fire,Cinderace,Raboot,Sword & Shield,32,swsh1-32,0.25,normal,
+Fire,Cinderace,Cinderace,Sword & Shield,34,swsh1-34,0.31,holofoil,Libero: reload on switch-in / 190
+Fire,Magcargo,Slugma,Celestial Storm,23,sm7-23,0.27,normal,
+Fire,Magcargo,Magcargo,Celestial Storm,24,sm7-24,1.08,normal,Smooth Over: tutor to top
+Fire,Arcanine,Growlithe,Scarlet & Violet,31,sv1-31,0.18,normal,Stoke: 2 Fire from deck
+Fire,Arcanine,Arcanine,151,59,sv3pt5-59,0.23,normal,reload / 240
+Fire,Salazzle,Salandit,Crown Zenith,27,swsh12pt5-27,0.12,normal,Call for Family
+Fire,Salazzle,Salazzle,Stellar Crown,24,sv7-24,0.04,normal,Sudden Scorching: opponent discards up to 3 / 130
+Fire,Rapidash,Ponyta,Temporal Forces,26,sv5-26,0.15,normal,
+Fire,Rapidash,Rapidash,Temporal Forces,27,sv5-27,0.17,normal,120 for FC
+Fire,Basics,Volcanion,Steam Siege,25,xy11-25,0.32,normal,Power Heater
+Fire,Basics,Victini,Surging Sparks,21,sv8-21,0.24,normal,Victory Cheer
+Fire,Basics,Heatran,Lost Thunder,48,sm8-48,0.41,holofoil,
+Fire,Basics,Entei,Cosmic Eclipse,28,sm12-28,0.65,normal,
+Fire,Basics,Oricorio,Guardians Rising,14,sm2-14,0.34,normal,Passionate Dance
+Fire,Basics,Chi-Yu,Paradox Rift,29,sv4-29,0.15,holofoil,Flare Bringer
+Fire,Basics,Torkoal,Twilight Masquerade,30,sv6-30,0.20,normal,
+Water,Inteleon,Sobble,Sword & Shield,55,swsh1-55,0.12,normal,
+Water,Inteleon,Drizzile,Sword & Shield,56,swsh1-56,0.23,normal,Shady Dealings
+Water,Inteleon,Inteleon,Sword & Shield,58,swsh1-58,0.45,holofoil,Shady Dealings x2 / 120+20
+Water,Baxcalibur,Frigibax,Paldea Evolved,58,sv2-58,0.13,normal,
+Water,Baxcalibur,Arctibax,Paldea Evolved,59,sv2-59,0.16,normal,
+Water,Baxcalibur,Baxcalibur,Paldea Evolved,60,sv2-60,0.26,holofoil,Super Cold: attach Water from hand
+Water,Octillery,Remoraid,Crimson Invasion,22,sm4-22,0.18,normal,
+Water,Octillery,Octillery,BREAKthrough,33,xy8-33,4.48,holofoil,Abyssal Hand: draw to 5
+Water,Palafin,Finizen,Obsidian Flames,60,sv3-60,0.19,normal,Valiant Evolution
+Water,Palafin,Palafin,Obsidian Flames,62,sv3-62,0.15,holofoil,210 after switching in
+Water,Golisopod,Wimpod,Unified Minds,50,sm11-50,0.33,normal,
+Water,Golisopod,Golisopod,Unified Minds,51,sm11-51,0.58,holofoil,Emergency Exit / First Impression
+Water,Gyarados,Magikarp,Paldea Evolved,42,sv2-42,0.14,normal,
+Water,Gyarados,Gyarados,Paldea Evolved,43,sv2-43,0.36,holofoil,200 for WWCC
+Water,Basics,Alolan Vulpix,Guardians Rising,21,sm2-21,0.80,normal,Beacon: search 2 Pokémon
+Water,Basics,Keldeo,Temporal Forces,44,sv5-44,0.12,normal,Rapid Draw
+Water,Basics,Manaphy,Brilliant Stars,41,swsh9-41,0.30,normal,Wave Veil: Bench shield
+Water,Basics,Lapras,151,131,sv3pt5-131,0.23,normal,
+Water,Basics,Suicune,Darkness Ablaze,37,swsh3-37,0.83,holofoil,
+Water,Basics,Hisuian Basculin,Astral Radiance,43,swsh10-43,0.13,normal,Gather the Crew
+Water,Basics,Iron Bundle,Paradox Rift,56,sv4-56,0.25,normal,Hyper Blower
+Lightning,Ampharos,Mareep,Lost Thunder,75,sm8-75,1.17,normal,Fluffy Pillow
+Lightning,Ampharos,Flaaffy,Evolving Skies,55,swsh7-55,0.18,normal,Dynamotor
+Lightning,Ampharos,Ampharos,Darkness Ablaze,57,swsh3-57,0.26,normal,130 for LL
+Lightning,Magnezone,Magnemite,Forbidden Light,34,sm6-34,0.25,normal,Searching Magnet
+Lightning,Magnezone,Magneton,Forbidden Light,35,sm6-35,0.23,normal,
+Lightning,Magnezone,Magnezone,Forbidden Light,36,sm6-36,0.71,holofoil,Magnetic Circuit: attach L from hand
+Lightning,Electrode,Voltorb,Vivid Voltage,45,swsh4-45,0.13,normal,
+Lightning,Electrode,Electrode,Plasma Freeze,33,bw9-33,3.11,holofoil,Magnetic Draw: draw to 4
+Lightning,Raichu,Pikachu,151,25,sv3pt5-25,0.25,normal,
+Lightning,Raichu,Raichu,Paldea Evolved,64,sv2-64,0.20,normal,Electrocharge / 200
+Lightning,Zebstrika,Blitzle,Surging Sparks,62,sv8-62,0.06,normal,Add On
+Lightning,Zebstrika,Zebstrika,Lost Thunder,82,sm8-82,1.55,normal,Sprint: new hand of 4
+Lightning,Electivire,Electabuzz,Stellar Crown,46,sv7-46,0.10,normal,
+Lightning,Electivire,Electivire,Stellar Crown,47,sv7-47,0.15,normal,220 for LL
+Lightning,Basics,Zapdos,Twilight Masquerade,65,sv6-65,0.25,holofoil,190 for LLC
+Lightning,Basics,Tapu Koko,SM Black Star Promos,SM30,smp-SM30,0.60,holofoil,Flying Flip
+Lightning,Basics,Raikou,Shining Legends,32,sm35-32,0.78,holofoil,
+Lightning,Basics,Morpeko,Twilight Masquerade,72,sv6-72,0.21,normal,Snack Seek
+Lightning,Basics,Regieleki,Astral Radiance,51,swsh10-51,0.19,normal,
+Lightning,Basics,Minun,Celestial Storm,54,sm7-54,1.60,normal,Ditch and Draw
+Lightning,Basics,Plusle,Celestial Storm,53,sm7-53,2.29,normal,Draw for Everybody
+Psychic,Gardevoir and Gallade,Ralts,Paldean Fates,27,sv4pt5-27,0.10,normal,
+Psychic,Gardevoir and Gallade,Kirlia,Silver Tempest,68,swsh12-68,0.23,normal,Refinement
+Psychic,Gardevoir and Gallade,Gardevoir,Silver Tempest,69,swsh12-69,0.30,normal,Refinement / 120 for PC
+Psychic,Gardevoir and Gallade,Gallade,Astral Radiance,62,swsh10-62,0.39,holofoil,Buddy Catch: find a Supporter / 160 for PCC
+Psychic,Dusknoir,Duskull,Shrouded Fable,18,sv6pt5-18,0.22,normal,
+Psychic,Dusknoir,Dusclops,Prismatic Evolutions,36,sv8pt5-36,0.18,normal,Cursed Blast: 5 counters
+Psychic,Dusknoir,Dusknoir,Shrouded Fable,20,sv6pt5-20,0.25,holofoil,Cursed Blast: 13 counters / 150
+Psychic,Slowking,Slowpoke,Paldea Evolved,85,sv2-85,0.24,normal,
+Psychic,Slowking,Slowking,Stellar Crown,58,sv7-58,0.27,normal,Seek Inspiration / 120
+Psychic,Malamar,Inkay,Forbidden Light,50,sm6-50,0.35,normal,
+Psychic,Malamar,Malamar,Forbidden Light,51,sm6-51,0.69,normal,Psychic Recharge
+Psychic,Banette,Shuppet,Journey Together,59,sv9-59,0.18,normal,
+Psychic,Banette,Banette,Journey Together,60,sv9-60,0.14,normal,Cursed Words: hand disruption
+Psychic,Mismagius,Misdreavus,Unbroken Bonds,77,sm10-77,0.28,normal,
+Psychic,Mismagius,Mismagius,Unbroken Bonds,78,sm10-78,0.49,normal,Mysterious Message
+Psychic,Basics,Mew,Celebrations,11,cel25-11,2.69,holofoil,Mysterious Tail: find an Item
+Psychic,Basics,Mesprit,Surging Sparks,79,sv8-79,0.20,normal,Full Heart: attach 2 P
+Psychic,Basics,Uxie,Astral Radiance,65,swsh10-65,0.13,normal,
+Psychic,Basics,Azelf,Surging Sparks,80,sv8-80,0.17,normal,
+Psychic,Basics,Unown [Q],Majestic Dawn,49,dp5-49,6.75,normal,QUICK: free-retreat tool
+Psychic,Basics,Mewtwo,Crown Zenith,59,swsh12pt5-59,2.51,holofoil,"Psypump: reload 2 P / 90, or 180 late"
+Fighting,Machamp,Machop,Guardians Rising,62,sm2-62,0.20,normal,
+Fighting,Machamp,Machoke,Guardians Rising,64,sm2-64,0.21,normal,Daunting Pose: Bench shield
+Fighting,Machamp,Machamp,Champion's Path,26,swsh35-26,0.29,holofoil,200 for FFC
+Fighting,Conkeldurr,Timburr,Twilight Masquerade,103,sv6-103,0.08,normal,
+Fighting,Conkeldurr,Gurdurr,Twilight Masquerade,104,sv6-104,0.16,normal,
+Fighting,Conkeldurr,Conkeldurr,Twilight Masquerade,105,sv6-105,0.12,normal,Tantrum 80 for F / 250
+Fighting,Claydol,Baltoy,Sword & Shield,101,swsh1-101,0.04,normal,
+Fighting,Claydol,Claydol,Great Encounters,15,dp4-15,5.20,normal,Cosmic Power: draw to 6
+Fighting,Lucario,Riolu,Scarlet & Violet,113,sv1-113,0.16,normal,
+Fighting,Lucario,Lucario,Scarlet & Violet,114,sv1-114,0.22,normal,Avenging Knuckle / 120
+Fighting,Donphan,Phanpy,Vivid Voltage,86,swsh4-86,0.28,normal,
+Fighting,Donphan,Donphan,Celebrations: Classic Collection,107,cel25c-107_A,1.52,holofoil,Exoskeleton: takes 20 less / Earthquake 60 for F
+Fighting,Lycanroc,Rockruff,Temporal Forces,89,sv5-89,0.14,normal,
+Fighting,Lycanroc,Lycanroc,Champion's Path,30,swsh35-30,0.20,holofoil,150 for FFC
+Fighting,Basics,Hawlucha,Scarlet & Violet,118,sv1-118,0.24,holofoil,Flying Entry
+Fighting,Basics,Sudowoodo,Guardians Rising,66,sm2-66,0.25,normal,Roadblock
+Fighting,Basics,Hitmonlee,151,106,sv3pt5-106,0.19,normal,
+Fighting,Basics,Hitmonchan,151,107,sv3pt5-107,0.24,normal,Counterattack
+Fighting,Basics,Regirock,Vivid Voltage,89,swsh4-89,0.29,holofoil,
+Fighting,Basics,Carbink,Lost Thunder,117,sm8-117,0.18,normal,Diamond Gate
+Fighting,Basics,Relicanth,Temporal Forces,84,sv5-84,0.30,holofoil,Memory Dive
+Darkness,Galarian Obstagoon,Galarian Zigzagoon,Sword & Shield,117,swsh1-117,0.15,normal,Headbutt Tantrum
+Darkness,Galarian Obstagoon,Galarian Linoone,Sword & Shield,118,swsh1-118,0.17,normal,
+Darkness,Galarian Obstagoon,Galarian Obstagoon,Sword & Shield,119,swsh1-119,0.30,holofoil,Untamed Shout
+Darkness,Crobat,Zubat,151,41,sv3pt5-41,0.15,normal,Revealing Echo
+Darkness,Crobat,Golbat,Battle Styles,90,swsh5-90,0.15,normal,Discreet Draw
+Darkness,Crobat,Crobat,Battle Styles,91,swsh5-91,0.34,holofoil,Drastic Draw / 100 for CC
+Darkness,Zoroark,Zorua,Evolving Skies,102,swsh7-102,0.14,normal,
+Darkness,Zoroark,Zoroark,BREAKthrough,91,xy8-91,1.50,holofoil,Stand In / Mind Jack
+Darkness,Weavile,Sneasel,Paldea Evolved,133,sv2-133,0.11,normal,
+Darkness,Weavile,Weavile,Paldea Evolved,134,sv2-134,0.15,holofoil,Assaulting Hunt
+Darkness,Honchkrow,Murkrow,Paldea Evolved,131,sv2-131,0.11,normal,
+Darkness,Honchkrow,Honchkrow,Paldea Evolved,132,sv2-132,0.12,normal,140 for DCC
+Darkness,Mightyena,Poochyena,Team Up,86,sm9-86,0.30,normal,Howl in the Dark
+Darkness,Mightyena,Mightyena,Astral Radiance,96,swsh10-96,0.16,normal,Wild Tackle 160 for CCC
+Darkness,Basics,Sableye,Stormfront,48,dp7-48,7.10,normal,Impersonate: use any Supporter
+Darkness,Basics,Absol,Roaring Skies,40,xy6-40,1.31,reverseHolofoil,Cursed Eyes
+Darkness,Basics,Yveltal,Steam Siege,65,xy11-65,0.62,holofoil,Oblivion Wing
+Darkness,Basics,Darkrai,Obsidian Flames,136,sv3-136,0.23,holofoil,
+Darkness,Basics,Galarian Moltres,Evolving Skies,93,swsh7-93,0.47,holofoil,Malevolent Charge
+Darkness,Basics,Hoopa,Unified Minds,140,sm11-140,0.57,holofoil,
+Darkness,Basics,Spiritomb,Unbroken Bonds,112,sm10-112,3.57,holofoil,Building Spite
+Metal,Metagross,Beldum,Vivid Voltage,116,swsh4-116,0.05,normal,Call for Family
+Metal,Metagross,Metang,Temporal Forces,114,sv5-114,3.14,normal,Metal Maker
+Metal,Metagross,Metagross,Temporal Forces,115,sv5-115,0.13,normal,Meteor Mash / 200
+Metal,Corviknight,Rookidee,Paldea Evolved,164,sv2-164,0.09,normal,
+Metal,Corviknight,Corvisquire,Paldea Evolved,165,sv2-165,0.08,normal,
+Metal,Corviknight,Corviknight,Paldea Evolved,148,sv2-148,0.17,normal,200 for MCC
+Metal,Bronzong,Bronzor,Team Up,100,sm9-100,0.22,normal,Evolutionary Advantage
+Metal,Bronzong,Bronzong,Phantom Forces,61,xy4-61,3.01,normal,Metal Links
+Metal,Copperajah,Cufant,Paldea Evolved,149,sv2-149,0.05,normal,
+Metal,Copperajah,Copperajah,Shrouded Fable,42,sv6pt5-42,0.09,holofoil,Massive Body / 230
+Metal,Galarian Perrserker,Galarian Meowth,Sword & Shield,127,swsh1-127,0.18,normal,
+Metal,Galarian Perrserker,Galarian Perrserker,Sword & Shield,128,swsh1-128,0.32,holofoil,Steely Spirit: Metal +20
+Metal,Scizor,Scyther,Temporal Forces,1,sv5-1,0.20,normal,
+Metal,Scizor,Scizor,Lost Thunder,126,sm8-126,3.94,holofoil,Exoskeleton
+Metal,Basics,Jirachi,Stellar Crown,98,sv7-98,0.24,normal,Swelling Wish
+Metal,Basics,Cobalion,Chilling Reign,114,swsh6-114,0.23,holofoil,130 for MMC
+Metal,Basics,Registeel,Astral Radiance,108,swsh10-108,0.27,normal,Regi Gate
+Metal,Basics,Mawile,Temporal Forces,112,sv5-112,0.16,normal,
+Metal,Basics,Dialga,Celebrations,20,cel25-20,0.24,holofoil,Temporal Backflow
+Metal,Basics,Duraludon,Rebel Clash,138,swsh2-138,0.45,holofoil,
+Metal,Basics,Zamazenta,Crown Zenith,97,swsh12pt5-97,0.33,holofoil,Metal Shield
+Colorless,Pidgeot,Pidgey,Team Up,121,sm9-121,0.24,normal,Collect
+Colorless,Pidgeot,Pidgeotto,Team Up,123,sm9-123,0.41,normal,Air Mail
+Colorless,Pidgeot,Pidgeot,151,18,sv3pt5-18,0.24,normal,Fly 150
+Colorless,Porygon-Z,Porygon,Unbroken Bonds,155,sm10-155,0.33,normal,Quick Draw
+Colorless,Porygon-Z,Porygon2,Great Encounters,49,dp4-49,3.12,normal,Download: use a Supporter
+Colorless,Porygon-Z,Porygon-Z,Chilling Reign,118,swsh6-118,0.80,holofoil,Superbeam 170
+Colorless,Bibarel,Bidoof,Brilliant Stars,120,swsh9-120,0.15,normal,
+Colorless,Bibarel,Bibarel,Brilliant Stars,121,swsh9-121,0.32,holofoil,Industrious Incisors: draw to 5
+Colorless,Cinccino,Minccino,Brilliant Stars,124,swsh9-124,0.18,normal,Call for Family
+Colorless,Cinccino,Cinccino,Sword & Shield,147,swsh1-147,0.43,normal,Make Do
+Colorless,Furret,Sentret,Darkness Ablaze,135,swsh3-135,0.09,normal,
+Colorless,Furret,Furret,Darkness Ablaze,136,swsh3-136,0.27,normal,
+Colorless,Dodrio,Doduo,Unbroken Bonds,150,sm10-150,0.20,normal,
+Colorless,Dodrio,Dodrio,Unbroken Bonds,151,sm10-151,0.28,normal,
+Colorless,Basics,Chatot,Majestic Dawn,55,dp5-55,0.15,reverseHolofoil,Mimic
+Colorless,Basics,Snorlax,Vivid Voltage,131,swsh4-131,2.99,reverseHolofoil,Gormandize
+Colorless,Basics,Dunsparce,Celestial Storm,110,sm7-110,0.29,normal,Strike and Run
+Colorless,Basics,Oranguru,Sun & Moon,113,sm1-113,0.47,holofoil,Instruct
+Colorless,Basics,Ditto,151,132,sv3pt5-132,0.60,holofoil,
+Colorless,Basics,Kangaskhan,Team Up,128,sm9-128,0.25,normal,Fast Evolution
+Colorless,Basics,Skwovet,Scarlet & Violet,151,sv1-151,0.19,normal,Nest Stash
+Colorless,Basics,Lugia,Darkness Ablaze,140,swsh3-140,0.52,normal,
+Supporter,Draw,Professor's Research,Prismatic Evolutions,125,sv8pt5-125,0.13,normal,
+Supporter,Draw,Cynthia,Ultra Prism,119,sm5-119,0.69,normal,
+Supporter,Draw,Judge,Scarlet & Violet,176,sv1-176,0.20,normal,
+Supporter,Draw,N,Fates Collide,105,xy10-105,1.89,normal,
+Supporter,Draw,Iono,Paldean Fates,80,sv4pt5-80,0.23,normal,
+Supporter,Draw,Marnie,Champion's Path,56,swsh35-56,0.29,holofoil,
+Supporter,Draw,Copycat,Evolving Skies,143,swsh7-143,0.10,normal,
+Supporter,Draw,Bianca,Legendary Treasures,109,bw11-109,0.23,normal,
+Supporter,Draw,Lillie,Sun & Moon,122,sm1-122,0.22,normal,
+Supporter,Draw,Tate & Liza,Celestial Storm,148,sm7-148,0.63,normal,
+Supporter,Draw,Hop,Champion's Path,53,swsh35-53,0.15,normal,
+Supporter,Draw,Bird Keeper,Darkness Ablaze,159,swsh3-159,0.15,normal,
+Supporter,Draw,Professor Kukui,Sun & Moon,128,sm1-128,0.12,normal,
+Supporter,Draw,Colress,Plasma Storm,118,bw8-118,1.57,normal,
+Supporter,Draw,Erika's Hospitality,Hidden Fates,56,sm115-56,0.24,normal,
+Supporter,Draw,Iris's Fighting Spirit,Journey Together,149,sv9-149,0.15,normal,
+Supporter,Draw,Dendra,Paldea Evolved,179,sv2-179,0.05,normal,
+Supporter,Draw,Zinnia's Resolve,Evolving Skies,164,swsh7-164,0.14,normal,
+Supporter,Draw,Grusha,Paldea Evolved,184,sv2-184,0.13,normal,
+Supporter,Draw,Explorer's Guidance,Temporal Forces,147,sv5-147,0.15,normal,
+Supporter,Draw,Rika,Paradox Rift,172,sv4-172,0.16,normal,
+Supporter,Draw,Ryme,Obsidian Flames,194,sv3-194,0.18,normal,
+Supporter,Draw,Carmine,Twilight Masquerade,145,sv6-145,0.12,normal,
+Supporter,Draw,Cynthia & Caitlin,Cosmic Eclipse,189,sm12-189,3.44,normal,
+Supporter,Search,Sonia,Champion's Path,65,swsh35-65,0.11,reverseHolofoil,
+Supporter,Search,Skyla,Rebel Clash,166,swsh2-166,0.17,normal,
+Supporter,Search,Arven,Scarlet & Violet,166,sv1-166,0.30,normal,
+Supporter,Search,Jacq,Scarlet & Violet,175,sv1-175,0.21,normal,
+Supporter,Search,Hilda,White Flare,84,rsv10pt5-84,1.26,normal,
+Supporter,Search,Mallow,Guardians Rising,127,sm2-127,0.33,normal,
+Supporter,Search,Professor Elm's Lecture,Lost Thunder,188,sm8-188,0.97,normal,
+Supporter,Search,Professor Oak's Setup,Cosmic Eclipse,201,sm12-201,0.23,normal,
+Supporter,Search,Irida,Astral Radiance,147,swsh10-147,0.45,holofoil,
+Supporter,Search,Volkner,Ultra Prism,135,sm5-135,0.48,normal,
+Supporter,Search,Piers,Darkness Ablaze,165,swsh3-165,0.16,normal,
+Supporter,Search,Crispin,Prismatic Evolutions,105,sv8pt5-105,0.24,normal,
+Supporter,Search,Perrin,Twilight Masquerade,160,sv6-160,0.08,normal,
+Supporter,Search,Drayton,Surging Sparks,174,sv8-174,0.12,normal,
+Supporter,Search,Raihan,Evolving Skies,152,swsh7-152,0.21,normal,
+Supporter,Search,Steven's Resolve,Celestial Storm,145,sm7-145,2.36,holofoil,
+Supporter,Search,Wally,Roaring Skies,94,xy6-94,0.30,normal,
+Supporter,Gust and disruption,Boss's Orders,Mega Evolution,114,me1-114,0.27,normal,
+Supporter,Gust and disruption,Guzma,Burning Shadows,115,sm3-115,3.52,reverseHolofoil,
+Supporter,Gust and disruption,Team Flare Grunt,XY,129,xy1-129,0.34,normal,
+Supporter,Gust and disruption,Hex Maniac,Ancient Origins,75,xy7-75,2.73,normal,
+Supporter,Gust and disruption,Faba,Lost Thunder,173,sm8-173,0.46,normal,
+Supporter,Recovery and healing,Klara,Chilling Reign,145,swsh6-145,0.25,normal,
+Supporter,Recovery and healing,Brock's Grit,Hidden Fates,53,sm115-53,0.22,normal,
+Supporter,Recovery and healing,Lana's Aid,Twilight Masquerade,155,sv6-155,0.27,normal,
+Supporter,Recovery and healing,Acerola,Burning Shadows,112,sm3-112,0.28,normal,
+Supporter,Recovery and healing,Gladion,Crimson Invasion,95,sm4-95,0.47,normal,
+Supporter,Recovery and healing,Pokémon Center Lady,Mega Evolution,123,me1-123,0.22,normal,
+Supporter,Recovery and healing,Lusamine,Crimson Invasion,96,sm4-96,0.47,normal,
+Supporter,Recovery and healing,Miriam,Scarlet & Violet,179,sv1-179,0.15,normal,
+Supporter,Recovery and healing,Penny,Scarlet & Violet,183,sv1-183,0.24,normal,
+Supporter,Energy and damage,Kiawe,Burning Shadows,116,sm3-116,0.28,normal,
+Supporter,Energy and damage,Bede,Sword & Shield,157,swsh1-157,0.10,normal,
+Supporter,Energy and damage,Bea,Vivid Voltage,147,swsh4-147,0.08,normal,
+Supporter,Energy and damage,Leon,Vivid Voltage,154,swsh4-154,0.32,holofoil,
+Item,Pokémon search and evolution,Rare Candy,Scarlet & Violet,191,sv1-191,0.24,normal,
+Item,Pokémon search and evolution,Pokémon Breeder,Base Set 2,105,base4-105,4.68,normal,
+Item,Pokémon search and evolution,Ultra Ball,Brilliant Stars,150,swsh9-150,0.20,normal,
+Item,Pokémon search and evolution,Nest Ball,Scarlet & Violet,181,sv1-181,0.20,normal,
+Item,Pokémon search and evolution,Quick Ball,Fusion Strike,237,swsh8-237,0.19,normal,
+Item,Pokémon search and evolution,Level Ball,Battle Styles,129,swsh5-129,0.28,normal,
+Item,Pokémon search and evolution,Great Ball,Sword & Shield,164,swsh1-164,0.07,normal,
+Item,Pokémon search and evolution,Evolution Incense,Sword & Shield,163,swsh1-163,0.30,normal,
+Item,Pokémon search and evolution,Pokémon Communication,Team Up,152,sm9-152,0.17,normal,
+Item,Pokémon search and evolution,Buddy-Buddy Poffin,Temporal Forces,144,sv5-144,0.23,normal,
+Item,Pokémon search and evolution,Timer Ball,Sun & Moon,134,sm1-134,0.24,normal,
+Item,Pokémon search and evolution,Dual Ball,Call of Legends,78,col1-78,0.50,normal,
+Item,Pokémon search and evolution,Capturing Aroma,Silver Tempest,153,swsh12-153,0.14,normal,
+Item,Pokémon search and evolution,Evosoda,Generations,62,g1-62,0.42,normal,
+Item,Pokémon search and evolution,Battle VIP Pass,Fusion Strike,225,swsh8-225,0.24,normal,
+Item,Pokémon search and evolution,Poké Ball,Rebel Clash,164,swsh2-164,0.09,normal,
+Item,Pokémon search and evolution,Heavy Ball,BREAKthrough,140,xy8-140,0.54,normal,
+Item,Pokémon search and evolution,Dusk Ball,Surging Sparks,175,sv8-175,0.25,normal,
+Item,Pokémon search and evolution,Friend Ball,Celestial Storm,131,sm7-131,0.27,normal,
+Item,Pokémon search and evolution,Luxury Ball,Stormfront,86,dp7-86,2.17,normal,
+Item,Pokémon search and evolution,Hisuian Heavy Ball,Astral Radiance,146,swsh10-146,0.30,normal,
+Item,Pokémon search and evolution,Net Ball,Lost Thunder,187,sm8-187,1.79,normal,
+Item,Pokémon search and evolution,Dive Ball,Primal Clash,125,xy5-125,1.14,normal,
+Item,Pokémon search and evolution,Fog Crystal,Chilling Reign,140,swsh6-140,0.29,normal,
+Item,Energy search and recursion,Earthen Vessel,Paradox Rift,163,sv4-163,0.23,normal,
+Item,Energy search and recursion,Energy Search,Sword & Shield,161,swsh1-161,0.17,normal,
+Item,Energy search and recursion,Professor's Letter,XY,123,xy1-123,0.31,normal,
+Item,Energy search and recursion,Fire Crystal,Unbroken Bonds,173,sm10-173,0.28,normal,
+Item,Energy search and recursion,Aqua Patch,Guardians Rising,119,sm2-119,0.32,normal,
+Item,Energy search and recursion,Dark Patch,Astral Radiance,139,swsh10-139,0.28,normal,
+Item,Energy search and recursion,Metal Saucer,Sword & Shield,170,swsh1-170,0.16,normal,
+Item,Card search and draw,Pokégear 3.0,Scarlet & Violet,186,sv1-186,0.36,normal,
+Item,Card search and draw,Trainers' Mail,Roaring Skies,92,xy6-92,1.79,normal,
+Item,Card search and draw,VS Seeker,Phantom Forces,109,xy4-109,4.18,normal,
+Item,Card search and draw,Pal Pad,Sword & Shield,172,swsh1-172,0.23,normal,
+Item,Card search and draw,Acro Bike,Primal Clash,122,xy5-122,0.44,normal,
+Item,Card search and draw,Trekking Shoes,Crown Zenith,145,swsh12pt5-145,0.12,normal,
+Item,Switch and gust,Switch,Crown Zenith,144,swsh12pt5-144,0.15,normal,
+Item,Switch and gust,Escape Rope,Battle Styles,125,swsh5-125,0.23,normal,
+Item,Switch and gust,Switch Cart,Astral Radiance,154,swsh10-154,0.28,normal,
+Item,Switch and gust,Super Scoop Up,Burning Shadows,124,sm3-124,0.16,normal,
+Item,Switch and gust,Scoop Up Net,Rebel Clash,165,swsh2-165,0.35,normal,
+Item,Switch and gust,Counter Catcher,Paradox Rift,160,sv4-160,0.33,normal,
+Item,Switch and gust,Pokémon Catcher,Crown Zenith,138,swsh12pt5-138,0.04,normal,
+Item,Recovery,Super Rod,Paldea Evolved,188,sv2-188,0.27,normal,
+Item,Recovery,Rescue Stretcher,Guardians Rising,130,sm2-130,0.53,normal,
+Item,Recovery,Energy Retrieval,Black & White,92,bw1-92,0.14,normal,
+Item,Recovery,Ordinary Rod,Sword & Shield,171,swsh1-171,0.19,normal,
+Item,Recovery,Night Stretcher,Shrouded Fable,61,sv6pt5-61,0.34,normal,
+Item,Recovery,Superior Energy Retrieval,Paldea Evolved,189,sv2-189,0.30,normal,
+Item,Recovery,Energy Recycler,Ancient Origins,72,xy7-72,0.22,normal,
+Item,Recovery,Revive,Evolutions,85,xy12-85,0.17,normal,
+Item,Utility,Energy Switch,Crown Zenith,129,swsh12pt5-129,0.16,normal,
+Item,Utility,Crushing Hammer,Sword & Shield,159,swsh1-159,0.16,normal,
+Item,Utility,Enhanced Hammer,Twilight Masquerade,148,sv6-148,0.19,normal,
+Item,Utility,Field Blower,Guardians Rising,125,sm2-125,1.49,normal,
+Item,Utility,Tool Scrapper,Rebel Clash,168,swsh2-168,0.15,normal,
+Item,Utility,Lost Vacuum,Lost Origin,162,swsh11-162,0.17,normal,
+Item,Utility,Max Potion,BREAKpoint,103,xy9-103,0.20,normal,
+Item,Utility,Hyper Potion,Sword & Shield,166,swsh1-166,0.11,normal,
+Item,Utility,Super Potion,Evolutions,87,xy12-87,0.18,normal,
+Item,Utility,Full Heal,Champion's Path,51,swsh35-51,0.15,normal,
+Tool,Tools,Float Stone,BREAKthrough,137,xy8-137,5.40,normal,
+Tool,Tools,Air Balloon,Black Bolt,79,zsv10pt5-79,0.16,normal,
+Tool,Tools,Escape Board,Ultra Prism,122,sm5-122,0.13,normal,
+Tool,Tools,Rescue Board,Prismatic Evolutions,126,sv8pt5-126,0.15,normal,
+Tool,Tools,Exp. Share,Sun & Moon,118,sm1-118,0.12,normal,
+Tool,Tools,Muscle Band,XY,121,xy1-121,4.23,normal,
+Tool,Tools,Vitality Band,Sword & Shield,185,swsh1-185,0.03,normal,
+Tool,Tools,Defiance Band,Scarlet & Violet,169,sv1-169,0.26,normal,
+Tool,Tools,Rocky Helmet,Vivid Voltage,159,swsh4-159,0.12,normal,
+Tool,Tools,Bravery Charm,Paldea Evolved,173,sv2-173,0.37,reverseHolofoil,
+Tool,Tools,Big Charm,Sword & Shield,158,swsh1-158,0.14,normal,
+Tool,Tools,Counter Gain,Surging Sparks,169,sv8-169,0.16,normal,
+Tool,Tools,Weakness Policy,Burning Shadows,126,sm3-126,0.09,normal,
+Tool,Tools,Leftovers,151,163,sv3pt5-163,0.23,normal,
+Tool,Tools,Lucky Helmet,Twilight Masquerade,158,sv6-158,0.22,normal,
+Stadium,Stadiums,Viridian Forest,Team Up,156,sm9-156,0.32,normal,
+Stadium,Stadiums,Training Court,Rebel Clash,169,swsh2-169,0.22,normal,
+Stadium,Stadiums,Artazon,Paldean Fates,76,sv4pt5-76,0.22,normal,
+Stadium,Stadiums,Mesagoza,Scarlet & Violet,178,sv1-178,0.10,normal,
+Stadium,Stadiums,Beach Court,Scarlet & Violet,167,sv1-167,0.15,normal,
+Stadium,Stadiums,Jubilife Village,Astral Radiance,148,swsh10-148,0.16,normal,
+Stadium,Stadiums,Sky Field,Roaring Skies,89,xy6-89,0.77,normal,
+Stadium,Stadiums,Town Store,Obsidian Flames,196,sv3-196,0.22,normal,
+Stadium,Stadiums,Collapsed Stadium,Brilliant Stars,137,swsh9-137,0.16,normal,
+Energy,Special Energy,Double Colorless Energy,Evolutions,90,xy12-90,0.34,normal,
+Energy,Special Energy,Twin Energy,Rebel Clash,174,swsh2-174,0.28,normal,
+Energy,Special Energy,Rainbow Energy,Sun & Moon,137,sm1-137,0.34,normal,
+Energy,Special Energy,Aurora Energy,Sword & Shield,186,swsh1-186,0.26,normal,
+Energy,Special Energy,Luminous Energy,Paldea Evolved,191,sv2-191,0.27,normal,
+Energy,Special Energy,Prism Energy,Black Bolt,86,zsv10pt5-86,0.22,normal,
+Energy,Special Energy,Multi Energy,Sandstorm,93,ex2-93,1.33,normal,
+Energy,Special Energy,Counter Energy,Crimson Invasion,100,sm4-100,0.60,normal,
+Energy,Special Energy,Reversal Energy,Paldea Evolved,192,sv2-192,0.25,normal,
+Energy,Special Energy,Capture Energy,Rebel Clash,171,swsh2-171,0.29,normal,
+Energy,Special Energy,Jet Energy,Paldea Evolved,190,sv2-190,0.32,normal,
+Energy,Special Energy,Recycle Energy,Unified Minds,212,sm11-212,0.56,normal,
+Energy,Special Energy,Gift Energy,Lost Origin,171,swsh11-171,0.22,normal,
+Energy,Special Energy,Unit Energy GrassFireWater,Ultra Prism,137,sm5-137,0.52,normal,
+Energy,Special Energy,Unit Energy LightningPsychicMetal,Ultra Prism,138,sm5-138,0.68,normal,
+Energy,Special Energy,Unit Energy FightingDarknessFairy,Forbidden Light,118,sm6-118,1.25,normal,
+Energy,Special Energy,Blend Energy GrassFirePsychicDarkness,Dragons Exalted,117,bw6-117,2.53,normal,
+Energy,Special Energy,Aromatic Grass Energy,Vivid Voltage,162,swsh4-162,0.06,normal,
+Energy,Special Energy,Heat Fire Energy,Darkness Ablaze,174,swsh3-174,0.28,normal,
+Energy,Special Energy,Wash Water Energy,Vivid Voltage,165,swsh4-165,0.18,normal,
+Energy,Special Energy,Speed Lightning Energy,Rebel Clash,173,swsh2-173,0.29,normal,
+Energy,Special Energy,Horror Psychic Energy,Rebel Clash,172,swsh2-172,0.34,normal,
+Energy,Special Energy,Stone Fighting Energy,Vivid Voltage,164,swsh4-164,0.18,normal,
+Energy,Special Energy,Hiding Darkness Energy,Darkness Ablaze,175,swsh3-175,0.29,normal,
+Energy,Special Energy,Coating Metal Energy,Vivid Voltage,163,swsh4-163,0.17,normal,

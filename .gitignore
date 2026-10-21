@@ -1,0 +1,4 @@
+# Local API cache. scripts/build.py fills it again when needed.
+.cache/
+__pycache__/
+*.pyc

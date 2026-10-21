@@ -1,0 +1,394 @@
+<title>Poké Mart Cube</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a shop catalogue. A blue Mart band with a receipt-style total, then the shelf:
+   every card grouped by type and evolution line, each row carrying its own price tag. */
+:root{
+  --paper:#f3f6fb; --shelf:#ffffff; --ink:#152033; --muted:#566279; --rule:#d8e0eb;
+  --mart:#1f4fbf; --mart-ink:#ffffff; --mart-soft:#e3ebfb;
+  --tag:#fff1b8; --tag-ink:#5b4400; --tag-edge:#e7c955;
+  --over:#fde2df; --over-ink:#9b1c12;
+  --t-grass:#3c9a4a; --t-fire:#e0532a; --t-water:#2c7bd6; --t-lightning:#d9a800;
+  --t-psychic:#9450c6; --t-fighting:#b0602a; --t-darkness:#2d4a56; --t-metal:#76838f;
+  --t-colorless:#a59c88; --t-trainer:#c2410c; --t-energy:#0e8a7d;
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-body:"Atkinson Hyperlegible","Segoe UI",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0e131b; --shelf:#161d28; --ink:#e4e9f2; --muted:#97a3b8; --rule:#283245;
+  --mart:#3a64c9; --mart-ink:#ffffff; --mart-soft:#1c2a47;
+  --tag:#3b3218; --tag-ink:#f3d57a; --tag-edge:#6d5a1f;
+  --over:#3f1d1a; --over-ink:#ffb4aa;
+  --t-darkness:#6f97a6; --t-metal:#9aa7b3; --t-colorless:#c4baa3; --t-lightning:#f0c419;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0e131b; --shelf:#161d28; --ink:#e4e9f2; --muted:#97a3b8; --rule:#283245;
+  --mart:#3a64c9; --mart-ink:#ffffff; --mart-soft:#1c2a47;
+  --tag:#3b3218; --tag-ink:#f3d57a; --tag-edge:#6d5a1f;
+  --over:#3f1d1a; --over-ink:#ffb4aa;
+  --t-darkness:#6f97a6; --t-metal:#9aa7b3; --t-colorless:#c4baa3; --t-lightning:#f0c419;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.1}
+h2{font-size:clamp(1.5rem,1.2rem + 1.2vw,2rem);font-weight:800}
+h3{font-size:1.1rem;font-weight:600}
+p{margin:0}
+a{color:var(--mart)}
+.eyebrow{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* Header band */
+.band{background:var(--mart);color:var(--mart-ink)}
+.band .wrap{padding-block:40px 32px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:32px;align-items:end}
+.band .eyebrow{color:var(--mart-ink);opacity:.82}
+.band h1{font-size:clamp(2.6rem,1.8rem + 4vw,4.6rem);font-weight:800;letter-spacing:-.02em;margin-top:10px}
+.band .lede{margin-top:14px;max-width:56ch;font-size:1.08rem;opacity:.95}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;padding:0;list-style:none}
+.facts li{font-family:var(--f-mono);font-size:.8rem;border:1px solid color-mix(in srgb,var(--mart-ink) 45%,transparent);border-radius:999px;padding:4px 10px}
+.cklink{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-weight:700;color:var(--mart);background:var(--shelf);border-radius:var(--r);padding:9px 14px;text-decoration:none}
+.cklink:hover{text-decoration:underline}
+.cklink:focus-visible{outline:2px solid var(--mart-ink);outline-offset:2px}
+.receipt{background:var(--shelf);color:var(--ink);border-radius:var(--r);padding:18px 20px 16px;font-family:var(--f-mono);font-size:.86rem;box-shadow:0 10px 30px rgb(0 0 0 / .18);
+  -webkit-mask:radial-gradient(circle 6px at 50% 100%,#0000 98%,#000) 50% 100%/14px 100% repeat-x;mask:radial-gradient(circle 6px at 50% 100%,#0000 98%,#000) 50% 100%/14px 100% repeat-x;padding-bottom:26px}
+.receipt h3{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:8px}
+.receipt .row{display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-variant-numeric:tabular-nums}
+.receipt .row span:last-child{text-align:right}
+.receipt .total{border-top:1px dashed var(--rule);margin-top:8px;padding-top:8px;font-weight:600;font-size:1.05rem}
+.receipt .fine{color:var(--muted);font-size:.72rem;margin-top:8px}
+
+main section{padding-block:44px 8px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin-bottom:18px}
+.sec-head p{color:var(--muted);max-width:62ch}
+
+/* Format */
+.format{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px}
+.rules{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.rules li{display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:12px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+.rules b{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding-top:2px}
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule)}
+th{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr.rec td{font-weight:700}
+.pill{display:inline-block;font-family:var(--f-mono);font-size:.7rem;background:var(--mart-soft);color:var(--mart);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:1px}
+.note{color:var(--muted);font-size:.9rem;margin-top:12px}
+
+/* Shape */
+.split{display:flex;height:34px;border-radius:var(--r);overflow:hidden;margin-bottom:8px}
+.split div{display:flex;align-items:center;padding-left:10px;font-family:var(--f-mono);font-size:.78rem;color:#fff;white-space:nowrap;overflow:hidden}
+.split .pk{background:var(--mart)} .split .tr{background:var(--t-trainer)} .split .en{background:var(--t-energy)}
+.split-legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--muted);margin-bottom:26px}
+.types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.type{background:var(--shelf);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px 16px;border-top:4px solid var(--tc);display:flex;flex-direction:column;gap:8px}
+.type header{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.type .lines{font-family:var(--f-mono);font-size:.76rem;color:var(--muted)}
+.type p{font-size:.92rem}
+.type .count{font-family:var(--f-mono);font-size:.8rem;color:var(--muted)}
+.stack{display:flex;gap:4px;flex-wrap:wrap}
+.stack span{font-family:var(--f-mono);font-size:.7rem;border:1px solid var(--rule);border-radius:4px;padding:1px 6px;color:var(--muted)}
+
+/* Shelf / list */
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding-block:12px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:10px}
+.searchrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.searchrow input[type=search]{flex:1 1 220px;min-width:0;font:inherit;font-size:.95rem;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--r);background:var(--shelf);color:var(--ink)}
+.searchrow label{display:flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted);cursor:pointer}
+.shown{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:inherit;font-size:.84rem;border:1px solid var(--rule);background:var(--shelf);color:var(--ink);border-radius:999px;padding:4px 11px 4px 9px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--tc,var(--muted))}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:focus-visible,.card-row:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--mart);outline-offset:2px}
+.group{margin-top:26px}
+.group>h3{display:flex;align-items:center;gap:10px;font-size:1.35rem;font-weight:800;padding-bottom:6px;border-bottom:2px solid var(--tc)}
+.group>h3 .ct{font-family:var(--f-mono);font-size:.8rem;font-weight:400;color:var(--muted);margin-left:auto}
+.line{margin-top:14px}
+.line h4{margin:0 0 4px;font-family:var(--f-mono);font-size:.76rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;gap:10px;flex-wrap:wrap}
+.line h4 .ratio{color:var(--ink)}
+.card-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:8px 10px;background:var(--shelf);border:1px solid var(--rule);border-left:4px solid var(--tc);border-radius:var(--r);margin-top:6px;cursor:pointer}
+.card-row .q{font-family:var(--f-mono);font-weight:600;font-size:.95rem}
+.card-row .nm{font-weight:700}
+.card-row .st{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);border:1px solid var(--rule);border-radius:4px;padding:0 5px;margin-left:6px;font-weight:400;white-space:nowrap}
+.card-row .meta{font-size:.84rem;color:var(--muted)}
+.card-row .meta .set{font-family:var(--f-mono);font-size:.76rem}
+.tag{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:.86rem;font-weight:600;background:var(--tag);color:var(--tag-ink);border:1px solid var(--tag-edge);border-radius:3px 6px 6px 3px;padding:2px 8px 2px 14px;position:relative;white-space:nowrap}
+.tag::before{content:"";position:absolute;left:5px;top:50%;width:4px;height:4px;margin-top:-2px;border-radius:50%;background:var(--paper);box-shadow:0 0 0 1px var(--tag-edge)}
+.tag-over{background:var(--over);color:var(--over-ink);border-color:var(--over-ink)}
+.txt{grid-column:1 / -1;font-size:.88rem;border-top:1px dashed var(--rule);padding-top:8px;margin-top:4px;display:grid;gap:4px}
+.txt .k{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+.txt a{font-size:.82rem}
+.empty{padding:28px 0;color:var(--muted)}
+
+/* Notes */
+.notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.notes ul{margin:10px 0 0;padding-left:1.1rem;display:grid;gap:8px}
+.notes li{max-width:62ch}
+.excl{list-style:none;padding:0!important}
+.excl li{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+.excl .xname{font-weight:700}
+.excl .xset{color:var(--muted);font-size:.88rem;flex:1}
+
+/* Import */
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--tc);margin-right:8px}
+.import textarea{width:100%;min-height:220px;font-family:var(--f-mono);font-size:.8rem;padding:12px;border:1px solid var(--rule);border-radius:var(--r);background:var(--shelf);color:var(--ink);tab-size:4;resize:vertical}
+.import .bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.btn{font:inherit;font-weight:700;background:var(--mart);color:var(--mart-ink);border:0;border-radius:var(--r);padding:9px 16px;cursor:pointer}
+.status{font-size:.9rem;color:var(--muted)}
+footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
+
+@media (max-width:820px){
+  .band .wrap,.format,.notes{grid-template-columns:minmax(0,1fr)}
+  .types{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:520px){
+  .types{grid-template-columns:minmax(0,1fr)}
+  .rules li{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+@media (prefers-reduced-motion:no-preference){.chip,.card-row{transition:background-color .15s,border-color .15s}}
+</style>
+
+<header class="band">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Pokémon TCG singleton cube · __NCARDS__ cards · every card under $10</div>
+      <h1>Poké Mart Cube</h1>
+      <p class="lede">A cross-era singleton cube built from cards you can buy for pocket money. There is one copy of every card and one card for every Pokémon species, so each evolution line is a single Basic, Stage 1 and Stage 2. Every Pokémon gives up one Prize card, and every type has the same shape.</p>
+      <ul class="facts">
+        <li>Singleton</li><li>6 drafters</li><li>4 packs of 15</li><li>50-card decks</li><li>5 Prize cards</li><li>Basic Energy free</li>
+      </ul>
+      <a class="cklink" href="https://cubekoga.net/cube/pokemartcube/visual" target="_blank" rel="noopener">See the cube on CubeKoga ↗</a>
+    </div>
+    <aside class="receipt" aria-label="Price summary">
+      <h3>Receipt</h3>
+      <div class="row"><span>Pokémon</span><span>__NPK__</span></div>
+      <div class="row"><span>Trainers</span><span>__NTR__</span></div>
+      <div class="row"><span>Special Energy</span><span>__NEN__</span></div>
+      <div class="row"><span>Cards under $1</span><span>__UNDER1__</span></div>
+      <div class="row"><span>Average per card</span><span>$__AVG__</span></div>
+      <div class="row"><span>Priciest: __TOPNAME__</span><span>$__TOPPRICE__</span></div>
+      <div class="row total"><span>Total, __NCARDS__ cards</span><span>$__TOTAL__</span></div>
+      <p class="fine">TCGplayer market price, cheapest version of each card, updated __UPD__.</p>
+    </aside>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="format" aria-labelledby="format-h">
+    <div class="sec-head"><h2 id="format-h">How to run it</h2></div>
+    <div class="format">
+      <ul class="rules">
+        <li><b>Draft</b><span>Shuffle the cube and deal each player four 15-card packs. Pick one card, pass the rest. Change the passing direction for each pack.</span></li>
+        <li><b>Deck</b><span>Build a 50-card deck from your 60 picks plus any number of Basic Energy. Play with 5 Prize cards. Most decks run three or four short evolution lines plus several Basics.</span></li>
+        <li><b>Singleton</b><span>Each card is in the cube once, and each Pokémon species appears on one card only. Draft the Stage 2 first, because nobody else needs your Basic.</span></li>
+        <li><b>Rules</b><span>Use the current rules. The player who goes first cannot attack or play a Supporter on their first turn.</span></li>
+        <li><b>Old text</b><span>Poké-Powers and Poké-Bodies count as Abilities. This affects Claydol, Donphan, Porygon2, Sableye and Unown Q. Old cards that just say Trainer, such as Pokémon Breeder, count as Items.</span></li>
+        <li><b>Rule Box</b><span>The cube has no ex, V, GX, EX, Prism Star, Radiant or ACE SPEC cards. Text that mentions them does nothing, so Twin Energy always gives two Colorless Energy.</span></li>
+      </ul>
+      <div>
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Players</th><th>Packs</th><th>Picks</th><th>Deck</th><th>Prizes</th></tr></thead>
+            <tbody>
+              <tr class="rec"><td>6 <span class="pill">house rule</span></td><td>4 × 15</td><td>60</td><td>50</td><td>5</td></tr>
+              <tr><td>8</td><td>3 × 15</td><td>45</td><td>40</td><td>4</td></tr>
+              <tr><td>4</td><td>6 × 15</td><td>90</td><td>60</td><td>6</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Every row uses all 360 cards, following the CubeKoga setup for a 360-card cube. A 50-card deck usually runs about 15 to 17 Pokémon, 14 to 18 Trainers and 11 to 14 Energy. These figures sit between CubeKoga&#39;s 40-card and 60-card guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="shape" aria-labelledby="shape-h">
+    <div class="sec-head">
+      <h2 id="shape-h">The shape of the cube</h2>
+      <p>Every type has two Stage 2 lines (1-1-1), four Stage 1 lines (1-1) and seven Basics. Colorless has one more Basic. The Basic-heavy mix follows Chaos Cube, the most-liked singleton cube on CubeKoga.</p>
+    </div>
+    <div class="split" role="img" aria-label="__NPK__ Pokémon, __NTR__ Trainers, __NEN__ Special Energy">
+      <div class="pk" style="width:__PKPCT__%">Pokémon __NPK__</div><div class="tr" style="width:__TRPCT__%">Trainers __NTR__</div><div class="en" style="width:__ENPCT__%">__NEN__</div>
+    </div>
+    <div class="split-legend"><span>__PKPCT__% Pokémon</span><span>__TRPCT__% Trainers</span><span>__ENPCT__% Special Energy</span><span>CubeKoga guide: 50–55% / 40–45% / 5–10%</span></div>
+    <div class="types" id="types"></div>
+  </section>
+
+  <section id="shelf" aria-labelledby="shelf-h">
+    <div class="sec-head">
+      <h2 id="shelf-h">The full list</h2>
+      <p>Select a card to read its text. The tag shows the price of the card.</p>
+    </div>
+    <div class="controls">
+      <div class="searchrow">
+        <input type="search" id="q" placeholder="Search names, text or roles" aria-label="Search the card list">
+        <label for="sortp"><input type="checkbox" id="sortp"> Sort by price</label>
+        <span class="shown num" id="shown"></span>
+      </div>
+      <div class="chips" id="chips" role="toolbar" aria-label="Filter by section"></div>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <section id="notes" aria-labelledby="notes-h">
+    <div class="sec-head"><h2 id="notes-h">Balance notes</h2></div>
+    <div class="notes">
+      <div>
+        <h3>How the types stay level</h3>
+        <ul>
+          <li>Every type has the same 21-card shape: two Stage 2 lines, four Stage 1 lines and seven Basics. Each type has at least one draw or search engine and at least one way to accelerate Energy.</li>
+          <li>The biggest attacks have a cost. Charizard, Cinderace, Raichu, Zapdos and Arcanine discard Energy. Breloom, Yanmega, Cobalion and Electivire cannot attack on the next turn. Machamp, Rapidash and Gyarados damage themselves.</li>
+          <li>Most Stage 2 Pokémon have 150 to 180 HP, so a finished line survives one hit from most attackers.</li>
+          <li>Darkness and Psychic top out at 160 fixed damage, the lowest in the cube. Darkness makes up for it with attacks that grow during the game (Zoroark, Spiritomb and Galarian Moltres) and with damage counters.</li>
+          <li>Psychic's Kirlia can become Gardevoir for draw power or Gallade, which hits for 160. Mewtwo hits for 180 late in the game, and Mesprit hits for 160 when Uxie and Azelf are on your Bench.</li>
+          <li>Seventeen generic Special Energy cards and Crispin help decks that use two types.</li>
+        </ul>
+        <h3 style="margin-top:22px">Finishing a line in singleton</h3>
+        <ul>
+          <li>Take the Stage 2 first. With six drafters, each 15-card pack comes back to you twice, at picks 7 and 13. The Basic and Stage 1 from that pack often wheel, because nobody else needs them.</li>
+          <li>Rare Candy, Pokémon Breeder, Wally and Evosoda help finish a Stage 2 line. Evolution Incense, Timer Ball, Capturing Aroma, Jacq and Hilda find the missing piece.</li>
+          <li>A 1-1 Stage 1 line plus strong Basics is a complete plan. Every type has seven Basics, and several of them attack well on their own.</li>
+        </ul>
+        <h3 style="margin-top:22px">Weakness web</h3>
+        <p class="note" style="margin-top:6px">Number of Pokémon cards in the cube that take double damage from each type.</p>
+        <div class="tbl-wrap"><table id="weak"><thead><tr><th>Attacking type</th><th>Hits for double</th><th>Main targets</th></tr></thead><tbody></tbody></table></div>
+        <h3 style="margin-top:22px">Watch these in the first few drafts</h3>
+        <ul>
+          <li>Fire speed. Stoke, Charizard's Burn Brightly, Chi-Yu and Arcanine's 240 can end games quickly. Five-prize games give slower decks more time to answer.</li>
+          <li>Weakness coverage. Fighting and Fire each hit about 40 Pokémon in the cube for double damage, twice as many as most types. Weakness Policy and Coating Metal Energy are the answers in the cube.</li>
+          <li>Damage counters on the Bench. Dusclops, Dusknoir, Obstagoon, Absol and Hawlucha can pick off small support Pokémon. Machoke stops both damage and damage counters on your Bench. Shaymin and Manaphy stop attack damage to the Bench.</li>
+          <li>Hex Maniac turns off every Ability for a turn. This cube has many Ability engines, so it is strong. Cut it if it feels unfair.</li>
+          <li>Darkness damage. Its best fixed attack is Mightyena's 160, which also damages Mightyena. If Darkness decks lose often, swap Galarian Obstagoon for the Champion's Path version, which hits for 180.</li>
+          <li>Sudowoodo and Collapsed Stadium both limit the Bench to four. Decks with four lines feel this more, so cut them if your group dislikes it.</li>
+        </ul>
+        <h3 style="margin-top:22px">If you play 8 players with 4 prizes</h3>
+        <p class="note" style="margin-top:6px">Some cards get a bonus while a player has 4 or fewer Prize cards left. In 4-prize games that bonus is on from the first turn, so Kartana, Gouging Fire, Lacey and Roxanne are left out. With 5 prizes the bonus starts only after the first knockout, so you can add them back.</p>
+      </div>
+      <div>
+        <h3>Popular cube staples left out on price</h3>
+        <p class="note" style="margin-top:6px">These are among the most-included cards on CubeKoga, but they cost more than $10 today. The cube uses the cheaper cards listed after each one.</p>
+        <ul class="excl">__EXCL__</ul>
+        <p class="note">Replacements: Astral Radiance Uxie (Wise Guidance) and Surging Sparks Mesprit and Azelf take the Legends Awakened slots. 151 Ditto replaces Ditto ◇, and 151 Lapras (Hop on My Back) also searches out two Pokémon. The Pidgeot line uses Team Up Pidgeotto (Air Mail) for card selection. Stellar Crown Jirachi replaces Team Up Jirachi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="import" class="import" aria-labelledby="import-h">
+    <div class="sec-head">
+      <h2 id="import-h">Import into CubeKoga</h2>
+      <p>The cube lives on CubeKoga at <a href="https://cubekoga.net/cube/pokemartcube/visual" target="_blank" rel="noopener">cubekoga.net/cube/pokemartcube</a>. To rebuild it there, paste this list into the Bulk Import box. Each line is quantity, name, set code and number, separated by tabs.</p>
+    </div>
+    <div class="bar"><button class="btn" id="copy" type="button">Copy list</button><span class="status" id="copystatus" role="status"></span></div>
+    <textarea id="tsv" readonly spellcheck="false" aria-label="CubeKoga import list">__TSV__</textarea>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Prices are TCGplayer market prices from the Pokémon TCG API, last updated __UPD__. Each price is for the cheapest version of that exact printing (usually the non-holo). Prices change, so check before you buy. Popularity data comes from the 127 most-liked public cubes on CubeKoga.</p>
+</footer>
+
+<script>
+const DATA=__DATA__;
+const ARCH=__ARCH__;
+const SECCOUNT=__SECCOUNT__;
+const TYPES=['Grass','Fire','Water','Lightning','Psychic','Fighting','Darkness','Metal','Colorless'];
+const GROUPS=[...TYPES,'Supporter','Item','Tool','Stadium','Energy'];
+const LABEL={Supporter:'Supporters',Item:'Items',Tool:'Pokémon Tools',Stadium:'Stadiums',Energy:'Special Energy'};
+const tc=s=>TYPES.includes(s)?`var(--t-${s.toLowerCase()})`:(s==='Energy'?'var(--t-energy)':'var(--t-trainer)');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const stageOf=c=>{const s=c.st||[];if(s.includes('Stage 2'))return 'Stage 2';if(s.includes('Stage 1'))return 'Stage 1';if(s.includes('Basic'))return 'Basic';return s.filter(x=>x!=='Team Plasma'&&x!=='Single Strike'&&x!=='Rapid Strike')[0]||''};
+
+// Type overview
+(function(){
+  const box=document.getElementById('types');
+  box.innerHTML=TYPES.map(t=>{
+    const lines=[...new Set(DATA.filter(c=>c.s===t).map(c=>c.l))];
+    const tags=lines.map(l=>{
+      const cs=DATA.filter(c=>c.s===t&&c.l===l);
+      if(l==='Basics') return `<span>${cs.reduce((a,c)=>a+c.n,0)} Basics</span>`;
+      const by={Basic:0,'Stage 1':0,'Stage 2':0};cs.forEach(c=>{const s=stageOf(c);if(s in by)by[s]+=c.n});
+      const r=[by.Basic,by['Stage 1'],by['Stage 2']].filter(x=>x>0).join('-');
+      return `<span>${esc(l.replace(/ \(.*\)/,''))} ${r}</span>`}).join('');
+    const [names,blurb]=ARCH[t];
+    return `<article class="type" style="--tc:${tc(t)}"><header><h3>${t}</h3><span class="count">${SECCOUNT[t]} cards</span></header><div class="lines">${esc(names)}</div><p>${esc(blurb)}</p><div class="stack">${tags}</div></article>`}).join('');
+})();
+
+// Weakness web
+(function(){
+  const tb=document.querySelector('#weak tbody');
+  const rows=TYPES.filter(t=>t!=='Colorless').map(t=>{
+    const hit=DATA.filter(c=>TYPES.includes(c.s)&&(c.w||[]).some(w=>w.startsWith(t)&&w.includes('×2')));
+    const n=hit.reduce((a,c)=>a+c.n,0);
+    const by={};hit.forEach(c=>{by[c.s]=(by[c.s]||0)+c.n});
+    const tgt=Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${k} ${v}`).join(', ');
+    return {t,n,tgt};
+  }).sort((a,b)=>b.n-a.n);
+  tb.innerHTML=rows.map(r=>`<tr><td><span class="dot" style="--tc:${tc(r.t)}"></span>${r.t}</td><td class="num">${r.n}</td><td>${esc(r.tgt)||'None'}</td></tr>`).join('');
+})();
+
+// Chips
+const chipsEl=document.getElementById('chips');
+const FILTERS=['All',...TYPES,'Trainers','Energy'];
+let filter='All';
+chipsEl.innerHTML=FILTERS.map(f=>`<button type="button" class="chip" id="chip-${f}" data-f="${f}" aria-pressed="${f==='All'}" style="--tc:${f==='All'?'var(--mart)':f==='Trainers'?'var(--t-trainer)':tc(f)}">${f}</button>`).join('');
+chipsEl.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;filter=b.dataset.f;chipsEl.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render()});
+
+const qEl=document.getElementById('q'),sortEl=document.getElementById('sortp'),listEl=document.getElementById('list'),shownEl=document.getElementById('shown');
+qEl.addEventListener('input',render);sortEl.addEventListener('change',render);
+const open=new Set();
+listEl.addEventListener('click',e=>{if(e.target.closest('a'))return;const r=e.target.closest('.card-row');if(!r)return;toggle(r)});
+listEl.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('card-row')){e.preventDefault();toggle(e.target)}});
+function toggle(r){const id=r.dataset.id;open.has(id)?open.delete(id):open.add(id);render();const again=listEl.querySelector(`[data-id="${CSS.escape(id)}"]`);again&&again.focus()}
+
+function rowHTML(c){
+  const st=TYPES.includes(c.s)?stageOf(c):'';
+  const isOpen=open.has(c.i);
+  const evo=c.ef?` · evolves from ${esc(c.ef)}`:'';
+  const hp=c.hp?` · ${esc(c.hp)} HP`:'';
+  const txt=isOpen?`<div class="txt">${(c.tx||[]).map(t=>`<div>${esc(t)}</div>`).join('')}<div class="k">${esc(c.i)} · ${esc(c.set)} #${esc(c.no)} (${esc(c.y)})${hp}${evo} · price is for the ${esc(({normal:'non-holo',holofoil:'holo',reverseHolofoil:'reverse holo',unlimitedHolofoil:'unlimited holo'})[c.v]||c.v||'')} version</div>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">See prices on TCGplayer</a>`:''}</div>`:'';
+  return `<div class="card-row" role="button" tabindex="0" aria-expanded="${isOpen}" data-id="${esc(c.i)}" style="--tc:${tc(c.s==='Item'||c.s==='Supporter'||c.s==='Tool'||c.s==='Stadium'?'Trainer':c.s)}">
+    <div><div class="nm">${esc(c.name)}${st?`<span class="st">${st}</span>`:''}</div><div class="meta"><span class="set">${esc(c.set)} #${esc(c.no)}</span>${c.note&&!/^[A-Z][^:]*$/.test(c.note)||TYPES.includes(c.s)&&c.note?` · ${esc(c.note)}`:''}</div></div>
+    <span class="tag">$${c.p.toFixed(2)}</span>${txt}</div>`;
+}
+function matches(c,q){if(!q)return true;const h=(c.name+' '+c.note+' '+(c.tx||[]).join(' ')+' '+c.l+' '+c.s+' '+c.set).toLowerCase();return q.split(/\s+/).every(w=>h.includes(w))}
+function inFilter(c){if(filter==='All')return true;if(filter==='Trainers')return ['Supporter','Item','Tool','Stadium'].includes(c.s);return c.s===filter}
+function render(){
+  const q=qEl.value.trim().toLowerCase();
+  const vis=DATA.filter(c=>inFilter(c)&&matches(c,q));
+  const n=vis.reduce((a,c)=>a+c.n,0);
+  shownEl.textContent=`${n} of 360 cards`;
+  if(!vis.length){listEl.innerHTML='<p class="empty">No cards match. Clear the search or pick another filter.</p>';return}
+  if(sortEl.checked){
+    const s=[...vis].sort((a,b)=>b.p-a.p||a.name.localeCompare(b.name));
+    listEl.innerHTML=`<div class="group" style="--tc:var(--mart)"><h3>By price<span class="ct">${n} cards</span></h3>${s.map(rowHTML).join('')}</div>`;return}
+  let out='';
+  for(const g of GROUPS){
+    const cs=vis.filter(c=>c.s===g);if(!cs.length)continue;
+    const cnt=cs.reduce((a,c)=>a+c.n,0);
+    out+=`<div class="group" style="--tc:${tc(g==='Energy'?'Energy':TYPES.includes(g)?g:'Trainer')}"><h3>${LABEL[g]||g}<span class="ct">${cnt} cards</span></h3>`;
+    const lines=[...new Set(cs.map(c=>c.l))];
+    for(const l of lines){
+      const lc=cs.filter(c=>c.l===l);
+      let ratio='';
+      if(TYPES.includes(g)&&l!=='Basics'){const by={Basic:0,'Stage 1':0,'Stage 2':0};DATA.filter(c=>c.s===g&&c.l===l).forEach(c=>{const s=stageOf(c);if(s in by)by[s]+=c.n});ratio=[by.Basic,by['Stage 1'],by['Stage 2']].filter(x=>x>0).join('-')}
+      out+=`<div class="line"><h4><span>${esc(l)}</span>${ratio?`<span class="ratio">${ratio}</span>`:''}</h4>${lc.map(rowHTML).join('')}</div>`;
+    }
+    out+='</div>';
+  }
+  listEl.innerHTML=out;
+}
+render();
+
+// Copy
+document.getElementById('copy').addEventListener('click',()=>{
+  const ta=document.getElementById('tsv'),st=document.getElementById('copystatus');
+  const fallback=()=>{ta.focus();ta.select();st.textContent='Press Ctrl+C or Cmd+C to copy the selected list.'};
+  try{navigator.clipboard.writeText(ta.value).then(()=>{st.textContent=`Copied ${ta.value.trim().split('\n').length} lines (360 cards).`},fallback)}catch(e){fallback()}
+});
+</script>

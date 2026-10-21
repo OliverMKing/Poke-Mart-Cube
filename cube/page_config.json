@@ -1,0 +1,80 @@
+{
+  "_comment": "Text for the page that the card data does not provide. Prices for excluded staples were checked on 2026-10-21.",
+  "price_limit": 10.0,
+  "cube_size": 360,
+  "archetypes": {
+    "Grass": {
+      "headline": "Decidueye · Rillaboom · Yanmega",
+      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Decidueye hits for 170 with one Energy and Yanmega hits for 160. Sunny Day Lurantis adds 20 to every Grass and Fire attack."
+    },
+    "Fire": {
+      "headline": "Charizard · Cinderace · Arcanine",
+      "summary": "Charizard makes each Basic Fire Energy count as two. Growlithe, Volcanion, Cinderace and Arcanine pull Fire Energy from the deck or the discard pile. Salazzle makes the opponent discard up to 3 cards on the turn it evolves."
+    },
+    "Water": {
+      "headline": "Inteleon · Baxcalibur · Palafin",
+      "summary": "Drizzile and Inteleon search out Trainers, Octillery draws, and Baxcalibur attaches Water Energy from your hand as often as you like. Palafin and Golisopod hit hardest on the turn they switch in."
+    },
+    "Lightning": {
+      "headline": "Ampharos · Magnezone · Electivire",
+      "summary": "Magnezone and Flaaffy accelerate Lightning Energy. Raichu, Electivire and Zapdos hit for 190 to 220. Electrode and Zebstrika refill your hand."
+    },
+    "Psychic": {
+      "headline": "Gallade · Gardevoir · Dusknoir",
+      "summary": "Kirlia evolves into Gardevoir for draw power or into Gallade, which hits for 160 and finds a Supporter every turn. Mewtwo reloads Psychic Energy and hits for 180 late in the game. Dusclops and Dusknoir give themselves up to put damage counters anywhere."
+    },
+    "Fighting": {
+      "headline": "Machamp · Conkeldurr · Lucario",
+      "summary": "Conkeldurr hits for 80 with one Energy and 250 at full power. Donphan takes 20 less damage from every attack. Claydol draws to six and Machoke protects the Bench."
+    },
+    "Darkness": {
+      "headline": "Obstagoon · Crobat · Mightyena",
+      "summary": "Golbat and Crobat draw cards as they evolve. Mightyena hits for 160 with any Energy. Zigzagoon, Obstagoon and Absol place or move damage counters, and Sableye uses any Supporter in your deck as its attack."
+    },
+    "Metal": {
+      "headline": "Metagross · Corviknight · Copperajah",
+      "summary": "Metang and Bronzong accelerate Metal Energy, and Perrserker adds 20 to every Metal attack. Metagross and Corviknight hit for 200, and Copperajah has 200 HP."
+    },
+    "Colorless": {
+      "headline": "Pidgeot · Porygon-Z · Bibarel",
+      "summary": "Engines for any deck: Pidgeotto, Bibarel, Cinccino and Porygon2. Snorlax, Chatot, Dunsparce and Kangaskhan help any color set up."
+    }
+  },
+  "excluded_staples": [
+    {
+      "name": "Ditto ◇",
+      "printing": "Lost Thunder 154",
+      "price": 50.08
+    },
+    {
+      "name": "Lapras",
+      "printing": "Legend Maker 8",
+      "price": 53.51
+    },
+    {
+      "name": "Uxie",
+      "printing": "Legends Awakened 43",
+      "price": 18.67
+    },
+    {
+      "name": "Pidgeot",
+      "printing": "FireRed & LeafGreen 10",
+      "price": 17.95
+    },
+    {
+      "name": "Shaymin",
+      "printing": "HS Unleashed 8",
+      "price": 15.46
+    },
+    {
+      "name": "Azelf",
+      "printing": "Legends Awakened 19",
+      "price": 10.88
+    },
+    {
+      "name": "Jirachi",
+      "printing": "Team Up 99",
+      "price": 10.59
+    }
+  ]
+}
