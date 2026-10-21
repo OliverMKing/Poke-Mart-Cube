@@ -3225,70 +3225,70 @@
   "updated": "2026/10/15"
  },
  {
-  "id": "sv9-59",
+  "id": "sv4-75",
   "count": 1,
   "section": "Psychic",
-  "line": "Banette",
-  "note": "",
-  "name": "Shuppet",
+  "line": "Cofagrigus",
+  "note": "Ominous Eyes: 3 counters anywhere",
+  "name": "Yamask",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "60",
+  "hp": "70",
   "types": [
    "Psychic"
   ],
   "evolvesFrom": null,
-  "price": 0.18,
+  "price": 0.07,
   "variant": "normal",
-  "set": "Journey Together",
-  "setid": "sv9",
-  "number": "59",
-  "year": "2025",
+  "set": "Paradox Rift",
+  "setid": "sv4",
+  "number": "75",
+  "year": "2023",
   "text": [
-   "[P] Spooky Shot 20: "
+   "[PP] Ominous Eyes : Put 3 damage counters on 1 of your opponent's Pokémon."
   ],
   "weak": [
    "Darkness×2"
   ],
-  "retreat": 1,
+  "retreat": 2,
   "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv9-59",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv4-75",
   "updated": "2026/10/15"
  },
  {
-  "id": "sv9-60",
+  "id": "sv8-83",
   "count": 1,
   "section": "Psychic",
-  "line": "Banette",
-  "note": "Cursed Words: hand disruption",
-  "name": "Banette",
+  "line": "Cofagrigus",
+  "note": "Law of the Underworld: 6 counters on every Ability Pokémon",
+  "name": "Cofagrigus",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
   ],
-  "hp": "90",
+  "hp": "120",
   "types": [
    "Psychic"
   ],
-  "evolvesFrom": "Shuppet",
-  "price": 0.14,
-  "variant": "normal",
-  "set": "Journey Together",
-  "setid": "sv9",
-  "number": "60",
-  "year": "2025",
+  "evolvesFrom": "Yamask",
+  "price": 0.23,
+  "variant": "holofoil",
+  "set": "Surging Sparks",
+  "setid": "sv8",
+  "number": "83",
+  "year": "2024",
   "text": [
-   "[P] Cursed Words : Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.",
-   "[PC] Spooky Shot 70: "
+   "[P] Law of the Underworld : Put 6 damage counters on each Pokémon that has an Ability (both yours and your opponent's).",
+   "[PCC] Spooky Shot 100: "
   ],
   "weak": [
    "Darkness×2"
   ],
-  "retreat": 1,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv9-60",
+  "retreat": 2,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv8-83",
   "updated": "2026/10/15"
  },
  {

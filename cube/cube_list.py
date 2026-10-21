@@ -57,7 +57,7 @@ add('Psychic','Gardevoir and Gallade',[('sv4pt5-27',),('swsh12-68','Refinement')
 add('Psychic','Dusknoir',[('sv6pt5-18',),('sv8pt5-36','Cursed Blast: 5 counters'),('sv6pt5-20','Cursed Blast: 13 counters / 150')])
 add('Psychic','Slowking',[('sv2-85',),('sv7-58','Seek Inspiration / 120')])
 add('Psychic','Malamar',[('sm6-50',),('sm6-51','Psychic Recharge')])
-add('Psychic','Banette',[('sv9-59',),('sv9-60','Cursed Words: hand disruption')])
+add('Psychic','Cofagrigus',[('sv4-75','Ominous Eyes: 3 counters anywhere'),('sv8-83','Law of the Underworld: 6 counters on every Ability Pokémon')])
 add('Psychic','Mismagius',[('sm10-77',),('sm10-78','Mysterious Message')])
 add('Psychic','Basics',[('cel25-11','Mysterious Tail: find an Item'),('sv8-79','Full Heart: attach 2 P'),('swsh10-65',),('sv8-80',),('dp5-49','QUICK: free-retreat tool'),('swsh12pt5-59','Psypump: reload 2 P / 90, or 180 late')])
 # FIGHTING

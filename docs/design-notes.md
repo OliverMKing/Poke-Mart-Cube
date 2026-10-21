@@ -100,9 +100,10 @@ Check these points after the first drafts:
 1. **Fire speed.** Stoke, Burn Brightly, Chi-Yu and the 240-damage Arcanine can end games quickly. Five-prize games give slower decks more time.
 2. **Weakness coverage.** Fighting and Fire each hit about 40 Pokémon for double damage.
 3. **Damage counters on the Bench.** Dusclops, Dusknoir, Obstagoon, Absol and Hawlucha can Knock Out small support Pokémon. Machoke prevents damage and damage counters on the Bench. Shaymin and Manaphy prevent attack damage to the Bench.
-4. **Hex Maniac.** It turns off all Abilities for one turn. The cube has many Ability engines, so this card is strong.
-5. **Bench limits.** Sudowoodo and Collapsed Stadium limit each Bench to four Pokémon. Decks with four evolution lines feel this limit more.
-6. **Darkness damage.** The best fixed Darkness attack is Mightyena's 160. If Darkness decks lose often, replace Sword and Shield Galarian Obstagoon (swsh1-119) with Champion's Path Galarian Obstagoon (swsh35-37). The Champion's Path card hits for 180.
+4. **Cofagrigus.** Law of the Underworld puts 6 damage counters on each Pokémon with an Ability, on both sides, for one Energy. Check how often it decides games.
+5. **Hex Maniac.** It turns off all Abilities for one turn. The cube has many Ability engines, so this card is strong.
+6. **Bench limits.** Sudowoodo and Collapsed Stadium limit each Bench to four Pokémon. Decks with four evolution lines feel this limit more.
+7. **Darkness damage.** The best fixed Darkness attack is Mightyena's 160. If Darkness decks lose often, replace Sword and Shield Galarian Obstagoon (swsh1-119) with Champion's Path Galarian Obstagoon (swsh35-37). The Champion's Path card hits for 180.
 
 ## Cards left out
 
@@ -168,6 +169,7 @@ None of them is a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-21 | Replaced Temporal Forces Centiskorch (sv5-37) with Mega Evolution Centiskorch (me1-30). The old card's 180-damage attack needed the opponent's Active Pokémon to be Burned, and its own Singe attack was the only Burn source in the cube. The new card has Coiling Crush (50 damage, flip 2 coins, discard an Energy for each heads) and Heat Crawler (140). |
 | 2026-10-21 | Replaced the Sizzlipede and Centiskorch line with a Salandit (swsh12pt5-27) and Salazzle (sv7-24) line. Salazzle is a medium-strength Fire attacker: Flamethrower does 130, and Sudden Scorching makes the opponent discard 1 card, or 3 cards on the turn that Salazzle evolves. |
 | 2026-10-21 | Made Darkness stronger. Replaced Temporal Forces Mightyena (sv5-106, 130 damage for three Energy) with Astral Radiance Mightyena (swsh10-96). Its Wild Tackle does 160 for three Colorless Energy and 50 damage to itself. |
+| 2026-10-21 | Replaced the Shuppet and Banette line with a Yamask (sv4-75) and Cofagrigus (sv8-83) line as a spread payoff. Cofagrigus's Law of the Underworld puts 6 damage counters on each Pokémon with an Ability, on both sides, for one Energy. Yamask's Ominous Eyes puts 3 damage counters on one of the opponent's Pokémon. |
 
 ## Options
 
