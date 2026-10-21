@@ -1,5 +1,11 @@
 # Poké Mart Cube
 
+> ## 👉 [Click here to see the cube](https://htmlpreview.github.io/?https://raw.githack.com/OliverMKing/Poke-Mart-Cube/main/site/index.html)
+>
+> **Start here.** This link opens the cube page in your browser.
+> The page shows all 360 cards, the rules, the type summaries and the balance notes.
+> You can search the cards and filter them by type.
+
 The Poké Mart Cube is a 360-card Pokémon Trading Card Game (TCG) cube for drafting.
 Every card costs less than 10 US dollars (USD).
 The full cube costs about 205 USD at TCGplayer market prices from October 2026.
@@ -15,7 +21,7 @@ Each Pokémon gives up one Prize card when it is Knocked Out.
 The cube is for 6 players.
 Each player opens 4 packs of 15 cards and picks 60 cards.
 Each player builds a 50-card deck and plays with 5 Prize cards.
-Basic Energy is free, so do not put it in the packs.
+Basic Energy is not in the packs. Each player adds any number of Basic Energy cards to their deck.
 
 | Players | Packs per player | Picks | Deck size | Prize cards |
 |---|---|---|---|---|
