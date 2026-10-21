@@ -4,7 +4,7 @@
 >
 > **Start here.** This link opens the cube page in your browser.
 > The page shows all 360 cards, the rules, the type summaries and the balance notes.
-> You can search the cards and filter them by type.
+> You can search the cards, filter them by type or by set, and list them by set.
 
 The Poké Mart Cube is a 360-card Pokémon Trading Card Game (TCG) cube for drafting.
 Every card costs less than 10 US dollars (USD).

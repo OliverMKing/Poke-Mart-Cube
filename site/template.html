@@ -100,16 +100,22 @@ tr.rec td{font-weight:700}
 .controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding-block:12px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:10px}
 .searchrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .searchrow input[type=search]{flex:1 1 220px;min-width:0;font:inherit;font-size:.95rem;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--r);background:var(--shelf);color:var(--ink)}
-.searchrow label{display:flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted);cursor:pointer}
+.searchrow label{display:flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted)}
+.searchrow select{font:inherit;font-size:.9rem;padding:7px 8px;border:1px solid var(--rule);border-radius:var(--r);background:var(--shelf);color:var(--ink);max-width:100%;min-width:0}
+.searchrow .setpick{flex:0 1 300px;min-width:0}
+.searchrow .setpick select{flex:1;min-width:0}
 .shown{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);margin-left:auto}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{font:inherit;font-size:.84rem;border:1px solid var(--rule);background:var(--shelf);color:var(--ink);border-radius:999px;padding:4px 11px 4px 9px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
 .chip::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--tc,var(--muted))}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.chip:focus-visible,.card-row:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--mart);outline-offset:2px}
+.chip:focus-visible,.card-row:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--mart);outline-offset:2px}
 .group{margin-top:26px}
 .group>h3{display:flex;align-items:center;gap:10px;font-size:1.35rem;font-weight:800;padding-bottom:6px;border-bottom:2px solid var(--tc)}
-.group>h3 .ct{font-family:var(--f-mono);font-size:.8rem;font-weight:400;color:var(--muted);margin-left:auto}
+.group>h3 .ct{font-family:var(--f-mono);font-size:.8rem;font-weight:400;color:var(--muted);margin-left:auto;white-space:nowrap}
+.group>h3 .sub{font-family:var(--f-mono);font-size:.76rem;font-weight:400;color:var(--muted)}
+.group>h3.seth{flex-wrap:wrap;font-size:1.2rem}
+.setbtn{font:inherit;font-size:.82rem;font-weight:700;color:var(--mart);background:none;border:0;padding:0;cursor:pointer;text-align:left;text-decoration:underline}
 .line{margin-top:14px}
 .line h4{margin:0 0 4px;font-family:var(--f-mono);font-size:.76rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;gap:10px;flex-wrap:wrap}
 .line h4 .ratio{color:var(--ink)}
@@ -223,12 +229,17 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
   <section id="shelf" aria-labelledby="shelf-h">
     <div class="sec-head">
       <h2 id="shelf-h">The full list</h2>
-      <p>Select a card to read its text. The tag shows the price of the card.</p>
+      <p>Select a card to read its text. The tag shows the price of the card. Use Set to see every card from one set, or show the list by set.</p>
     </div>
     <div class="controls">
       <div class="searchrow">
         <input type="search" id="q" placeholder="Search names, text or roles" aria-label="Search the card list">
-        <label for="sortp"><input type="checkbox" id="sortp"> Sort by price</label>
+        <label class="setpick" for="setf">Set <select id="setf"></select></label>
+        <label for="view">Show <select id="view">
+          <option value="type">By type</option>
+          <option value="set">By set</option>
+          <option value="price">By price</option>
+        </select></label>
         <span class="shown num" id="shown"></span>
       </div>
       <div class="chips" id="chips" role="toolbar" aria-label="Filter by section"></div>
@@ -340,10 +351,18 @@ let filter='All';
 chipsEl.innerHTML=FILTERS.map(f=>`<button type="button" class="chip" id="chip-${f}" data-f="${f}" aria-pressed="${f==='All'}" style="--tc:${f==='All'?'var(--mart)':f==='Trainers'?'var(--t-trainer)':tc(f)}">${f}</button>`).join('');
 chipsEl.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;filter=b.dataset.f;chipsEl.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render()});
 
-const qEl=document.getElementById('q'),sortEl=document.getElementById('sortp'),listEl=document.getElementById('list'),shownEl=document.getElementById('shown');
-qEl.addEventListener('input',render);sortEl.addEventListener('change',render);
+const qEl=document.getElementById('q'),viewEl=document.getElementById('view'),setEl=document.getElementById('setf'),listEl=document.getElementById('list'),shownEl=document.getElementById('shown');
+// Sets, newest first, grouped by series in the order the newest set of each series came out.
+const SETS=(()=>{const m=new Map();for(const c of DATA){const k=c.sid;if(!m.has(k))m.set(k,{id:k,name:c.set,se:c.se||'Other',rd:c.rd||'',y:c.y,n:0,cost:0});const s=m.get(k);s.n+=c.n;s.cost+=c.n*c.p}return [...m.values()].sort((a,b)=>b.rd.localeCompare(a.rd)||a.name.localeCompare(b.name))})();
+const SETBY=Object.fromEntries(SETS.map(s=>[s.id,s]));
+(function(){
+  const series=[];for(const s of SETS){if(!series.includes(s.se))series.push(s.se)}
+  setEl.innerHTML=`<option value="">All sets (${SETS.length})</option>`+series.map(se=>`<optgroup label="${esc(se)}">${SETS.filter(s=>s.se===se).map(s=>`<option value="${esc(s.id)}">${esc(s.name)} (${esc(s.y)}) · ${s.n}</option>`).join('')}</optgroup>`).join('');
+})();
+qEl.addEventListener('input',render);viewEl.addEventListener('change',render);setEl.addEventListener('change',render);
+function showSet(id){setEl.value=id;render();document.getElementById('shelf').scrollIntoView({block:'start'})}
 const open=new Set();
-listEl.addEventListener('click',e=>{if(e.target.closest('a'))return;const r=e.target.closest('.card-row');if(!r)return;toggle(r)});
+listEl.addEventListener('click',e=>{if(e.target.closest('a'))return;const sb=e.target.closest('.setbtn');if(sb){e.stopPropagation();showSet(sb.dataset.set);return}const r=e.target.closest('.card-row');if(!r)return;toggle(r)});
 listEl.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('card-row')){e.preventDefault();toggle(e.target)}});
 function toggle(r){const id=r.dataset.id;open.has(id)?open.delete(id):open.add(id);render();const again=listEl.querySelector(`[data-id="${CSS.escape(id)}"]`);again&&again.focus()}
 
@@ -352,20 +371,29 @@ function rowHTML(c){
   const isOpen=open.has(c.i);
   const evo=c.ef?` · evolves from ${esc(c.ef)}`:'';
   const hp=c.hp?` · ${esc(c.hp)} HP`:'';
-  const txt=isOpen?`<div class="txt">${(c.tx||[]).map(t=>`<div>${esc(t)}</div>`).join('')}<div class="k">${esc(c.i)} · ${esc(c.set)} #${esc(c.no)} (${esc(c.y)})${hp}${evo} · price is for the ${esc(({normal:'non-holo',holofoil:'holo',reverseHolofoil:'reverse holo',unlimitedHolofoil:'unlimited holo'})[c.v]||c.v||'')} version</div>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">See prices on TCGplayer</a>`:''}</div>`:'';
+  const txt=isOpen?`<div class="txt">${(c.tx||[]).map(t=>`<div>${esc(t)}</div>`).join('')}<div class="k">${esc(c.i)} · ${esc(c.set)} #${esc(c.no)} (${esc(c.y)})${hp}${evo} · price is for the ${esc(({normal:'non-holo',holofoil:'holo',reverseHolofoil:'reverse holo',unlimitedHolofoil:'unlimited holo'})[c.v]||c.v||'')} version</div>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">See prices on TCGplayer</a>`:''}${setEl.value!==c.sid?`<button type="button" class="setbtn" data-set="${esc(c.sid)}">Show every card from ${esc(c.set)} (${SETBY[c.sid].n})</button>`:''}</div>`:'';
   return `<div class="card-row" role="button" tabindex="0" aria-expanded="${isOpen}" data-id="${esc(c.i)}" style="--tc:${tc(c.s==='Item'||c.s==='Supporter'||c.s==='Tool'||c.s==='Stadium'?'Trainer':c.s)}">
     <div><div class="nm">${esc(c.name)}${st?`<span class="st">${st}</span>`:''}</div><div class="meta"><span class="set">${esc(c.set)} #${esc(c.no)}</span>${c.note&&!/^[A-Z][^:]*$/.test(c.note)||TYPES.includes(c.s)&&c.note?` · ${esc(c.note)}`:''}</div></div>
     <span class="tag">$${c.p.toFixed(2)}</span>${txt}</div>`;
 }
 function matches(c,q){if(!q)return true;const h=(c.name+' '+c.note+' '+(c.tx||[]).join(' ')+' '+c.l+' '+c.s+' '+c.set).toLowerCase();return q.split(/\s+/).every(w=>h.includes(w))}
-function inFilter(c){if(filter==='All')return true;if(filter==='Trainers')return ['Supporter','Item','Tool','Stadium'].includes(c.s);return c.s===filter}
+function inFilter(c){if(setEl.value&&c.sid!==setEl.value)return false;if(filter==='All')return true;if(filter==='Trainers')return ['Supporter','Item','Tool','Stadium'].includes(c.s);return c.s===filter}
 function render(){
   const q=qEl.value.trim().toLowerCase();
   const vis=DATA.filter(c=>inFilter(c)&&matches(c,q));
   const n=vis.reduce((a,c)=>a+c.n,0);
   shownEl.textContent=`${n} of 360 cards`;
-  if(!vis.length){listEl.innerHTML='<p class="empty">No cards match. Clear the search or pick another filter.</p>';return}
-  if(sortEl.checked){
+  if(!vis.length){listEl.innerHTML='<p class="empty">No cards match. Clear the search, set All sets, or pick another filter.</p>';return}
+  if(viewEl.value==='set'){
+    const order=c=>GROUPS.indexOf(c.s);
+    let out='';
+    for(const s of SETS){
+      const cs=vis.filter(c=>c.sid===s.id).sort((a,b)=>order(a)-order(b));if(!cs.length)continue;
+      const cnt=cs.reduce((a,c)=>a+c.n,0),cost=cs.reduce((a,c)=>a+c.n*c.p,0);
+      out+=`<div class="group" style="--tc:var(--mart)"><h3 class="seth">${esc(s.name)} <span class="sub">${esc(s.se)} · ${esc(s.y)}</span><span class="ct">${cnt} ${cnt===1?'card':'cards'} · $${cost.toFixed(2)}</span></h3>${cs.map(rowHTML).join('')}</div>`;
+    }
+    listEl.innerHTML=out;return}
+  if(viewEl.value==='price'){
     const s=[...vis].sort((a,b)=>b.p-a.p||a.name.localeCompare(b.name));
     listEl.innerHTML=`<div class="group" style="--tc:var(--mart)"><h3>By price<span class="ct">${n} cards</span></h3>${s.map(rowHTML).join('')}</div>`;return}
   let out='';

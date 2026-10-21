@@ -51,7 +51,8 @@ def resolve(entries, cards):
             name=c['name'], supertype=c['supertype'], subtypes=c.get('subtypes') or [],
             hp=c.get('hp'), types=c.get('types') or [], evolvesFrom=c.get('evolvesFrom'),
             price=price, variant=version, set=c['set']['name'], setid=c['set']['id'],
-            number=c['number'], year=c['set'].get('releaseDate', '')[:4], text=card_text(c),
+            number=c['number'], year=c['set'].get('releaseDate', '')[:4], released=c['set'].get('releaseDate', ''),
+            series=c['set'].get('series', ''), text=card_text(c),
             weak=[w['type'] + w['value'] for w in c.get('weaknesses') or []],
             retreat=len(c.get('retreatCost') or []), rarity=c.get('rarity'),
             url=(c.get('tcgplayer') or {}).get('url'), updated=(c.get('tcgplayer') or {}).get('updatedAt')))
@@ -117,7 +118,7 @@ def write_outputs(rows, cfg):
     data = [dict(i=r['id'], n=r['count'], s=r['section'], l=r['line'], note=r['note'], name=r['name'],
                  st=r['subtypes'], hp=r['hp'], ty=(r['types'] or [''])[0], ef=r['evolvesFrom'], p=r['price'],
                  v=r['variant'], set=r['set'], no=r['number'], y=r['year'], w=r['weak'], tx=r['text'],
-                 url=r['url'], sid=r['setid']) for r in rows]
+                 url=r['url'], sid=r['setid'], rd=r['released'], se=r['series']) for r in rows]
     arch = {k: [v['headline'], v['summary']] for k, v in cfg['archetypes'].items()}
     excl = ''.join(
         f'<li><span class="xname">{html.escape(e["name"])}</span> <span class="xset">{html.escape(e["printing"])}</span> '
