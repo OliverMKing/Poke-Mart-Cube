@@ -1665,11 +1665,11 @@
   "price_source": "api"
  },
  {
-  "id": "sv2-58",
+  "id": "sv4pt5-17",
   "count": 1,
   "section": "Water",
   "line": "Baxcalibur",
-  "note": "",
+  "note": "Collect: draw 1",
   "name": "Frigibax",
   "supertype": "Pokémon",
   "subtypes": [
@@ -1682,22 +1682,22 @@
   "evolvesFrom": null,
   "price": 0.13,
   "variant": "normal",
-  "set": "Paldea Evolved",
-  "setid": "sv2",
-  "number": "58",
-  "year": "2023",
-  "released": "2023/06/09",
+  "set": "Paldean Fates",
+  "setid": "sv4pt5",
+  "number": "17",
+  "year": "2024",
+  "released": "2024/01/26",
   "series": "Scarlet & Violet",
   "text": [
-   "[W] Chilly 10: ",
-   "[WWC] Bite 50: "
+   "[W] Collect : Draw a card.",
+   "[WC] Beat 20: "
   ],
   "weak": [
    "Metal×2"
   ],
   "retreat": 2,
   "rarity": "Common",
-  "url": "https://www.tcgplayer.com/product/497469",
+  "url": "https://www.tcgplayer.com/product/534161",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -2329,49 +2329,49 @@
   "price_source": "api"
  },
  {
-  "id": "sm8-75",
+  "id": "swsh4-57",
   "count": 1,
   "section": "Lightning",
-  "line": "Ampharos",
-  "note": "Fluffy Pillow",
-  "name": "Mareep",
+  "line": "Eelektross",
+  "note": "Levitate: free retreat with Energy",
+  "name": "Tynamo",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "50",
+  "hp": "40",
   "types": [
    "Lightning"
   ],
   "evolvesFrom": null,
-  "price": 1.17,
+  "price": 0.18,
   "variant": "normal",
-  "set": "Lost Thunder",
-  "setid": "sm8",
-  "number": "75",
-  "year": "2018",
-  "released": "2018/11/02",
-  "series": "Sun & Moon",
+  "set": "Vivid Voltage",
+  "setid": "swsh4",
+  "number": "57",
+  "year": "2020",
+  "released": "2020/11/13",
+  "series": "Sword & Shield",
   "text": [
-   "<Ability: Fluffy Pillow> Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may leave your opponent's Active Pokémon Asleep.",
-   "[CC] Tackle 20: "
+   "<Ability: Levitate> If this Pokémon has any Energy attached, it has no Retreat Cost.",
+   "[L] Tiny Charge 10: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 1,
   "rarity": "Common",
-  "url": "https://www.tcgplayer.com/product/178884",
+  "url": "https://www.tcgplayer.com/product/226455",
   "updated": "2026/10/15",
   "price_source": "api"
  },
  {
-  "id": "swsh7-55",
+  "id": "zsv10pt5-31",
   "count": 1,
   "section": "Lightning",
-  "line": "Ampharos",
+  "line": "Eelektross",
   "note": "Dynamotor",
-  "name": "Flaaffy",
+  "name": "Eelektrik",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
@@ -2380,35 +2380,35 @@
   "types": [
    "Lightning"
   ],
-  "evolvesFrom": "Mareep",
-  "price": 0.18,
+  "evolvesFrom": "Tynamo",
+  "price": 0.23,
   "variant": "normal",
-  "set": "Evolving Skies",
-  "setid": "swsh7",
-  "number": "55",
-  "year": "2021",
-  "released": "2021/08/27",
-  "series": "Sword & Shield",
+  "set": "Black Bolt",
+  "setid": "zsv10pt5",
+  "number": "31",
+  "year": "2025",
+  "released": "2025/07/18",
+  "series": "Scarlet & Violet",
   "text": [
-   "<Ability: Dynamotor> Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
-   "[LLC] Electro Ball 50: "
+   "<Ability: Dynamotor> Once during your turn, you may attach a Basic Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
+   "[LLC] Electric Ball 50: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 2,
   "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/246897",
+  "url": "https://www.tcgplayer.com/product/642483",
   "updated": "2026/10/15",
   "price_source": "api"
  },
  {
-  "id": "swsh3-57",
+  "id": "sm11-66",
   "count": 1,
   "section": "Lightning",
-  "line": "Ampharos",
-  "note": "130 for LL",
-  "name": "Ampharos",
+  "line": "Eelektross",
+  "note": "Electric Swamp: Bench it from hand with 4 L in play / 130",
+  "name": "Eelektross",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 2"
@@ -2417,25 +2417,25 @@
   "types": [
    "Lightning"
   ],
-  "evolvesFrom": "Flaaffy",
-  "price": 0.26,
-  "variant": "normal",
-  "set": "Darkness Ablaze",
-  "setid": "swsh3",
-  "number": "57",
-  "year": "2020",
-  "released": "2020/08/14",
-  "series": "Sword & Shield",
+  "evolvesFrom": "Eelektrik",
+  "price": 0.54,
+  "variant": "reverseHolofoil",
+  "set": "Unified Minds",
+  "setid": "sm11",
+  "number": "66",
+  "year": "2019",
+  "released": "2019/08/02",
+  "series": "Sun & Moon",
   "text": [
-   "[L] Dazzle Blast 50: Your opponent's Active Pokémon is now Confused.",
-   "[LL] Electric Ball 130: "
+   "<Ability: Electric Swamp> Once during your turn (before your attack), if this Pokémon is in your hand and you have at least 4 Lightning Energy cards in play, you may play this Pokémon onto your Bench. If you do, move any number of Lightning Energy from your other Pokémon to this Pokémon.",
+   "[LCCC] Hover Over 130: The Defending Pokémon can't retreat during your opponent's next turn."
   ],
   "weak": [
    "Fighting×2"
   ],
-  "retreat": 2,
-  "rarity": "Rare",
-  "url": "https://www.tcgplayer.com/product/219403",
+  "retreat": 3,
+  "rarity": "Rare Holo",
+  "url": "https://www.tcgplayer.com/product/194992",
   "updated": "2026/10/15",
   "price_source": "api"
  },

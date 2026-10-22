@@ -44,7 +44,7 @@ Fire,Basics,Torkoal,Twilight Masquerade,30,sv6-30,0.20,normal,
 Water,Inteleon,Sobble,Sword & Shield,55,swsh1-55,0.12,normal,
 Water,Inteleon,Drizzile,Sword & Shield,56,swsh1-56,0.23,normal,Shady Dealings
 Water,Inteleon,Inteleon,Sword & Shield,58,swsh1-58,0.45,holofoil,Shady Dealings x2 / 120+20
-Water,Baxcalibur,Frigibax,Paldea Evolved,58,sv2-58,0.13,normal,
+Water,Baxcalibur,Frigibax,Paldean Fates,17,sv4pt5-17,0.13,normal,Collect: draw 1
 Water,Baxcalibur,Arctibax,Paldea Evolved,59,sv2-59,0.16,normal,
 Water,Baxcalibur,Baxcalibur,Paldea Evolved,60,sv2-60,0.26,holofoil,Super Cold: attach Water from hand
 Water,Octillery,Remoraid,Plasma Blast,18,bw10-18,0.26,normal,Bubble Beam: flip for Paralysis
@@ -62,9 +62,9 @@ Water,Basics,Keldeo,Temporal Forces,44,sv5-44,0.12,normal,Rapid Draw
 Water,Basics,Manaphy,Brilliant Stars,41,swsh9-41,0.30,normal,Wave Veil: Bench shield
 Water,Basics,Kyogre,Mega Evolution,34,me1-34,0.23,holofoil,Riptide: 20 per Basic Water Energy in discard
 Water,Basics,Iron Bundle,Paradox Rift,56,sv4-56,0.25,normal,Hyper Blower
-Lightning,Ampharos,Mareep,Lost Thunder,75,sm8-75,1.17,normal,Fluffy Pillow
-Lightning,Ampharos,Flaaffy,Evolving Skies,55,swsh7-55,0.18,normal,Dynamotor
-Lightning,Ampharos,Ampharos,Darkness Ablaze,57,swsh3-57,0.26,normal,130 for LL
+Lightning,Eelektross,Tynamo,Vivid Voltage,57,swsh4-57,0.18,normal,Levitate: free retreat with Energy
+Lightning,Eelektross,Eelektrik,Black Bolt,31,zsv10pt5-31,0.23,normal,Dynamotor
+Lightning,Eelektross,Eelektross,Unified Minds,66,sm11-66,0.54,reverseHolofoil,Electric Swamp: Bench it from hand with 4 L in play / 130
 Lightning,Magnezone,Magnemite,Forbidden Light,34,sm6-34,0.25,normal,Searching Magnet
 Lightning,Magnezone,Magneton,Forbidden Light,35,sm6-35,0.23,normal,
 Lightning,Magnezone,Magnezone,Forbidden Light,36,sm6-36,0.71,holofoil,Magnetic Circuit: attach L from hand

@@ -88,7 +88,7 @@ Battle Compressor and Brilliant Blender put cards from your deck into your disca
 Many cards in the cube use those cards:
 
 - Damage: Machamp does 20 damage for each Fighting Pokémon in your discard pile. Hisuian Basculegion does 20 damage for each basic Energy card in your discard pile. Kyogre does the same for each Basic Water Energy card. Basculegion and Kyogre then shuffle those Energy cards back into your deck.
-- Energy: Flaaffy, Malamar, Bronzong, Mewtwo, Chi-Yu, Volcanion, Arcanine and Cinderace attach Energy from your discard pile.
+- Energy: Eelektrik, Malamar, Bronzong, Mewtwo, Chi-Yu, Volcanion, Arcanine and Cinderace attach Energy from your discard pile.
 - Supporters and Trainers: VS Seeker, Cynthia & Caitlin, Lusamine, Dialga and Regieleki put cards from your discard pile into your hand.
 
 A discard deck makes its own deck smaller. Mill decks can win faster against it.
@@ -226,6 +226,7 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Remoraid is Plasma Blast (bw10-18). Its Bubble Beam attack can Paralyze the Defending Pokémon. Its Weakness is Lightning, not Grass. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. The Rowlet, Dartrix and Decidueye line became a Chikorita (sm8-5), Bayleef (dp2-41) and Meganium (sm8-8) line. Shrouded Fable Decidueye did 170 damage for one Energy, which was too strong. Meganium's Quick-Ripening Herb works like a Rare Candy each turn. Bayleef's Evolution Impulse finds an Evolution card, and Chikorita's Synthesis attaches a Grass Energy from the deck. Meganium costs about 5.78 USD. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Celebrations Lugia (cel25-22) replaced Team Up Kangaskhan (sm9-128). Lugia is a Colorless attacker: Aero Ball does 20 damage for each Energy on both Active Pokémon, and Deep Crush does 160 for four Energy of any type. Bayleef and the other line-finishing cards still find Evolution cards. |
+| 2026-10-23 | Synced the card list with the CubeKoga list again. The Mareep, Flaaffy and Ampharos line became a Tynamo (swsh4-57), Eelektrik (zsv10pt5-31) and Eelektross (sm11-66) line. Eelektrik keeps the Dynamotor Ability. Eelektross's Electric Swamp puts it onto the Bench from your hand when you have 4 Lightning Energy in play, without Tynamo or Eelektrik, and moves Lightning Energy onto it. Hover Over does 130 and stops the Defending Pokémon from retreating. Frigibax is Paldean Fates (sv4pt5-17). Its Collect attack draws a card. |
 
 ## Options
 
