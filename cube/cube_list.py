@@ -39,7 +39,7 @@ add('Fire','Basics',[('xy11-25','Power Heater'),('sv8-21','Victory Cheer'),('sm8
 # WATER
 add('Water','Inteleon',[('swsh1-55',),('swsh1-56','Shady Dealings'),('swsh1-58','Shady Dealings x2 / 120+20')])
 add('Water','Baxcalibur',[('sv2-58',),('sv2-59',),('sv2-60','Super Cold: attach Water from hand')])
-add('Water','Octillery',[('sm4-22',),('xy8-33','Abyssal Hand: draw to 5')])
+add('Water','Octillery',[('bw10-18','Bubble Beam: flip for Paralysis'),('xy8-33','Abyssal Hand: draw to 5')])
 add('Water','Palafin',[('sv3-60','Valiant Evolution'),('sv3-62','210 after switching in')])
 add('Water','Seaking',[('sv8pt5-20','Festival Lead: turns on Thwackey'),('me5-14','Hydro Jet: 30 per Water Energy to any Pokémon')])
 add('Water','Gyarados',[('sv2-42',),('sv2-43','200 for WWCC')])

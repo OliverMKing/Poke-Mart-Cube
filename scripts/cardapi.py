@@ -7,7 +7,9 @@ Set POKEMONTCG_API_KEY to raise the API rate limit (optional).
 import hashlib
 import json
 import os
+import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -84,6 +86,57 @@ def search(query, refresh=False):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data))
     return data
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+def _product_id(url, tries=4):
+    """Read the TCGplayer product ID from the first redirect of a prices.pokemontcg.io link."""
+    opener = urllib.request.build_opener(_NoRedirect)
+    for attempt in range(tries):
+        try:
+            opener.open(urllib.request.Request(url, headers=_headers()), timeout=30)
+        except urllib.error.HTTPError as e:
+            m = re.search(r'tcgplayer\.com/product/(\d+)', urllib.parse.unquote(e.headers.get('Location') or ''))
+            if m:
+                return m.group(1)
+            if e.code < 500:
+                return None
+        except Exception:  # noqa: BLE001 - network errors of any kind are retried
+            pass
+        time.sleep(2 + 3 * attempt)
+    return None
+
+
+def tcgplayer_url(card):
+    """Direct link to the card's TCGplayer product page, or the API link if the product is unknown.
+
+    The API link redirects through affiliate trackers, which ad blockers often block.
+    The product ID is cached under .cache/tcgplayer/.
+    """
+    url = (card.get('tcgplayer') or {}).get('url')
+    if not url:
+        return None
+    path = CACHE / 'tcgplayer' / f'{card["id"]}.txt'
+    if path.exists():
+        pid = path.read_text().strip()
+    else:
+        pid = _product_id(url)
+        if not pid:
+            return url
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(pid)
+    return f'https://www.tcgplayer.com/product/{pid}'
+
+
+def tcgplayer_urls(cards, workers=8):
+    """Return {card id: tcgplayer_url(card)} for many cards, fetched in parallel."""
+    cards = list(cards)
+    with ThreadPoolExecutor(workers) as ex:
+        return dict(zip((c['id'] for c in cards), ex.map(tcgplayer_url, cards)))
 
 
 def min_price(card):

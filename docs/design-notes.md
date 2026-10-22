@@ -113,9 +113,9 @@ The page calculates this table again each time you build it. Update this copy af
 |---|---|---|
 | Fire | 39 | Grass 21, Metal 18 |
 | Fighting | 38 | Lightning 19, Colorless 13, Darkness 6 |
-| Lightning | 30 | Water 15, Colorless 7, Darkness 4, Metal 3, Lightning 1 |
+| Lightning | 31 | Water 16, Colorless 7, Darkness 4, Metal 3, Lightning 1 |
 | Water | 23 | Fire 21, Fighting 2 |
-| Grass | 18 | Darkness 9, Fighting 7, Water 2 |
+| Grass | 17 | Darkness 9, Fighting 7, Water 1 |
 | Darkness | 15 | Psychic 15 |
 | Psychic | 13 | Fighting 11, Psychic 2 |
 | Metal | 6 | Water 4, Psychic 2 |
@@ -222,6 +222,7 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-22 | Added `price_overrides` to `cube/page_config.json`. The Pokémon TCG API has no TCGplayer price yet for Klefki, Seaking and Uxie. The overrides hold their TCGplayer market prices from 2026-10-22. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Changes: Battle Compressor (xy4-92) and Brilliant Blender (sv8-164) replaced Poké Ball (swsh2-164) and Lost Vacuum (swsh11-162); Hisuian Basculegion (swsh11-45) evolves from the existing Hisuian Basculin; Mega Evolution Kyogre (me1-34) is in; Lapras (sv3pt5-131) and Suicune (swsh3-37) are out; Toxel is Phantasmal Flames (me2-67). Water now has five Stage 1 lines and five Basics. Brilliant Blender is the only ACE SPEC card in the cube. Faba is now the only Lost Zone card. |
 | 2026-10-22 | Phantasmal Flames Toxel is a Darkness Pokémon. It stays in the Lightning section because Lightning Toxtricity evolves from it. Its Call for Family attack needs a Darkness Energy. |
+| 2026-10-22 | Synced the card list with the CubeKoga list again. Remoraid is Plasma Blast (bw10-18). Its Bubble Beam attack can Paralyze the Defending Pokémon. Its Weakness is Lightning, not Grass. |
 
 ## Options
 

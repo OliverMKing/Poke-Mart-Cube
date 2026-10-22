@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from cardapi import ROOT, card_text, fetch_cards, min_price  # noqa: E402
+from cardapi import ROOT, card_text, fetch_cards, min_price, tcgplayer_urls  # noqa: E402
 
 TYPES = ['Grass', 'Fire', 'Water', 'Lightning', 'Psychic', 'Fighting', 'Darkness', 'Metal', 'Colorless']
 TRAINERS = ['Supporter', 'Item', 'Tool', 'Stadium']
@@ -41,14 +41,14 @@ def species(name):
     return re.sub(r' \[.*\]$', '', SPECIES_PREFIX.sub('', name))
 
 
-def resolve(entries, cards, overrides=None):
-    overrides = overrides or {}
+def resolve(entries, cards, overrides=None, links=None):
+    overrides, links = overrides or {}, links or {}
     rows = []
     for cid, count, section, line, note in entries:
         c = cards[cid]
         price, version = min_price(c)
         tcg = c.get('tcgplayer') or {}
-        url, source = tcg.get('url'), 'api'
+        url, source = links.get(cid, tcg.get('url')), 'api'
         # A new set can be on TCGplayer before the API has its prices. Use the checked price until then.
         if price is None and cid in overrides:
             o = overrides[cid]
@@ -176,7 +176,8 @@ def main():
     entries = load_list()
     cards = fetch_cards([e[0] for e in entries], refresh=args.refresh)
     overrides = cfg.get('price_overrides', {})
-    rows = resolve(entries, cards, overrides)
+    links = tcgplayer_urls(cards.values())
+    rows = resolve(entries, cards, overrides, links)
     problems = check(rows, cfg)
     if problems:
         print('The cube list has problems:')
@@ -191,6 +192,10 @@ def main():
     for r in rows:
         if r['price_source'] == 'override':
             print(f'Note: {r["name"]} ({r["id"]}) has no API price. The build uses ${r["price"]:.2f} from price_overrides.')
+    unresolved = [r['id'] for r in rows if r['url'] and 'tcgplayer.com/product/' not in r['url']]
+    if unresolved:
+        print(f'Note: {len(unresolved)} cards link through the API redirect, because their TCGplayer product is unknown: '
+              f'{unresolved[:5]}')
     for cid in overrides:
         if cid in cards and min_price(cards[cid])[0] is not None:
             print(f'Note: the API now has a price for {cid}. Remove it from price_overrides.')
