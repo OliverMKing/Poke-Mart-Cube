@@ -21,7 +21,7 @@ def add(sec, line, items):
         P.append((it[0], 1, sec, line, it[1] if len(it) > 1 else ''))
 
 # GRASS
-add('Grass','Decidueye',[('sv6pt5-3','Add On: draw 1'),('sv6pt5-4',),('sv6pt5-5','draw to 7 / 170 for G')])
+add('Grass','Meganium',[('sm8-5','Synthesis: attach a Grass Energy from deck'),('dp2-41','Evolution Impulse: find an Evolution card'),('sm8-8','Quick-Ripening Herb: Rare Candy every turn')])
 add('Grass','Rillaboom',[('swsh1-11',),('sv6-15','Boom Boom Groove: search any card while Goldeen is Active'),('swsh45-13','Voltage Beat: 2 Grass from deck')])
 add('Grass','Lurantis',[('sm1-14',),('smp-SM25','Sunny Day: Grass and Fire +20')])
 add('Grass','Eldegoss',[('swsh1-20','Call for Family'),('swsh7-16','Cotton Lift: 2 basic Energy')])

@@ -98,8 +98,8 @@ A discard deck makes its own deck smaller. Mill decks can win faster against it.
 In a singleton cube, each evolution line has only one card for each stage.
 These cards help a player finish a line:
 
-- Rare Candy, Pokémon Breeder, Wally and Evosoda evolve a Pokémon without the usual steps.
-- Evolution Incense, Timer Ball, Capturing Aroma, Jacq, Hilda and Kangaskhan find Evolution cards.
+- Rare Candy, Pokémon Breeder, Wally, Evosoda and Meganium evolve a Pokémon without the usual steps. Meganium's Quick-Ripening Herb Ability works like a Rare Candy each turn.
+- Evolution Incense, Timer Ball, Capturing Aroma, Jacq, Hilda, Kangaskhan and Bayleef find Evolution cards.
 
 With 6 players, each 15-card pack comes back to each player two times, at picks 7 and 13.
 A player who takes a Stage 2 from a pack often gets its Basic and Stage 1 back from the same pack.
@@ -111,7 +111,7 @@ The page calculates this table again each time you build it. Update this copy af
 
 | Attacking type | Pokémon hit for double damage | Main targets |
 |---|---|---|
-| Fire | 39 | Grass 21, Metal 18 |
+| Fire | 38 | Grass 20, Metal 18 |
 | Fighting | 38 | Lightning 19, Colorless 13, Darkness 6 |
 | Lightning | 31 | Water 16, Colorless 7, Darkness 4, Metal 3, Lightning 1 |
 | Water | 23 | Fire 21, Fighting 2 |
@@ -135,6 +135,7 @@ Check these points after the first drafts:
 6. **Bench limits.** Sudowoodo and Collapsed Stadium limit each Bench to four Pokémon. Decks with four evolution lines feel this limit more.
 7. **Mill speed.** Bunnelby can mill 2 cards each turn, but Super Rod, Miriam, Brock's Grit and other cards shuffle cards back into the deck. Check that milling decks can win.
 8. **Time Spiral.** Celebi's devolve attack shuffles the top stage of an evolved Pokémon into the opponent's deck. In a singleton cube, that card is often the only copy. Check that it is not too strong.
+9. **Meganium.** Quick-Ripening Herb evolves a Basic Pokémon into a Stage 2 Pokémon each turn. It also works on the first turn. Check how much faster it makes Stage 2 decks.
 
 ## Cards left out
 
@@ -223,6 +224,7 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Changes: Battle Compressor (xy4-92) and Brilliant Blender (sv8-164) replaced Poké Ball (swsh2-164) and Lost Vacuum (swsh11-162); Hisuian Basculegion (swsh11-45) evolves from the existing Hisuian Basculin; Mega Evolution Kyogre (me1-34) is in; Lapras (sv3pt5-131) and Suicune (swsh3-37) are out; Toxel is Phantasmal Flames (me2-67). Water now has five Stage 1 lines and five Basics. Brilliant Blender is the only ACE SPEC card in the cube. Faba is now the only Lost Zone card. |
 | 2026-10-22 | Phantasmal Flames Toxel is a Darkness Pokémon. It stays in the Lightning section because Lightning Toxtricity evolves from it. Its Call for Family attack needs a Darkness Energy. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Remoraid is Plasma Blast (bw10-18). Its Bubble Beam attack can Paralyze the Defending Pokémon. Its Weakness is Lightning, not Grass. |
+| 2026-10-22 | Synced the card list with the CubeKoga list again. The Rowlet, Dartrix and Decidueye line became a Chikorita (sm8-5), Bayleef (dp2-41) and Meganium (sm8-8) line. Shrouded Fable Decidueye did 170 damage for one Energy, which was too strong. Meganium's Quick-Ripening Herb works like a Rare Candy each turn. Bayleef's Evolution Impulse finds an Evolution card, and Chikorita's Synthesis attaches a Grass Energy from the deck. Meganium costs about 5.78 USD. |
 
 ## Options
 

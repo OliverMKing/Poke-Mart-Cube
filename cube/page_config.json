@@ -30,8 +30,8 @@
   "cube_size": 360,
   "archetypes": {
     "Grass": {
-      "headline": "Decidueye · Rillaboom · Yanmega",
-      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Decidueye hits for 170 with one Energy and Yanmega hits for 160. Celebi devolves an opponent's Pokémon, and Durant mills the opponent's deck."
+      "headline": "Meganium · Rillaboom · Yanmega",
+      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Meganium evolves a Basic straight into a Stage 2 every turn, and Bayleef finds any Evolution card. Yanmega hits for 160. Celebi devolves an opponent's Pokémon, and Durant mills the opponent's deck."
     },
     "Fire": {
       "headline": "Charizard · Cinderace · Arcanine",

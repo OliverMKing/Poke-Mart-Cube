@@ -9,7 +9,7 @@
 The Poké Mart Cube is a 360-card Pokémon Trading Card Game (TCG) cube for drafting.
 Every card except one costs less than 10 US dollars (USD).
 The exception is Supreme Victors Minun (about 26 USD). The cube uses it on purpose.
-The full cube costs about 240 USD at TCGplayer market prices from October 2026.
+The full cube costs about 245 USD at TCGplayer market prices from October 2026.
 
 The cube is on CubeKoga: <https://cubekoga.net/cube/pokemartcube/visual>.
 The card checklist is a GitHub Issue: <https://github.com/OliverMKing/Poke-Mart-Cube/issues/1>. Tick a card there when you own it.
