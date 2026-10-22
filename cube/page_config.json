@@ -1,5 +1,5 @@
 {
-  "_comment": "Text for the page that the card data does not provide. Prices for excluded staples were checked on 2026-10-21. price_overrides holds TCGplayer prices for cards that the Pokémon TCG API has no price for yet. They were checked on 2026-10-22 at tcgcsv.com, which copies TCGplayer prices each day.",
+  "_comment": "Text for the page that the card data does not provide. Prices for excluded staples were checked on 2026-10-21. price_overrides holds TCGplayer prices for cards that the Pokémon TCG API has no price for yet. They were checked on 2026-10-22 at tcgcsv.com, which copies TCGplayer prices each day. checklist_issue is the number of the GitHub Issue that holds the card checklist.",
   "price_limit": 10.0,
   "price_exceptions": {
     "pl3-71": "Supreme Victors Minun. Kept on purpose for its Call for Family and Trash Charge attacks."
@@ -97,5 +97,6 @@
       "printing": "Team Up 99",
       "price": 10.59
     }
-  ]
+  ],
+  "checklist_issue": 1
 }

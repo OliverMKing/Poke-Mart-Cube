@@ -12,6 +12,7 @@ The exception is Supreme Victors Minun (about 26 USD). The cube uses it on purpo
 The full cube costs about 240 USD at TCGplayer market prices from October 2026.
 
 The cube is on CubeKoga: <https://cubekoga.net/cube/pokemartcube/visual>.
+The card checklist is a GitHub Issue: <https://github.com/OliverMKing/Poke-Mart-Cube/issues/1>. Tick a card there when you own it.
 
 The cube is a singleton cube.
 It has one copy of each card and one card for each Pokémon species.
@@ -49,7 +50,7 @@ Read [docs/design-notes.md](docs/design-notes.md) for those cards.
 | Path | Contents |
 |---|---|
 | `cube/cube_list.py` | The card list. This file is the source of truth. |
-| `cube/page_config.json` | Page text that the card data does not supply: type summaries, price limit, price exceptions, price overrides and excluded staples. |
+| `cube/page_config.json` | Page text that the card data does not supply: type summaries, price limit, price exceptions, price overrides and excluded staples. It also holds the number of the checklist Issue. |
 | `cube/cards.json` | Card text, statistics and price for each card. The build script makes this file. |
 | `cube/cardlist.csv` | One row for each card, for spreadsheets. The build script makes this file. |
 | `cube/cubekoga-import.tsv` | The list for the CubeKoga Bulk Import box. The build script makes this file. |
@@ -57,6 +58,7 @@ Read [docs/design-notes.md](docs/design-notes.md) for those cards.
 | `site/index.html` | The cube page. The build script makes this file. Open it in a browser. |
 | `scripts/build.py` | Checks the card list and makes all output files. |
 | `scripts/search.py` | Finds cards and prices when you want to change a card. |
+| `scripts/checklist.py` | Makes and updates the card checklist Issue on GitHub. |
 | `scripts/cardapi.py` | The Pokémon TCG API client with a local cache. |
 | `docs/design-notes.md` | Design decisions, balance notes and the change history. |
 | `docs/research.md` | The research behind the card choices. |
@@ -107,6 +109,26 @@ To get a higher rate limit, set the `POKEMONTCG_API_KEY` environment variable.
 4. Fix each problem that the script reports.
 5. If the change affects a type summary, edit `cube/page_config.json`.
 6. Add the change to the decision log in `docs/design-notes.md`.
+
+## Track the cards you own
+
+The card checklist is GitHub Issue #1: <https://github.com/OliverMKing/Poke-Mart-Cube/issues/1>.
+Each card in the cube has a checkbox in the Issue.
+
+1. Open the Issue.
+2. Tick the box for each card that you own. GitHub saves each tick.
+
+Only the repository owner and collaborators with write access can tick the boxes.
+
+When the cube changes, update the Issue:
+
+1. Run `python3 scripts/build.py`.
+2. Run `python3 scripts/checklist.py update`.
+
+The script writes the new card list into the Issue and keeps your ticks.
+If you own a card that is not in the cube now, the script moves it to the "Cut from the cube" section.
+To see the new text before you change the Issue, run `python3 scripts/checklist.py show`.
+The script uses the GitHub CLI (`gh`). Log in with `gh auth login` first.
 
 ## Import the cube into CubeKoga
 
