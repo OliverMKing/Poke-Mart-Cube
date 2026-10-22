@@ -9,7 +9,7 @@
 The Poké Mart Cube is a 360-card Pokémon Trading Card Game (TCG) cube for drafting.
 Every card except one costs less than 10 US dollars (USD).
 The exception is Supreme Victors Minun (about 26 USD). The cube uses it on purpose.
-The full cube costs about 245 USD at TCGplayer market prices from October 2026.
+The full cube costs about 240 USD at TCGplayer market prices from October 2026.
 
 The cube is on CubeKoga: <https://cubekoga.net/cube/pokemartcube/visual>.
 The card checklist is a GitHub Issue: <https://github.com/OliverMKing/Poke-Mart-Cube/issues/1>. Tick a card there when you own it.
@@ -41,7 +41,7 @@ Read [docs/design-notes.md](docs/design-notes.md) for those cards.
 1. Use the current Standard rules for the first turn. The player who goes first cannot attack or play a Supporter.
 2. Treat a Poké-Power or a Poké-Body as an Ability. This affects Claydol, Donphan, Porygon2, Sableye, Unown Q and Uxie.
 3. Treat an old card that says only "Trainer" as an Item. This affects Pokémon Breeder.
-4. Ignore text about Pokémon ex, V, GX, EX, Prism Star and Radiant cards. The cube has none of these cards. For example, Twin Energy always provides two Colorless Energy.
+4. Ignore text about Pokémon ex, V, GX, EX, Prism Star and Radiant cards. The cube has none of these cards. For example, Brigette always puts 3 Basic Pokémon onto the Bench.
 5. Brilliant Blender is the only ACE SPEC card in the cube. Its limit of one ACE SPEC card in each deck has no effect.
 6. Remove a card in the Lost Zone from the game. Do not return it to play.
 

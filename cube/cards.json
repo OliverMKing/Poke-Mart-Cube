@@ -222,76 +222,76 @@
   "price_source": "api"
  },
  {
-  "id": "sm1-14",
+  "id": "me5-5",
   "count": 1,
   "section": "Grass",
-  "line": "Lurantis",
-  "note": "",
-  "name": "Fomantis",
+  "line": "Sinistcha",
+  "note": "Hide 'n' Sneak: immune to attack and Ability effects",
+  "name": "Poltchageist",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "60",
+  "hp": "30",
   "types": [
    "Grass"
   ],
   "evolvesFrom": null,
-  "price": 0.01,
+  "price": 0.16,
   "variant": "normal",
-  "set": "Sun & Moon",
-  "setid": "sm1",
-  "number": "14",
-  "year": "2017",
-  "released": "2017/02/03",
-  "series": "Sun & Moon",
+  "set": "Pitch Black",
+  "setid": "me5",
+  "number": "5",
+  "year": "2026",
+  "released": "2026/07/17",
+  "series": "Mega Evolution",
   "text": [
-   "[G] Synthesis : Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
-   "[GC] Leafage 20: "
+   "<Ability: Hide 'n' Sneak> Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)",
+   "[C] Furtive Drop : Place 1 damage counter on your opponent's Active Pokémon."
+  ],
+  "weak": [
+   "Fire×2"
+  ],
+  "retreat": 0,
+  "rarity": "Common",
+  "url": "https://www.tcgplayer.com/product/704762",
+  "updated": null,
+  "price_source": "override"
+ },
+ {
+  "id": "sv6-22",
+  "count": 1,
+  "section": "Grass",
+  "line": "Sinistcha",
+  "note": "Cursed Drop: 4 counters anywhere / Spill the Tea up to 210",
+  "name": "Sinistcha",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+   "Grass"
+  ],
+  "evolvesFrom": "Poltchageist",
+  "price": 0.22,
+  "variant": "holofoil",
+  "set": "Twilight Masquerade",
+  "setid": "sv6",
+  "number": "22",
+  "year": "2024",
+  "released": "2024/05/24",
+  "series": "Scarlet & Violet",
+  "text": [
+   "[G] Cursed Drop : Put 4 damage counters on your opponent's Pokémon in any way you like.",
+   "[G] Spill the Tea 70×: Discard up to 3 Grass Energy cards from your Pokémon. This attack does 70 damage for each card you discarded in this way."
   ],
   "weak": [
    "Fire×2"
   ],
   "retreat": 1,
-  "rarity": "Common",
-  "url": "https://www.tcgplayer.com/product/126885",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "smp-SM25",
-  "count": 1,
-  "section": "Grass",
-  "line": "Lurantis",
-  "note": "Sunny Day: Grass and Fire +20",
-  "name": "Lurantis",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Stage 1"
-  ],
-  "hp": "100",
-  "types": [
-   "Grass"
-  ],
-  "evolvesFrom": "Fomantis",
-  "price": 4.25,
-  "variant": "holofoil",
-  "set": "SM Black Star Promos",
-  "setid": "smp",
-  "number": "SM25",
-  "year": "2017",
-  "released": "2017/02/03",
-  "series": "Sun & Moon",
-  "text": [
-   "<Ability: Sunny Day> The attacks of your Grass Pokémon and Fire Pokémon do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-   "[GGC] Solar Beam 80: "
-  ],
-  "weak": [
-   "Fire×2"
-  ],
-  "retreat": 2,
-  "rarity": "Promo",
-  "url": "https://www.tcgplayer.com/product/133829",
+  "rarity": "Rare",
+  "url": "https://www.tcgplayer.com/product/550066",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -7775,6 +7775,139 @@
   "price_source": "api"
  },
  {
+  "id": "xy5-141",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Search",
+  "note": "",
+  "name": "Teammates",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 2.13,
+  "variant": "normal",
+  "set": "Primal Clash",
+  "setid": "xy5",
+  "number": "141",
+  "year": "2015",
+  "released": "2015/02/04",
+  "series": "XY",
+  "text": [
+   "You can play this card only if 1 of your Pokémon was Knocked Out during your opponent's last turn.",
+   "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/96039",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy8-134",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Search",
+  "note": "",
+  "name": "Brigette",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.79,
+  "variant": "normal",
+  "set": "BREAKthrough",
+  "setid": "xy8",
+  "number": "134",
+  "year": "2015",
+  "released": "2015/11/04",
+  "series": "XY",
+  "text": [
+   "Search your deck for 1 Basic Pokémon-EX or 3 Basic Pokémon (except for Pokémon-EX) and put them onto your Bench. Shuffle your deck afterward.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/107253",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy3-95",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Search",
+  "note": "",
+  "name": "Korrina",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 2.11,
+  "variant": "normal",
+  "set": "Furious Fists",
+  "setid": "xy3",
+  "number": "95",
+  "year": "2014",
+  "released": "2014/08/13",
+  "series": "XY",
+  "text": [
+   "Search your deck for a Fighting Pokémon and an Item card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/92277",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "swsh10-135",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Search",
+  "note": "",
+  "name": "Adaman",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.28,
+  "variant": "holofoil",
+  "set": "Astral Radiance",
+  "setid": "swsh10",
+  "number": "135",
+  "year": "2022",
+  "released": "2022/05/27",
+  "series": "Sword & Shield",
+  "text": [
+   "You can use this card only if you discard 2 Metal Energy cards from your hand. Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+   "You may play only 1 Supporter card during your turn."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Rare Holo",
+  "url": "https://www.tcgplayer.com/product/272387",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
   "id": "swsh35-65",
   "count": 1,
   "section": "Supporter",
@@ -8332,6 +8465,73 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://www.tcgplayer.com/product/98130",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy4-110",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Gust and disruption",
+  "note": "",
+  "name": "Xerosic",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.3,
+  "variant": "normal",
+  "set": "Phantom Forces",
+  "setid": "xy4",
+  "number": "110",
+  "year": "2014",
+  "released": "2014/11/05",
+  "series": "XY",
+  "text": [
+   "Choose a Pokémon Tool or Special Energy card attached to a Pokémon in play (yours or your opponent's) and discard it.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/94678",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy7-69",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Gust and disruption",
+  "note": "",
+  "name": "Ace Trainer",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.08,
+  "variant": "normal",
+  "set": "Ancient Origins",
+  "setid": "xy7",
+  "number": "69",
+  "year": "2015",
+  "released": "2015/08/12",
+  "series": "XY",
+  "text": [
+   "You can play this card only if you have more Prize cards left than your opponent.",
+   "Each player shuffles his or her hand into his or her deck. Then, draw 6 cards. Your opponent draws 3 cards.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/101491",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -11875,39 +12075,6 @@
   "price_source": "api"
  },
  {
-  "id": "swsh2-174",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Twin Energy",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.28,
-  "variant": "normal",
-  "set": "Rebel Clash",
-  "setid": "swsh2",
-  "number": "174",
-  "year": "2020",
-  "released": "2020/05/01",
-  "series": "Sword & Shield",
-  "text": [
-   "As long as this card is attached to a Pokémon that isn't a Pokémon V or a Pokémon-GX, it provides ColorlessColorless Energy.",
-   "If this card is attached to a Pokémon V or a Pokémon-GX, it provides Colorless Energy instead."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/213285",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
   "id": "sm1-137",
   "count": 1,
   "section": "Energy",
@@ -12001,70 +12168,6 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://www.tcgplayer.com/product/497564",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "zsv10pt5-86",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Prism Energy",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.22,
-  "variant": "normal",
-  "set": "Black Bolt",
-  "setid": "zsv10pt5",
-  "number": "86",
-  "year": "2025",
-  "released": "2025/07/18",
-  "series": "Scarlet & Violet",
-  "text": [
-   "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/642535",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "ex2-93",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Multi Energy",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 1.33,
-  "variant": "normal",
-  "set": "Sandstorm",
-  "setid": "ex2",
-  "number": "93",
-  "year": "2003",
-  "released": "2003/09/18",
-  "series": "EX",
-  "text": [
-   "Attach Multi Energy to 1 of your Pokémon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides Colorless Energy when attached to a Pokémon that already has Special Energy cards attached to it."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Rare",
-  "url": "https://www.tcgplayer.com/product/87629",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -12229,105 +12332,6 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://www.tcgplayer.com/product/284108",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "sm5-137",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Unit Energy GrassFireWater",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.52,
-  "variant": "normal",
-  "set": "Ultra Prism",
-  "setid": "sm5",
-  "number": "137",
-  "year": "2018",
-  "released": "2018/02/02",
-  "series": "Sun & Moon",
-  "text": [
-   "This card provides Colorless Energy.",
-   "While this card is attached to a Pokémon, it provides Grass, Fire, and Water Energy but provides only 1 Energy at a time."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/157753",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "sm5-138",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Unit Energy LightningPsychicMetal",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.68,
-  "variant": "normal",
-  "set": "Ultra Prism",
-  "setid": "sm5",
-  "number": "138",
-  "year": "2018",
-  "released": "2018/02/02",
-  "series": "Sun & Moon",
-  "text": [
-   "This card provides Colorless Energy.",
-   "While this card is attached to a Pokémon, it provides Lightning, Psychic, and Metal Energy but provides only 1 Energy at a time."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/157754",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
-  "id": "sm6-118",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Unit Energy FightingDarknessFairy",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 1.25,
-  "variant": "normal",
-  "set": "Forbidden Light",
-  "setid": "sm6",
-  "number": "118",
-  "year": "2018",
-  "released": "2018/05/04",
-  "series": "Sun & Moon",
-  "text": [
-   "This card provides Colorless Energy.",
-   "While this card is attached to a Pokémon, it provides Fighting, Darkness, and Fairy Energy but provides only 1 Energy at a time."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/165790",
   "updated": "2026/10/15",
   "price_source": "api"
  },

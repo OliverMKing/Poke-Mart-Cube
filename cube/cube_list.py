@@ -23,7 +23,7 @@ def add(sec, line, items):
 # GRASS
 add('Grass','Meganium',[('sm8-5','Synthesis: attach a Grass Energy from deck'),('dp2-41','Evolution Impulse: find an Evolution card'),('sm8-8','Quick-Ripening Herb: Rare Candy every turn')])
 add('Grass','Rillaboom',[('swsh1-11',),('sv6-15','Boom Boom Groove: search any card while Goldeen is Active'),('swsh45-13','Voltage Beat: 2 Grass from deck')])
-add('Grass','Lurantis',[('sm1-14',),('smp-SM25','Sunny Day: Grass and Fire +20')])
+add('Grass','Sinistcha',[('me5-5',"Hide 'n' Sneak: immune to attack and Ability effects"),('sv6-22','Cursed Drop: 4 counters anywhere / Spill the Tea up to 210')])
 add('Grass','Eldegoss',[('swsh1-20','Call for Family'),('swsh7-16','Cotton Lift: 2 basic Energy')])
 add('Grass','Breloom',[('sv5-6',),('sv5-7','120 for GC')])
 add('Grass','Yanmega',[('swsh12pt5-8',),('swsh12pt5-9','160 for GGC')])
@@ -95,8 +95,8 @@ add('Colorless','Dodrio',[('xy8-115','Doduo Delivery: draw 2'),('sv3pt5-85','Zoo
 add('Colorless','Basics',[('dp5-55','Mimic'),('swsh4-131','Gormandize'),('sm7-110','Strike and Run'),('swsh1-148','Primate Wisdom: swap a hand card with your top card'),('sm4-78','Moomoo Malt: attaching heals 90'),('cel25-22','Aero Ball / Deep Crush 160 for CCCC'),('sv1-151','Nest Stash'),('xy5-121','Ω Barrage: attacks twice / mill or recycle')])
 # SUPPORTERS
 add('Supporter','Draw',[('sv8pt5-125',),('sm5-119',),('sv1-176',),('xy10-105',),('sv4pt5-80',),('swsh35-56',),('swsh7-143',),('bw11-109',),('sm1-122',),('sm7-148',),('swsh3-159',),('sm1-128',),('bw8-118',),('sm115-56',),('sv9-149',),('sv2-179',),('swsh7-164',),('sv2-184',),('sv5-147',),('sv4-172',),('sv3-194',),('sv6-145',),('sm12-189',)])
-add('Supporter','Search',[('swsh35-65',),('swsh2-166',),('sv1-166',),('sv1-175',),('rsv10pt5-84',),('sm2-127',),('sm8-188',),('sm12-201',),('swsh10-147',),('sm5-135',),('swsh3-165',),('sv8pt5-105',),('sv6-160',),('sv8-174',),('swsh7-152',),('sm7-145',),('xy6-94',)])
-add('Supporter','Gust and disruption',[('me1-114',),('sm3-115',),('xy1-129',),('xy7-75',),('sm8-173',),('sm3-120',),('xy2-90',)])
+add('Supporter','Search',[('xy5-141',),('xy8-134',),('xy3-95',),('swsh10-135',),('swsh35-65',),('swsh2-166',),('sv1-166',),('sv1-175',),('rsv10pt5-84',),('sm2-127',),('sm8-188',),('sm12-201',),('swsh10-147',),('sm5-135',),('swsh3-165',),('sv8pt5-105',),('sv6-160',),('sv8-174',),('swsh7-152',),('sm7-145',),('xy6-94',)])
+add('Supporter','Gust and disruption',[('xy4-110',),('xy7-69',),('me1-114',),('sm3-115',),('xy1-129',),('xy7-75',),('sm8-173',),('sm3-120',),('xy2-90',)])
 add('Supporter','Recovery and healing',[('swsh6-145',),('sm115-53',),('sv6-155',),('sm3-112',),('sm4-95',),('me1-123',),('sm4-96',),('sv1-179',)])
 add('Supporter','Energy and damage',[('sm3-116',),('swsh1-157',),('swsh4-147',),('swsh4-154',)])
 # ITEMS
@@ -112,4 +112,4 @@ add('Tool','Tools',[('xy8-137',),('zsv10pt5-79',),('sm5-122',),('sv8pt5-126',),(
 # STADIUMS
 add('Stadium','Stadiums',[('sm9-156',),('swsh2-169',),('sv4pt5-76',),('sv1-178',),('sv1-167',),('swsh10-148',),('xy6-89',),('sv3-196',),('swsh9-137',),('me1-127','Risky Ruins')])
 # SPECIAL ENERGY
-add('Energy','Special Energy',[('xy12-90',),('swsh2-174',),('sm1-137',),('swsh1-186',),('sv2-191',),('zsv10pt5-86',),('ex2-93',),('sm4-100',),('sv2-192',),('swsh2-171',),('sv2-190',),('swsh11-171',),('sm5-137',),('sm5-138',),('sm6-118',),('bw6-117',),('swsh4-162',),('swsh3-174',),('swsh4-165',),('swsh2-173',),('swsh2-172',),('swsh4-164',),('swsh3-175',),('swsh4-163',)])
+add('Energy','Special Energy',[('xy12-90',),('sm1-137',),('swsh1-186',),('sv2-191',),('sm4-100',),('sv2-192',),('swsh2-171',),('sv2-190',),('swsh11-171',),('bw6-117',),('swsh4-162',),('swsh3-174',),('swsh4-165',),('swsh2-173',),('swsh2-172',),('swsh4-164',),('swsh3-175',),('swsh4-163',)])

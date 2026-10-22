@@ -39,11 +39,11 @@ Chaos Cube is the most-liked singleton cube on CubeKoga.
 | Category | Cards | Share |
 |---|---|---|
 | Pokémon | 190 | 53% |
-| Supporters | 59 | 16% |
+| Supporters | 65 | 18% |
 | Items | 62 | 17% |
 | Pokémon Tools | 15 | 4% |
 | Stadiums | 10 | 3% |
-| Special Energy | 24 | 7% |
+| Special Energy | 18 | 5% |
 
 The CubeKoga build guide recommends 50% to 55% Pokémon, 40% to 45% Trainers and 5% to 10% Energy.
 The cube is inside each range.
@@ -63,7 +63,7 @@ The cube is inside each range.
 - Darkness and Psychic have the lowest fixed damage, at 160. Gallade hits for 160, and Mewtwo hits for 180 when the opponent has 3 or fewer Prize cards left. Mesprit hits for 160 when Uxie and Azelf are on the Bench.
 - Psychic makes up for this with damage counters. Dusclops, Yamask and Cofagrigus place them, and Dusknoir moves them to score Knockouts.
 - Darkness hits for 160 with Mightyena. Its attacks that grow during the game (Zoroark, Spiritomb and Galarian Moltres) add more damage, and Galarian Zigzagoon, Galarian Obstagoon and Absol place damage counters.
-- 11 Special Energy cards can provide more than one type. They help decks that use two types. Crispin also helps.
+- 6 Special Energy cards can provide more than one type. They help decks that use two types. Crispin also helps.
 
 ## Strategies beyond attacking
 
@@ -72,8 +72,8 @@ The cube supports two slower strategies.
 **Control** wins by milling, which means discarding cards from the opponent's deck until they cannot draw.
 
 - Mill: Bunnelby (Ω Barrage lets it attack twice, so it can mill 2 cards each turn), Durant and Garganacl.
-- Hand disruption: Salazzle and the hand resets from Judge, N, Iono and Marnie.
-- Energy removal: Plumeria, Team Flare Grunt, Crushing Hammer, Enhanced Hammer and Faba.
+- Hand disruption: Salazzle, Ace Trainer and the hand resets from Judge, N, Iono and Marnie.
+- Energy removal: Plumeria, Team Flare Grunt, Crushing Hammer, Enhanced Hammer, Faba and Xerosic.
 - Other disruption: Celebi (Time Spiral devolves an opponent's Pokémon), Klefki (Memory Lock stops one of the opponent's attacks for a turn) and Hex Maniac.
 
 **Tank and heal** decks wear the opponent down.
@@ -129,7 +129,7 @@ Check these points after the first drafts:
 
 1. **Fire speed.** Stoke, Burn Brightly, Chi-Yu and the 240-damage Arcanine can end games quickly. Five-prize games give slower decks more time.
 2. **Weakness coverage.** Fighting and Fire each hit about 40 Pokémon for double damage.
-3. **Damage counters on the Bench.** Dusclops, Dusknoir, Obstagoon, Absol, Hawlucha and Risky Ruins can Knock Out small support Pokémon. Risky Ruins puts 2 damage counters on each Basic non-Darkness Pokémon that a player puts onto the Bench. Machoke prevents damage and damage counters on the Bench. Shaymin and Manaphy prevent attack damage to the Bench.
+3. **Damage counters on the Bench.** Dusclops, Dusknoir, Obstagoon, Absol, Hawlucha, Sinistcha and Risky Ruins can Knock Out small support Pokémon. Risky Ruins puts 2 damage counters on each Basic non-Darkness Pokémon that a player puts onto the Bench. Machoke prevents damage and damage counters on the Bench. Shaymin and Manaphy prevent attack damage to the Bench.
 4. **Cofagrigus.** Law of the Underworld puts 6 damage counters on each Pokémon with an Ability, on both sides, for one Energy. Check how often it decides games.
 5. **Hex Maniac.** It turns off all Abilities for one turn. The cube has many Ability engines, so this card is strong.
 6. **Bench limits.** Sudowoodo and Collapsed Stadium limit each Bench to four Pokémon. Decks with four evolution lines feel this limit more.
@@ -227,6 +227,8 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-22 | Synced the card list with the CubeKoga list again. The Rowlet, Dartrix and Decidueye line became a Chikorita (sm8-5), Bayleef (dp2-41) and Meganium (sm8-8) line. Shrouded Fable Decidueye did 170 damage for one Energy, which was too strong. Meganium's Quick-Ripening Herb works like a Rare Candy each turn. Bayleef's Evolution Impulse finds an Evolution card, and Chikorita's Synthesis attaches a Grass Energy from the deck. Meganium costs about 5.78 USD. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Celebrations Lugia (cel25-22) replaced Team Up Kangaskhan (sm9-128). Lugia is a Colorless attacker: Aero Ball does 20 damage for each Energy on both Active Pokémon, and Deep Crush does 160 for four Energy of any type. Bayleef and the other line-finishing cards still find Evolution cards. |
 | 2026-10-23 | Synced the card list with the CubeKoga list again. The Mareep, Flaaffy and Ampharos line became a Tynamo (swsh4-57), Eelektrik (zsv10pt5-31) and Eelektross (sm11-66) line. Eelektrik keeps the Dynamotor Ability. Eelektross's Electric Swamp puts it onto the Bench from your hand when you have 4 Lightning Energy in play, without Tynamo or Eelektrik, and moves Lightning Energy onto it. Hover Over does 130 and stops the Defending Pokémon from retreating. Frigibax is Paldean Fates (sv4pt5-17). Its Collect attack draws a card. |
+| 2026-10-23 | Changed the card mix to match typical singleton cubes. The 30 singleton cubes among the most-liked CubeKoga cubes have a median of 19% Supporters and 4% Special Energy. The cube had 16% and 7%. Removed six Special Energy cards: Twin Energy and Multi Energy (functional reprints of Double Colorless Energy and Luminous Energy in this cube), Prism Energy and the three Unit Energy cards. Added six Supporters: Teammates (xy5-141), Brigette (xy8-134), Korrina (xy3-95), Adaman (swsh10-135), Xerosic (xy4-110) and Ace Trainer (xy7-69). Korrina and Adaman give Fighting and Metal their own Supporters. The cube now has 65 Supporters, 62 Items and 18 Special Energy cards. |
+| 2026-10-23 | Replaced the Fomantis and Lurantis line with a Poltchageist (me5-5) and Sinistcha (sv6-22) line. Sinistcha's Cursed Drop puts 4 damage counters on the opponent's Pokémon in any way, and Spill the Tea discards up to 3 Grass Energy from your Pokémon for 70 damage each. Pitch Black Poltchageist has no API price yet, so it is in `price_overrides`. |
 
 ## Options
 

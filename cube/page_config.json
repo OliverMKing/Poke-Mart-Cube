@@ -25,13 +25,20 @@
       "version": "holofoil",
       "url": "https://www.tcgplayer.com/product/716163",
       "checked": "2026-10-22"
+    },
+    "me5-5": {
+      "name": "Pitch Black Poltchageist",
+      "price": 0.16,
+      "version": "normal",
+      "url": "https://www.tcgplayer.com/product/704762",
+      "checked": "2026-10-23"
     }
   },
   "cube_size": 360,
   "archetypes": {
     "Grass": {
-      "headline": "Meganium · Rillaboom · Yanmega",
-      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Meganium evolves a Basic straight into a Stage 2 every turn, and Bayleef finds any Evolution card. Yanmega hits for 160. Celebi devolves an opponent's Pokémon, and Durant mills the opponent's deck."
+      "headline": "Meganium · Rillaboom · Sinistcha",
+      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Meganium evolves a Basic straight into a Stage 2 every turn, and Bayleef finds any Evolution card. Sinistcha places 4 damage counters anywhere, or discards Grass Energy for up to 210 damage. Yanmega hits for 160, Celebi devolves an opponent's Pokémon, and Durant mills the opponent's deck."
     },
     "Fire": {
       "headline": "Charizard · Cinderace · Arcanine",
