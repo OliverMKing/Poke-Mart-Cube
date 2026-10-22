@@ -164,7 +164,7 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
 <header class="band">
   <div class="wrap">
     <div>
-      <div class="eyebrow">Pokémon TCG singleton cube · __NCARDS__ cards · every card under $10</div>
+      <div class="eyebrow">Pokémon TCG singleton cube · __NCARDS__ cards · __PRICE_CLAIM__</div>
       <h1>Poké Mart Cube</h1>
       <p class="lede">A cross-era singleton cube built from cards you can buy for pocket money. There is one copy of every card and one card for every Pokémon species, so each evolution line is a single Basic, Stage 1 and Stage 2. Every Pokémon gives up one Prize card, and every type has the same shape.</p>
       <ul class="facts">
@@ -181,7 +181,7 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
       <div class="row"><span>Average per card</span><span>$__AVG__</span></div>
       <div class="row"><span>Priciest: __TOPNAME__</span><span>$__TOPPRICE__</span></div>
       <div class="row total"><span>Total, __NCARDS__ cards</span><span>$__TOTAL__</span></div>
-      <p class="fine">TCGplayer market price, cheapest version of each card, updated __UPD__.</p>
+      <p class="fine">TCGplayer market price, cheapest version of each card, updated __UPD__.__PRICE_NOTE__</p>
     </aside>
   </div>
 </header>
@@ -195,8 +195,8 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
         <li><b>Deck</b><span>Build a 50-card deck from your 60 picks plus any number of Basic Energy. Play with 5 Prize cards. Most decks run three or four short evolution lines plus several Basics.</span></li>
         <li><b>Singleton</b><span>Each card is in the cube once, and each Pokémon species appears on one card only. Draft the Stage 2 first, because nobody else needs your Basic.</span></li>
         <li><b>Rules</b><span>Use the current rules. The player who goes first cannot attack or play a Supporter on their first turn.</span></li>
-        <li><b>Old text</b><span>Poké-Powers and Poké-Bodies count as Abilities. This affects Claydol, Donphan, Porygon2, Sableye and Unown Q. Old cards that just say Trainer, such as Pokémon Breeder, count as Items.</span></li>
-        <li><b>Rule Box</b><span>The cube has no ex, V, GX, EX, Prism Star, Radiant or ACE SPEC cards. Text that mentions them does nothing, so Twin Energy always gives two Colorless Energy.</span></li>
+        <li><b>Old text</b><span>Poké-Powers and Poké-Bodies count as Abilities. This affects Claydol, Donphan, Porygon2, Sableye, Unown Q and Uxie. Old cards that just say Trainer, such as Pokémon Breeder, count as Items.</span></li>
+        <li><b>Rule Box</b><span>The cube has no ex, V, GX, EX, Prism Star or Radiant cards. Text that mentions them does nothing, so Twin Energy always gives two Colorless Energy. Brilliant Blender is the only ACE SPEC card, so its one-per-deck limit never matters.</span></li>
       </ul>
       <div>
         <div class="tbl-wrap">
@@ -217,7 +217,7 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
   <section id="shape" aria-labelledby="shape-h">
     <div class="sec-head">
       <h2 id="shape-h">The shape of the cube</h2>
-      <p>Every type has two Stage 2 lines (1-1-1), four Stage 1 lines (1-1) and seven Basics. Colorless has one more Basic. The Basic-heavy mix follows Chaos Cube, the most-liked singleton cube on CubeKoga.</p>
+      <p>Most types have two Stage 2 lines (1-1-1), four Stage 1 lines (1-1) and seven Basics. Fighting has three Stage 2 lines, three Stage 1 lines and six Basics. Water has five Stage 1 lines and five Basics. Colorless has one more Basic. The Basic-heavy mix follows Chaos Cube, the most-liked singleton cube on CubeKoga.</p>
     </div>
     <div class="split" role="img" aria-label="__NPK__ Pokémon, __NTR__ Trainers, __NEN__ Special Energy">
       <div class="pk" style="width:__PKPCT__%">Pokémon __NPK__</div><div class="tr" style="width:__TRPCT__%">Trainers __NTR__</div><div class="en" style="width:__ENPCT__%">__NEN__</div>
@@ -253,18 +253,21 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
       <div>
         <h3>How the types stay level</h3>
         <ul>
-          <li>Every type has the same 21-card shape: two Stage 2 lines, four Stage 1 lines and seven Basics. Each type has at least one draw or search engine and at least one way to accelerate Energy.</li>
-          <li>The biggest attacks have a cost. Charizard, Cinderace, Raichu, Zapdos and Arcanine discard Energy. Breloom, Yanmega, Cobalion and Electivire cannot attack on the next turn. Machamp, Rapidash and Gyarados damage themselves.</li>
+          <li>Every type has 21 Pokémon, and Colorless has 22. Each type has at least one draw or search engine and at least one way to accelerate Energy.</li>
+          <li>The biggest attacks have a cost. Charizard, Cinderace, Raichu, Zapdos and Arcanine discard Energy. Breloom, Yanmega, Cobalion, Electivire and Archaludon cannot attack on the next turn. Machamp, Rapidash and Gyarados damage themselves.</li>
           <li>Most Stage 2 Pokémon have 150 to 180 HP, so a finished line survives one hit from most attackers.</li>
-          <li>Darkness and Psychic top out at 160 fixed damage, the lowest in the cube. Darkness makes up for it with attacks that grow during the game (Zoroark, Spiritomb and Galarian Moltres) and with damage counters.</li>
-          <li>Psychic's Kirlia can become Gardevoir for draw power or Gallade, which hits for 160. Mewtwo hits for 180 late in the game, and Mesprit hits for 160 when Uxie and Azelf are on your Bench.</li>
-          <li>Seventeen generic Special Energy cards and Crispin help decks that use two types.</li>
+          <li>Darkness and Psychic have the lowest fixed damage, at 160 (Mightyena and Gallade). Darkness grows its damage during the game with Zoroark, Spiritomb and Galarian Moltres. Mewtwo hits for 180 late in the game. Psychic makes up for it with damage counters: Dusclops, Yamask and Cofagrigus place them, and Dusknoir moves them to score knockouts.</li>
+          <li>Kirlia can become Gardevoir for draw power or Gallade for damage. Mesprit hits for 160 when Uxie and Azelf are on your Bench.</li>
+          <li>Eleven Special Energy cards can provide more than one type. They and Crispin help decks that use two types.</li>
+          <li><strong>Control</strong> can win by milling. Bunnelby, Durant and Garganacl discard cards from the top of the opponent's deck. Salazzle and Plumeria attack the opponent's hand and Energy.</li>
+          <li><strong>Tank and heal</strong> decks wear the opponent down. Garganacl, Blissey and Miltank heal, and Donphan, Scizor, Zamazenta and Copperajah take less damage or have high HP.</li>
+          <li><strong>Discard</strong> decks fill their own discard pile with Battle Compressor and Brilliant Blender. Machamp, Kyogre and Hisuian Basculegion hit harder for the cards there, and many Pokémon attach Energy from it.</li>
         </ul>
         <h3 style="margin-top:22px">Finishing a line in singleton</h3>
         <ul>
           <li>Take the Stage 2 first. With six drafters, each 15-card pack comes back to you twice, at picks 7 and 13. The Basic and Stage 1 from that pack often wheel, because nobody else needs them.</li>
           <li>Rare Candy, Pokémon Breeder, Wally and Evosoda help finish a Stage 2 line. Evolution Incense, Timer Ball, Capturing Aroma, Jacq and Hilda find the missing piece.</li>
-          <li>A 1-1 Stage 1 line plus strong Basics is a complete plan. Every type has seven Basics, and several of them attack well on their own.</li>
+          <li>A 1-1 Stage 1 line plus strong Basics is a complete plan. Every type has at least five Basics, and several of them attack well on their own.</li>
         </ul>
         <h3 style="margin-top:22px">Weakness web</h3>
         <p class="note" style="margin-top:6px">Number of Pokémon cards in the cube that take double damage from each type.</p>
@@ -273,10 +276,10 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
         <ul>
           <li>Fire speed. Stoke, Charizard's Burn Brightly, Chi-Yu and Arcanine's 240 can end games quickly. Five-prize games give slower decks more time to answer.</li>
           <li>Weakness coverage. Fighting and Fire each hit about 40 Pokémon in the cube for double damage, twice as many as most types. Weakness Policy and Coating Metal Energy are the answers in the cube.</li>
-          <li>Damage counters on the Bench. Dusclops, Dusknoir, Obstagoon, Absol and Hawlucha can pick off small support Pokémon. Machoke stops both damage and damage counters on your Bench. Shaymin and Manaphy stop attack damage to the Bench.</li>
+          <li>Damage counters on the Bench. Dusclops, Dusknoir, Obstagoon, Absol, Hawlucha and the Risky Ruins Stadium can pick off small support Pokémon. Machoke stops both damage and damage counters on your Bench. Shaymin and Manaphy stop attack damage to the Bench.</li>
           <li>Cofagrigus. Its Law of the Underworld puts 6 damage counters on every Pokémon with an Ability, on both sides, for one Energy. It wrecks Ability engines, so watch how often it decides games.</li>
           <li>Hex Maniac turns off every Ability for a turn. This cube has many Ability engines, so it is strong. Cut it if it feels unfair.</li>
-          <li>Darkness damage. Its best fixed attack is Mightyena's 160, which also damages Mightyena. If Darkness decks lose often, swap Galarian Obstagoon for the Champion's Path version, which hits for 180.</li>
+          <li>Mill speed. Bunnelby can mill 2 cards a turn, but cards like Super Rod and Miriam shuffle cards back. Check whether milling decks can actually win.</li>
           <li>Sudowoodo and Collapsed Stadium both limit the Bench to four. Decks with four lines feel this more, so cut them if your group dislikes it.</li>
         </ul>
         <h3 style="margin-top:22px">If you play 8 players with 4 prizes</h3>
@@ -286,7 +289,7 @@ footer{padding-block:40px 48px;color:var(--muted);font-size:.86rem}
         <h3>Popular cube staples left out on price</h3>
         <p class="note" style="margin-top:6px">These are among the most-included cards on CubeKoga, but they cost more than $10 today. The cube uses the cheaper cards listed after each one.</p>
         <ul class="excl">__EXCL__</ul>
-        <p class="note">Replacements: Astral Radiance Uxie (Wise Guidance) and Surging Sparks Mesprit and Azelf take the Legends Awakened slots. 151 Ditto replaces Ditto ◇, and 151 Lapras (Hop on My Back) also searches out two Pokémon. The Pidgeot line uses Team Up Pidgeotto (Air Mail) for card selection. Stellar Crown Jirachi replaces Team Up Jirachi.</p>
+        <p class="note">The cube plays the Legends Awakened Uxie (Set Up) as its cheaper 30th Celebration Classic Collection reprint. Surging Sparks Mesprit and Azelf take the other Legends Awakened slots. Destined Rivals Shaymin replaces the Unleashed Shaymin. The Pidgeot line uses Team Up Pidgeotto (Air Mail) for card selection. Stellar Crown Jirachi replaces Team Up Jirachi.</p>
       </div>
     </div>
   </section>

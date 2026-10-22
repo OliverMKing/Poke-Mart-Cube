@@ -2,7 +2,7 @@
 1	Dartrix	sv6pt5	4
 1	Decidueye	sv6pt5	5
 1	Grookey	swsh1	11
-1	Thwackey	swsh1	12
+1	Thwackey	sv6	15
 1	Rillaboom	swsh45	13
 1	Fomantis	sm1	14
 1	Lurantis	smp	SM25
@@ -12,9 +12,9 @@
 1	Breloom	sv5	7
 1	Yanma	swsh12pt5	8
 1	Yanmega	swsh12pt5	9
-1	Exeggcute	bw9	4
+1	Durant	xy9	9
 1	Shaymin	sv10	10
-1	Celebi	swsh45	3
+1	Celebi	sm11	4
 1	Zarude	swsh6	19
 1	Shuckle	sm8	16
 1	Tropius	swsh7	6
@@ -50,16 +50,16 @@
 1	Octillery	xy8	33
 1	Finizen	sv3	60
 1	Palafin	sv3	62
-1	Wimpod	sm11	50
-1	Golisopod	sm11	51
+1	Goldeen	sv8pt5	20
+1	Seaking	me5	14
 1	Magikarp	sv2	42
 1	Gyarados	sv2	43
+1	Hisuian Basculin	swsh10	43
+1	Hisuian Basculegion	swsh11	45
 1	Alolan Vulpix	sm2	21
 1	Keldeo	sv5	44
 1	Manaphy	swsh9	41
-1	Lapras	sv3pt5	131
-1	Suicune	swsh3	37
-1	Hisuian Basculin	swsh10	43
+1	Kyogre	me1	34
 1	Iron Bundle	sv4	56
 1	Mareep	sm8	75
 1	Flaaffy	swsh7	55
@@ -71,8 +71,8 @@
 1	Electrode	bw9	33
 1	Pikachu	sv3pt5	25
 1	Raichu	sv2	64
-1	Blitzle	sv8	62
-1	Zebstrika	sm8	82
+1	Toxel	me2	67
+1	Toxtricity	sv3	72
 1	Electabuzz	sv7	46
 1	Electivire	sv7	47
 1	Zapdos	sv6	65
@@ -80,15 +80,15 @@
 1	Raikou	sm35	32
 1	Morpeko	sv6	72
 1	Regieleki	swsh10	51
-1	Minun	sm7	54
-1	Plusle	sm7	53
+1	Minun	pl3	71
+1	Plusle	swsh8	89
 1	Ralts	sv4pt5	27
 1	Kirlia	swsh12	68
 1	Gardevoir	swsh12	69
 1	Gallade	swsh10	62
-1	Duskull	sv6pt5	18
+1	Duskull	swsh4	69
 1	Dusclops	sv8pt5	36
-1	Dusknoir	sv6pt5	20
+1	Dusknoir	bw7	63
 1	Slowpoke	sv2	85
 1	Slowking	sv7	58
 1	Inkay	sm6	50
@@ -99,7 +99,7 @@
 1	Mismagius	sm10	78
 1	Mew	cel25	11
 1	Mesprit	sv8	79
-1	Uxie	swsh10	65
+1	Uxie	me55c	43
 1	Azelf	sv8	80
 1	Unown [Q]	dp5	49
 1	Mewtwo	swsh12pt5	59
@@ -113,15 +113,15 @@
 1	Claydol	dp4	15
 1	Riolu	sv1	113
 1	Lucario	sv1	114
+1	Nacli	sv4	102
+1	Naclstack	sv2	122
+1	Garganacl	sv2	123
 1	Phanpy	swsh4	86
 1	Donphan	cel25c	107_A
-1	Rockruff	sv5	89
-1	Lycanroc	swsh35	30
 1	Hawlucha	sv1	118
 1	Sudowoodo	sm2	66
 1	Hitmonlee	sv3pt5	106
 1	Hitmonchan	sv3pt5	107
-1	Regirock	swsh4	89
 1	Carbink	sm8	117
 1	Relicanth	sv5	84
 1	Galarian Zigzagoon	swsh1	117
@@ -155,8 +155,8 @@
 1	Bronzong	xy4	61
 1	Cufant	sv2	149
 1	Copperajah	sv6pt5	42
-1	Galarian Meowth	swsh1	127
-1	Galarian Perrserker	swsh1	128
+1	Duraludon	swsh2	138
+1	Archaludon	sv7	107
 1	Scyther	sv5	1
 1	Scizor	sm8	126
 1	Jirachi	sv7	98
@@ -164,7 +164,7 @@
 1	Registeel	swsh10	108
 1	Mawile	sv5	112
 1	Dialga	cel25	20
-1	Duraludon	swsh2	138
+1	Klefki	me3	59
 1	Zamazenta	swsh12pt5	97
 1	Pidgey	sm9	121
 1	Pidgeotto	sm9	123
@@ -172,22 +172,22 @@
 1	Porygon	sm10	155
 1	Porygon2	dp4	49
 1	Porygon-Z	swsh6	118
-1	Bidoof	swsh9	120
-1	Bibarel	swsh9	121
+1	Chansey	sv3pt5	113
+1	Blissey	pgo	52
 1	Minccino	swsh9	124
 1	Cinccino	swsh1	147
-1	Sentret	swsh3	135
-1	Furret	swsh3	136
-1	Doduo	sm10	150
-1	Dodrio	sm10	151
+1	Noibat	sm3	109
+1	Noivern	sv9	128
+1	Doduo	xy8	115
+1	Dodrio	sv3pt5	85
 1	Chatot	dp5	55
 1	Snorlax	swsh4	131
 1	Dunsparce	sm7	110
-1	Oranguru	sm1	113
-1	Ditto	sv3pt5	132
+1	Oranguru	swsh1	148
+1	Miltank	sm4	78
 1	Kangaskhan	sm9	128
 1	Skwovet	sv1	151
-1	Lugia	swsh3	140
+1	Bunnelby	xy5	121
 1	Professor's Research	sv8pt5	125
 1	Cynthia	sm5	119
 1	Judge	sv1	176
@@ -198,7 +198,6 @@
 1	Bianca	bw11	109
 1	Lillie	sm1	122
 1	Tate & Liza	sm7	148
-1	Hop	swsh35	53
 1	Bird Keeper	swsh3	159
 1	Professor Kukui	sm1	128
 1	Colress	bw8	118
@@ -234,6 +233,8 @@
 1	Team Flare Grunt	xy1	129
 1	Hex Maniac	xy7	75
 1	Faba	sm8	173
+1	Plumeria	sm3	120
+1	Lysandre	xy2	90
 1	Klara	swsh6	145
 1	Brock's Grit	sm115	53
 1	Lana's Aid	sv6	155
@@ -242,7 +243,6 @@
 1	Pokémon Center Lady	me1	123
 1	Lusamine	sm4	96
 1	Miriam	sv1	179
-1	Penny	sv1	183
 1	Kiawe	sm3	116
 1	Bede	swsh1	157
 1	Bea	swsh4	147
@@ -262,7 +262,6 @@
 1	Capturing Aroma	swsh12	153
 1	Evosoda	g1	62
 1	Battle VIP Pass	swsh8	225
-1	Poké Ball	swsh2	164
 1	Heavy Ball	xy8	140
 1	Dusk Ball	sv8	175
 1	Friend Ball	sm7	131
@@ -272,6 +271,7 @@
 1	Dive Ball	xy5	125
 1	Fog Crystal	swsh6	140
 1	Earthen Vessel	sv4	163
+1	Ether	bw8	121
 1	Energy Search	swsh1	161
 1	Professor's Letter	xy1	123
 1	Fire Crystal	sm10	173
@@ -299,16 +299,16 @@
 1	Superior Energy Retrieval	sv2	189
 1	Energy Recycler	xy7	72
 1	Revive	xy12	85
+1	Battle Compressor Team Flare Gear	xy4	92
+1	Brilliant Blender	sv8	164
 1	Energy Switch	swsh12pt5	129
 1	Crushing Hammer	swsh1	159
 1	Enhanced Hammer	sv6	148
 1	Field Blower	sm2	125
 1	Tool Scrapper	swsh2	168
-1	Lost Vacuum	swsh11	162
 1	Max Potion	xy9	103
 1	Hyper Potion	swsh1	166
 1	Super Potion	xy12	87
-1	Full Heal	swsh35	51
 1	Float Stone	xy8	137
 1	Air Balloon	zsv10pt5	79
 1	Escape Board	sm5	122
@@ -333,6 +333,7 @@
 1	Sky Field	xy6	89
 1	Town Store	sv3	196
 1	Collapsed Stadium	swsh9	137
+1	Risky Ruins	me1	127
 1	Double Colorless Energy	xy12	90
 1	Twin Energy	swsh2	174
 1	Rainbow Energy	sm1	137
@@ -344,7 +345,6 @@
 1	Reversal Energy	sv2	192
 1	Capture Energy	swsh2	171
 1	Jet Energy	sv2	190
-1	Recycle Energy	sm11	212
 1	Gift Energy	swsh11	171
 1	Unit Energy GrassFireWater	sm5	137
 1	Unit Energy LightningPsychicMetal	sm5	138

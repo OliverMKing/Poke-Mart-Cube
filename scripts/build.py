@@ -41,11 +41,18 @@ def species(name):
     return re.sub(r' \[.*\]$', '', SPECIES_PREFIX.sub('', name))
 
 
-def resolve(entries, cards):
+def resolve(entries, cards, overrides=None):
+    overrides = overrides or {}
     rows = []
     for cid, count, section, line, note in entries:
         c = cards[cid]
         price, version = min_price(c)
+        tcg = c.get('tcgplayer') or {}
+        url, source = tcg.get('url'), 'api'
+        # A new set can be on TCGplayer before the API has its prices. Use the checked price until then.
+        if price is None and cid in overrides:
+            o = overrides[cid]
+            price, version, url, source = o['price'], o['version'], o['url'], 'override'
         rows.append(dict(
             id=cid, count=count, section=section, line=line, note=note,
             name=c['name'], supertype=c['supertype'], subtypes=c.get('subtypes') or [],
@@ -55,7 +62,7 @@ def resolve(entries, cards):
             series=c['set'].get('series', ''), text=card_text(c),
             weak=[w['type'] + w['value'] for w in c.get('weaknesses') or []],
             retreat=len(c.get('retreatCost') or []), rarity=c.get('rarity'),
-            url=(c.get('tcgplayer') or {}).get('url'), updated=(c.get('tcgplayer') or {}).get('updatedAt')))
+            url=url, updated=tcg.get('updatedAt'), price_source=source))
     return rows
 
 
@@ -78,7 +85,7 @@ def check(rows, cfg):
     for r in rows:
         if r['price'] is None:
             problems.append(f'{r["id"]} {r["name"]}: no TCGplayer price')
-        elif r['price'] >= cfg['price_limit']:
+        elif r['price'] >= cfg['price_limit'] and r['id'] not in cfg.get('price_exceptions', {}):
             problems.append(f'{r["id"]} {r["name"]}: ${r["price"]} is over the limit')
     by_line = collections.defaultdict(set)
     for r in mons:
@@ -89,6 +96,26 @@ def check(rows, cfg):
         if r['section'] not in TYPES:
             problems.append(f'{r["id"]} {r["name"]} is a Pokémon in section {r["section"]}')
     return problems
+
+
+def over_limit(rows, cfg):
+    return [r for r in rows if r['price'] >= cfg['price_limit']]
+
+
+def price_claim(rows, cfg):
+    over = over_limit(rows, cfg)
+    limit = f"${cfg['price_limit']:g}"
+    if not over:
+        return f'every card under {limit}'
+    return f"all but {len(over)} card{'s' if len(over) > 1 else ''} under {limit}"
+
+
+def price_note(rows, cfg):
+    over = over_limit(rows, cfg)
+    if not over:
+        return ''
+    names = ', '.join(f"{html.escape(r['set'])} {html.escape(r['name'])} (${r['price']:.2f})" for r in over)
+    return f' {names} is over the ${cfg["price_limit"]:g} limit on purpose.'
 
 
 def write_outputs(rows, cfg):
@@ -132,7 +159,7 @@ def write_outputs(rows, cfg):
         '__UPD__': max((r['updated'] or '') for r in rows).replace('/', '-'),
         '__ARCH__': json.dumps(arch, ensure_ascii=False), '__SECCOUNT__': json.dumps(sec_count),
         '__EXCL__': excl, '__PKPCT__': f'{npk / n * 100:.0f}', '__TRPCT__': f'{ntr / n * 100:.0f}',
-        '__ENPCT__': f'{nen / n * 100:.0f}'}
+        '__ENPCT__': f'{nen / n * 100:.0f}', '__PRICE_CLAIM__': price_claim(rows, cfg), '__PRICE_NOTE__': price_note(rows, cfg)}
     page = (ROOT / 'site' / 'template.html').read_text()
     for k, v in rep.items():
         page = page.replace(k, v)
@@ -148,7 +175,8 @@ def main():
     cfg = json.loads((ROOT / 'cube' / 'page_config.json').read_text())
     entries = load_list()
     cards = fetch_cards([e[0] for e in entries], refresh=args.refresh)
-    rows = resolve(entries, cards)
+    overrides = cfg.get('price_overrides', {})
+    rows = resolve(entries, cards, overrides)
     problems = check(rows, cfg)
     if problems:
         print('The cube list has problems:')
@@ -158,6 +186,14 @@ def main():
     n, total, npk, ntr, nen, top = write_outputs(rows, cfg)
     print(f'OK: {n} cards ({npk} Pokémon, {ntr} Trainers, {nen} Special Energy), total ${total:,.2f}, '
           f'priciest {top["name"]} ${top["price"]:.2f}')
+    for r in over_limit(rows, cfg):
+        print(f'Note: {r["name"]} ({r["id"]}) is over the price limit at ${r["price"]:.2f}. It is in price_exceptions.')
+    for r in rows:
+        if r['price_source'] == 'override':
+            print(f'Note: {r["name"]} ({r["id"]}) has no API price. The build uses ${r["price"]:.2f} from price_overrides.')
+    for cid in overrides:
+        if cid in cards and min_price(cards[cid])[0] is not None:
+            print(f'Note: the API now has a price for {cid}. Remove it from price_overrides.')
 
 
 if __name__ == '__main__':

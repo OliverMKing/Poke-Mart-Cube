@@ -1,11 +1,37 @@
 {
-  "_comment": "Text for the page that the card data does not provide. Prices for excluded staples were checked on 2026-10-21.",
+  "_comment": "Text for the page that the card data does not provide. Prices for excluded staples were checked on 2026-10-21. price_overrides holds TCGplayer prices for cards that the Pokémon TCG API has no price for yet. They were checked on 2026-10-22 at tcgcsv.com, which copies TCGplayer prices each day.",
   "price_limit": 10.0,
+  "price_exceptions": {
+    "pl3-71": "Supreme Victors Minun. Kept on purpose for its Call for Family and Trash Charge attacks."
+  },
+  "price_overrides": {
+    "me3-59": {
+      "name": "Perfect Order Klefki",
+      "price": 0.06,
+      "version": "normal",
+      "url": "https://www.tcgplayer.com/product/684436",
+      "checked": "2026-10-22"
+    },
+    "me5-14": {
+      "name": "Pitch Black Seaking",
+      "price": 0.11,
+      "version": "normal",
+      "url": "https://www.tcgplayer.com/product/704771",
+      "checked": "2026-10-22"
+    },
+    "me55c-43": {
+      "name": "30th Celebration Classic Collection Uxie",
+      "price": 5.48,
+      "version": "holofoil",
+      "url": "https://www.tcgplayer.com/product/716163",
+      "checked": "2026-10-22"
+    }
+  },
   "cube_size": 360,
   "archetypes": {
     "Grass": {
       "headline": "Decidueye · Rillaboom · Yanmega",
-      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Decidueye hits for 170 with one Energy and Yanmega hits for 160. Sunny Day Lurantis adds 20 to every Grass and Fire attack."
+      "summary": "Rillaboom and Eldegoss find Grass Energy every turn. Decidueye hits for 170 with one Energy and Yanmega hits for 160. Celebi devolves an opponent's Pokémon, and Durant mills the opponent's deck."
     },
     "Fire": {
       "headline": "Charizard · Cinderace · Arcanine",
@@ -13,19 +39,19 @@
     },
     "Water": {
       "headline": "Inteleon · Baxcalibur · Palafin",
-      "summary": "Drizzile and Inteleon search out Trainers, Octillery draws, and Baxcalibur attaches Water Energy from your hand as often as you like. Palafin and Golisopod hit hardest on the turn they switch in."
+      "summary": "Drizzile and Inteleon search out Trainers, Octillery draws, and Baxcalibur attaches Water Energy from your hand as often as you like. Kyogre and Hisuian Basculegion hit harder for each Basic Energy in your discard pile. Palafin hits hardest on the turn it switches in, and Seaking hits any of the opponent's Pokémon for 30 for each Water Energy on it."
     },
     "Lightning": {
       "headline": "Ampharos · Magnezone · Electivire",
-      "summary": "Magnezone and Flaaffy accelerate Lightning Energy. Raichu, Electivire and Zapdos hit for 190 to 220. Electrode and Zebstrika refill your hand."
+      "summary": "Magnezone and Flaaffy accelerate Lightning Energy. Raichu, Electivire and Zapdos hit for 190 to 220. Electrode refills your hand, and Toxtricity hits harder for each type on your Bench."
     },
     "Psychic": {
       "headline": "Gallade · Gardevoir · Dusknoir",
-      "summary": "Kirlia evolves into Gardevoir for draw power or into Gallade, which hits for 160 and finds a Supporter every turn. Dusclops, Dusknoir and Yamask put damage counters anywhere, and Cofagrigus puts 6 on every Pokémon that has an Ability. Mewtwo reloads Psychic Energy."
+      "summary": "Kirlia evolves into Gardevoir for draw power or into Gallade, which hits for 160 and finds a Supporter every turn. Dusclops, Yamask and Cofagrigus place damage counters, and Dusknoir moves them where they score knockouts."
     },
     "Fighting": {
-      "headline": "Machamp · Conkeldurr · Lucario",
-      "summary": "Conkeldurr hits for 80 with one Energy and 250 at full power. Donphan takes 20 less damage from every attack. Claydol draws to six and Machoke protects the Bench."
+      "headline": "Machamp · Conkeldurr · Garganacl",
+      "summary": "Garganacl heals 20 from each of your Pokémon every turn and hits for 130. Conkeldurr hits for 80 with one Energy and 250 at full power. Claydol draws to six, and Machoke and Donphan make the deck hard to knock out."
     },
     "Darkness": {
       "headline": "Obstagoon · Crobat · Mightyena",
@@ -33,11 +59,11 @@
     },
     "Metal": {
       "headline": "Metagross · Corviknight · Copperajah",
-      "summary": "Metang and Bronzong accelerate Metal Energy, and Perrserker adds 20 to every Metal attack. Metagross and Corviknight hit for 200, and Copperajah has 200 HP."
+      "summary": "Metang and Bronzong accelerate Metal Energy, and Archaludon gives every Pokémon with Metal Energy a free retreat. Metagross and Corviknight hit for 200, Archaludon hits for 160, and Copperajah has 200 HP. Klefki stops one of the opponent's attacks for a turn."
     },
     "Colorless": {
-      "headline": "Pidgeot · Porygon-Z · Bibarel",
-      "summary": "Engines for any deck: Pidgeotto, Bibarel, Cinccino and Porygon2. Snorlax, Chatot, Dunsparce and Kangaskhan help any color set up."
+      "headline": "Pidgeot · Porygon-Z · Blissey",
+      "summary": "Blissey has 200 HP and fully heals a Benched Pokémon, and Miltank heals 90 whenever you attach Energy. Bunnelby mills the opponent's deck, and Noivern attacks for free when both hands are the same size. Pidgeotto, Porygon2, Cinccino and Dodrio fit any deck."
     }
   },
   "excluded_staples": [
@@ -50,11 +76,6 @@
       "name": "Lapras",
       "printing": "Legend Maker 8",
       "price": 53.51
-    },
-    {
-      "name": "Uxie",
-      "printing": "Legends Awakened 43",
-      "price": 18.67
     },
     {
       "name": "Pidgeot",

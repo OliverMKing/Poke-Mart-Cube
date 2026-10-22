@@ -7,8 +7,9 @@
 > You can search the cards, filter them by type or by set, and list them by set.
 
 The Poké Mart Cube is a 360-card Pokémon Trading Card Game (TCG) cube for drafting.
-Every card costs less than 10 US dollars (USD).
-The full cube costs about 205 USD at TCGplayer market prices from October 2026.
+Every card except one costs less than 10 US dollars (USD).
+The exception is Supreme Victors Minun (about 26 USD). The cube uses it on purpose.
+The full cube costs about 240 USD at TCGplayer market prices from October 2026.
 
 The cube is on CubeKoga: <https://cubekoga.net/cube/pokemartcube/visual>.
 
@@ -37,17 +38,18 @@ Read [docs/design-notes.md](docs/design-notes.md) for those cards.
 ## House rules
 
 1. Use the current Standard rules for the first turn. The player who goes first cannot attack or play a Supporter.
-2. Treat a Poké-Power or a Poké-Body as an Ability. This affects Claydol, Donphan, Porygon2, Sableye and Unown Q.
+2. Treat a Poké-Power or a Poké-Body as an Ability. This affects Claydol, Donphan, Porygon2, Sableye, Unown Q and Uxie.
 3. Treat an old card that says only "Trainer" as an Item. This affects Pokémon Breeder.
-4. Ignore text about Pokémon ex, V, GX, EX, Prism Star, Radiant and ACE SPEC cards. The cube has none of these cards. For example, Twin Energy always provides two Colorless Energy.
-5. Remove a card in the Lost Zone from the game. Do not return it to play.
+4. Ignore text about Pokémon ex, V, GX, EX, Prism Star and Radiant cards. The cube has none of these cards. For example, Twin Energy always provides two Colorless Energy.
+5. Brilliant Blender is the only ACE SPEC card in the cube. Its limit of one ACE SPEC card in each deck has no effect.
+6. Remove a card in the Lost Zone from the game. Do not return it to play.
 
 ## Files
 
 | Path | Contents |
 |---|---|
 | `cube/cube_list.py` | The card list. This file is the source of truth. |
-| `cube/page_config.json` | Page text that the card data does not supply: type summaries, price limit and excluded staples. |
+| `cube/page_config.json` | Page text that the card data does not supply: type summaries, price limit, price exceptions, price overrides and excluded staples. |
 | `cube/cards.json` | Card text, statistics and price for each card. The build script makes this file. |
 | `cube/cardlist.csv` | One row for each card, for spreadsheets. The build script makes this file. |
 | `cube/cubekoga-import.tsv` | The list for the CubeKoga Bulk Import box. The build script makes this file. |
@@ -76,7 +78,8 @@ The script checks these rules:
 
 - The cube has exactly 360 cards.
 - Each card ID, card name and Pokémon species occurs one time only.
-- Each card costs less than the price limit in `cube/page_config.json`.
+- Each card costs less than the price limit in `cube/page_config.json`. Cards in `price_exceptions` in the same file can cost more.
+- Each card has a price. The price comes from the API, or from `price_overrides` in `cube/page_config.json` when the API has no price.
 - Each evolution line is complete in its group.
 
 ## Update the prices
@@ -84,6 +87,13 @@ The script checks these rules:
 1. Run `python3 scripts/build.py --refresh`.
 2. Read the result line. It shows the new total and the most expensive card.
 3. If a card is now over the price limit, replace it. Use the procedure in the next section.
+4. If the result line says that the API now has a price for a card, remove that card from `price_overrides` in `cube/page_config.json`.
+
+A card from a new set can be on TCGplayer before the Pokémon TCG API has its price.
+The build stops if a card has no price.
+For each such card, add the TCGplayer market price to `price_overrides` in `cube/page_config.json`.
+Record the product URL and the date that you checked the price.
+The build uses an override price only while the API has no price for the card.
 
 The API sometimes returns server errors. The script tries each request again.
 If a request still fails, run the command again.

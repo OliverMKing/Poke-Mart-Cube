@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache'
 API = 'https://api.pokemontcg.io/v2/cards'
 FIELDS = ('id,name,supertype,subtypes,hp,types,evolvesFrom,abilities,attacks,rules,'
-          'tcgplayer,set,rarity,number,weaknesses,retreatCost,nationalPokedexNumbers')
+          'tcgplayer,set,rarity,number,weaknesses,retreatCost,nationalPokedexNumbers,ancientTrait')
 
 
 def _headers():
@@ -101,6 +101,9 @@ def card_text(card):
     if card['supertype'] != 'Pokémon':
         return list(card.get('rules') or [])
     lines = []
+    if card.get('ancientTrait'):
+        t = card['ancientTrait']
+        lines.append(f"<Ancient Trait: {t.get('name', '')}> {t.get('text', '')}")
     for a in card.get('abilities') or []:
         lines.append(f"<{a.get('type')}: {a['name']}> {a.get('text', '')}")
     for a in card.get('attacks') or []:

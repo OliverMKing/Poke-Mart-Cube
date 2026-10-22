@@ -3,7 +3,7 @@ Grass,Decidueye,Rowlet,Shrouded Fable,3,sv6pt5-3,0.19,normal,Add On: draw 1
 Grass,Decidueye,Dartrix,Shrouded Fable,4,sv6pt5-4,0.14,normal,
 Grass,Decidueye,Decidueye,Shrouded Fable,5,sv6pt5-5,0.11,normal,draw to 7 / 170 for G
 Grass,Rillaboom,Grookey,Sword & Shield,11,swsh1-11,0.20,normal,
-Grass,Rillaboom,Thwackey,Sword & Shield,12,swsh1-12,0.05,normal,
+Grass,Rillaboom,Thwackey,Twilight Masquerade,15,sv6-15,0.54,normal,Boom Boom Groove: search any card while Goldeen is Active
 Grass,Rillaboom,Rillaboom,Shining Fates,13,swsh45-13,0.24,holofoil,Voltage Beat: 2 Grass from deck
 Grass,Lurantis,Fomantis,Sun & Moon,14,sm1-14,0.01,normal,
 Grass,Lurantis,Lurantis,SM Black Star Promos,SM25,smp-SM25,4.25,holofoil,Sunny Day: Grass and Fire +20
@@ -13,9 +13,9 @@ Grass,Breloom,Shroomish,Temporal Forces,6,sv5-6,0.17,normal,
 Grass,Breloom,Breloom,Temporal Forces,7,sv5-7,0.19,normal,120 for GC
 Grass,Yanmega,Yanma,Crown Zenith,8,swsh12pt5-8,0.16,normal,
 Grass,Yanmega,Yanmega,Crown Zenith,9,swsh12pt5-9,0.18,normal,160 for GGC
-Grass,Basics,Exeggcute,Plasma Freeze,4,bw9-4,4.42,normal,Propagation
+Grass,Basics,Durant,BREAKpoint,9,xy9-9,0.10,normal,"Mountain Munch: mill 1, or 4 when damaged"
 Grass,Basics,Shaymin,Destined Rivals,10,sv10-10,0.28,normal,Flower Curtain: Bench shield
-Grass,Basics,Celebi,Shining Fates,3,swsh45-3,0.29,normal,Woodland Stroll
+Grass,Basics,Celebi,Unified Minds,4,sm11-4,4.08,holofoil,Time Spiral: devolve an opponent Pokémon
 Grass,Basics,Zarude,Chilling Reign,19,swsh6-19,0.31,holofoil,Pack Call
 Grass,Basics,Shuckle,Lost Thunder,16,sm8-16,0.38,normal,Fresh Squeezed
 Grass,Basics,Tropius,Evolving Skies,6,swsh7-6,0.21,normal,
@@ -51,16 +51,16 @@ Water,Octillery,Remoraid,Crimson Invasion,22,sm4-22,0.18,normal,
 Water,Octillery,Octillery,BREAKthrough,33,xy8-33,4.48,holofoil,Abyssal Hand: draw to 5
 Water,Palafin,Finizen,Obsidian Flames,60,sv3-60,0.19,normal,Valiant Evolution
 Water,Palafin,Palafin,Obsidian Flames,62,sv3-62,0.15,holofoil,210 after switching in
-Water,Golisopod,Wimpod,Unified Minds,50,sm11-50,0.33,normal,
-Water,Golisopod,Golisopod,Unified Minds,51,sm11-51,0.58,holofoil,Emergency Exit / First Impression
+Water,Seaking,Goldeen,Prismatic Evolutions,20,sv8pt5-20,0.17,normal,Festival Lead: turns on Thwackey
+Water,Seaking,Seaking,Pitch Black,14,me5-14,0.11,normal,Hydro Jet: 30 per Water Energy to any Pokémon
 Water,Gyarados,Magikarp,Paldea Evolved,42,sv2-42,0.14,normal,
 Water,Gyarados,Gyarados,Paldea Evolved,43,sv2-43,0.36,holofoil,200 for WWCC
+Water,Hisuian Basculegion,Hisuian Basculin,Astral Radiance,43,swsh10-43,0.13,normal,Gather the Crew
+Water,Hisuian Basculegion,Hisuian Basculegion,Lost Origin,45,swsh11-45,0.41,holofoil,"Upstream Spirits: free, 20 per basic Energy in discard"
 Water,Basics,Alolan Vulpix,Guardians Rising,21,sm2-21,0.80,normal,Beacon: search 2 Pokémon
 Water,Basics,Keldeo,Temporal Forces,44,sv5-44,0.12,normal,Rapid Draw
 Water,Basics,Manaphy,Brilliant Stars,41,swsh9-41,0.30,normal,Wave Veil: Bench shield
-Water,Basics,Lapras,151,131,sv3pt5-131,0.23,normal,
-Water,Basics,Suicune,Darkness Ablaze,37,swsh3-37,0.83,holofoil,
-Water,Basics,Hisuian Basculin,Astral Radiance,43,swsh10-43,0.13,normal,Gather the Crew
+Water,Basics,Kyogre,Mega Evolution,34,me1-34,0.23,holofoil,Riptide: 20 per Basic Water Energy in discard
 Water,Basics,Iron Bundle,Paradox Rift,56,sv4-56,0.25,normal,Hyper Blower
 Lightning,Ampharos,Mareep,Lost Thunder,75,sm8-75,1.17,normal,Fluffy Pillow
 Lightning,Ampharos,Flaaffy,Evolving Skies,55,swsh7-55,0.18,normal,Dynamotor
@@ -72,8 +72,8 @@ Lightning,Electrode,Voltorb,Vivid Voltage,45,swsh4-45,0.13,normal,
 Lightning,Electrode,Electrode,Plasma Freeze,33,bw9-33,3.11,holofoil,Magnetic Draw: draw to 4
 Lightning,Raichu,Pikachu,151,25,sv3pt5-25,0.25,normal,
 Lightning,Raichu,Raichu,Paldea Evolved,64,sv2-64,0.20,normal,Electrocharge / 200
-Lightning,Zebstrika,Blitzle,Surging Sparks,62,sv8-62,0.06,normal,Add On
-Lightning,Zebstrika,Zebstrika,Lost Thunder,82,sm8-82,1.55,normal,Sprint: new hand of 4
+Lightning,Toxtricity,Toxel,Phantasmal Flames,67,me2-67,0.17,normal,Darkness type. Call for Family for D
+Lightning,Toxtricity,Toxtricity,Obsidian Flames,72,sv3-72,0.19,holofoil,Loud Mix: 50 + 30 for each type on your Bench
 Lightning,Electivire,Electabuzz,Stellar Crown,46,sv7-46,0.10,normal,
 Lightning,Electivire,Electivire,Stellar Crown,47,sv7-47,0.15,normal,220 for LL
 Lightning,Basics,Zapdos,Twilight Masquerade,65,sv6-65,0.25,holofoil,190 for LLC
@@ -81,15 +81,15 @@ Lightning,Basics,Tapu Koko,SM Black Star Promos,SM30,smp-SM30,0.60,holofoil,Flyi
 Lightning,Basics,Raikou,Shining Legends,32,sm35-32,0.78,holofoil,
 Lightning,Basics,Morpeko,Twilight Masquerade,72,sv6-72,0.21,normal,Snack Seek
 Lightning,Basics,Regieleki,Astral Radiance,51,swsh10-51,0.19,normal,
-Lightning,Basics,Minun,Celestial Storm,54,sm7-54,1.60,normal,Ditch and Draw
-Lightning,Basics,Plusle,Celestial Storm,53,sm7-53,2.29,normal,Draw for Everybody
+Lightning,Basics,Minun,Supreme Victors,71,pl3-71,26.11,normal,Call for Family / Trash Charge
+Lightning,Basics,Plusle,Fusion Strike,89,swsh8-89,0.15,normal,Spark Duo: 120 after Minun attacks
 Psychic,Gardevoir and Gallade,Ralts,Paldean Fates,27,sv4pt5-27,0.10,normal,
 Psychic,Gardevoir and Gallade,Kirlia,Silver Tempest,68,swsh12-68,0.23,normal,Refinement
 Psychic,Gardevoir and Gallade,Gardevoir,Silver Tempest,69,swsh12-69,0.30,normal,Refinement / 120 for PC
 Psychic,Gardevoir and Gallade,Gallade,Astral Radiance,62,swsh10-62,0.39,holofoil,Buddy Catch: find a Supporter / 160 for PCC
-Psychic,Dusknoir,Duskull,Shrouded Fable,18,sv6pt5-18,0.22,normal,
+Psychic,Dusknoir,Duskull,Vivid Voltage,69,swsh4-69,0.17,normal,Future Sight: arrange the top 4 of either deck
 Psychic,Dusknoir,Dusclops,Prismatic Evolutions,36,sv8pt5-36,0.18,normal,Cursed Blast: 5 counters
-Psychic,Dusknoir,Dusknoir,Shrouded Fable,20,sv6pt5-20,0.25,holofoil,Cursed Blast: 13 counters / 150
+Psychic,Dusknoir,Dusknoir,Boundaries Crossed,63,bw7-63,4.74,holofoil,Sinister Hand: move damage counters freely
 Psychic,Slowking,Slowpoke,Paldea Evolved,85,sv2-85,0.24,normal,
 Psychic,Slowking,Slowking,Stellar Crown,58,sv7-58,0.27,normal,Seek Inspiration / 120
 Psychic,Malamar,Inkay,Forbidden Light,50,sm6-50,0.35,normal,
@@ -100,7 +100,7 @@ Psychic,Mismagius,Misdreavus,Unbroken Bonds,77,sm10-77,0.28,normal,
 Psychic,Mismagius,Mismagius,Unbroken Bonds,78,sm10-78,0.49,normal,Mysterious Message
 Psychic,Basics,Mew,Celebrations,11,cel25-11,2.69,holofoil,Mysterious Tail: find an Item
 Psychic,Basics,Mesprit,Surging Sparks,79,sv8-79,0.20,normal,Full Heart: attach 2 P
-Psychic,Basics,Uxie,Astral Radiance,65,swsh10-65,0.13,normal,
+Psychic,Basics,Uxie,30th Celebration: Classic Collection,43,me55c-43,5.48,holofoil,Set Up: draw to 7
 Psychic,Basics,Azelf,Surging Sparks,80,sv8-80,0.17,normal,
 Psychic,Basics,Unown [Q],Majestic Dawn,49,dp5-49,6.75,normal,QUICK: free-retreat tool
 Psychic,Basics,Mewtwo,Crown Zenith,59,swsh12pt5-59,2.51,holofoil,"Psypump: reload 2 P / 90, or 180 late"
@@ -114,20 +114,20 @@ Fighting,Claydol,Baltoy,Sword & Shield,101,swsh1-101,0.04,normal,
 Fighting,Claydol,Claydol,Great Encounters,15,dp4-15,5.20,normal,Cosmic Power: draw to 6
 Fighting,Lucario,Riolu,Scarlet & Violet,113,sv1-113,0.16,normal,
 Fighting,Lucario,Lucario,Scarlet & Violet,114,sv1-114,0.22,normal,Avenging Knuckle / 120
+Fighting,Garganacl,Nacli,Paradox Rift,102,sv4-102,0.08,normal,Corner: Defending Pokémon cannot retreat
+Fighting,Garganacl,Naclstack,Paldea Evolved,122,sv2-122,0.11,normal,
+Fighting,Garganacl,Garganacl,Paldea Evolved,123,sv2-123,0.17,holofoil,Blessed Salt: heal 20 from each Pokémon every turn / 130 + mill 1
 Fighting,Donphan,Phanpy,Vivid Voltage,86,swsh4-86,0.28,normal,
 Fighting,Donphan,Donphan,Celebrations: Classic Collection,107,cel25c-107_A,1.52,holofoil,Exoskeleton: takes 20 less / Earthquake 60 for F
-Fighting,Lycanroc,Rockruff,Temporal Forces,89,sv5-89,0.14,normal,
-Fighting,Lycanroc,Lycanroc,Champion's Path,30,swsh35-30,0.20,holofoil,150 for FFC
 Fighting,Basics,Hawlucha,Scarlet & Violet,118,sv1-118,0.24,holofoil,Flying Entry
 Fighting,Basics,Sudowoodo,Guardians Rising,66,sm2-66,0.25,normal,Roadblock
 Fighting,Basics,Hitmonlee,151,106,sv3pt5-106,0.19,normal,
 Fighting,Basics,Hitmonchan,151,107,sv3pt5-107,0.24,normal,Counterattack
-Fighting,Basics,Regirock,Vivid Voltage,89,swsh4-89,0.29,holofoil,
 Fighting,Basics,Carbink,Lost Thunder,117,sm8-117,0.18,normal,Diamond Gate
 Fighting,Basics,Relicanth,Temporal Forces,84,sv5-84,0.30,holofoil,Memory Dive
 Darkness,Galarian Obstagoon,Galarian Zigzagoon,Sword & Shield,117,swsh1-117,0.15,normal,Headbutt Tantrum
 Darkness,Galarian Obstagoon,Galarian Linoone,Sword & Shield,118,swsh1-118,0.17,normal,
-Darkness,Galarian Obstagoon,Galarian Obstagoon,Sword & Shield,119,swsh1-119,0.30,holofoil,Untamed Shout
+Darkness,Galarian Obstagoon,Galarian Obstagoon,Sword & Shield,119,swsh1-119,0.30,holofoil,Untamed Shout: 3 damage counters on evolve
 Darkness,Crobat,Zubat,151,41,sv3pt5-41,0.15,normal,Revealing Echo
 Darkness,Crobat,Golbat,Battle Styles,90,swsh5-90,0.15,normal,Discreet Draw
 Darkness,Crobat,Crobat,Battle Styles,91,swsh5-91,0.34,holofoil,Drastic Draw / 100 for CC
@@ -156,8 +156,8 @@ Metal,Bronzong,Bronzor,Team Up,100,sm9-100,0.22,normal,Evolutionary Advantage
 Metal,Bronzong,Bronzong,Phantom Forces,61,xy4-61,3.01,normal,Metal Links
 Metal,Copperajah,Cufant,Paldea Evolved,149,sv2-149,0.05,normal,
 Metal,Copperajah,Copperajah,Shrouded Fable,42,sv6pt5-42,0.09,holofoil,Massive Body / 230
-Metal,Galarian Perrserker,Galarian Meowth,Sword & Shield,127,swsh1-127,0.18,normal,
-Metal,Galarian Perrserker,Galarian Perrserker,Sword & Shield,128,swsh1-128,0.32,holofoil,Steely Spirit: Metal +20
+Metal,Archaludon,Duraludon,Rebel Clash,138,swsh2-138,0.45,holofoil,Metal Sharpener: 1 Metal from discard
+Metal,Archaludon,Archaludon,Stellar Crown,107,sv7-107,0.05,holofoil,Metal Bridge: free retreat with Metal / 160
 Metal,Scizor,Scyther,Temporal Forces,1,sv5-1,0.20,normal,
 Metal,Scizor,Scizor,Lost Thunder,126,sm8-126,3.94,holofoil,Exoskeleton
 Metal,Basics,Jirachi,Stellar Crown,98,sv7-98,0.24,normal,Swelling Wish
@@ -165,7 +165,7 @@ Metal,Basics,Cobalion,Chilling Reign,114,swsh6-114,0.23,holofoil,130 for MMC
 Metal,Basics,Registeel,Astral Radiance,108,swsh10-108,0.27,normal,Regi Gate
 Metal,Basics,Mawile,Temporal Forces,112,sv5-112,0.16,normal,
 Metal,Basics,Dialga,Celebrations,20,cel25-20,0.24,holofoil,Temporal Backflow
-Metal,Basics,Duraludon,Rebel Clash,138,swsh2-138,0.45,holofoil,
+Metal,Basics,Klefki,Perfect Order,59,me3-59,0.06,normal,Memory Lock: block one attack
 Metal,Basics,Zamazenta,Crown Zenith,97,swsh12pt5-97,0.33,holofoil,Metal Shield
 Colorless,Pidgeot,Pidgey,Team Up,121,sm9-121,0.24,normal,Collect
 Colorless,Pidgeot,Pidgeotto,Team Up,123,sm9-123,0.41,normal,Air Mail
@@ -173,22 +173,22 @@ Colorless,Pidgeot,Pidgeot,151,18,sv3pt5-18,0.24,normal,Fly 150
 Colorless,Porygon-Z,Porygon,Unbroken Bonds,155,sm10-155,0.33,normal,Quick Draw
 Colorless,Porygon-Z,Porygon2,Great Encounters,49,dp4-49,3.12,normal,Download: use a Supporter
 Colorless,Porygon-Z,Porygon-Z,Chilling Reign,118,swsh6-118,0.80,holofoil,Superbeam 170
-Colorless,Bibarel,Bidoof,Brilliant Stars,120,swsh9-120,0.15,normal,
-Colorless,Bibarel,Bibarel,Brilliant Stars,121,swsh9-121,0.32,holofoil,Industrious Incisors: draw to 5
+Colorless,Blissey,Chansey,151,113,sv3pt5-113,0.35,holofoil,"Lucky Bonus: may bench itself from your Prizes, flip for an extra Prize"
+Colorless,Blissey,Blissey,Pokémon GO,52,pgo-52,0.27,holofoil,Enriching Egg: fully heal a Benched Pokémon / 200 HP
 Colorless,Cinccino,Minccino,Brilliant Stars,124,swsh9-124,0.18,normal,Call for Family
 Colorless,Cinccino,Cinccino,Sword & Shield,147,swsh1-147,0.43,normal,Make Do
-Colorless,Furret,Sentret,Darkness Ablaze,135,swsh3-135,0.09,normal,
-Colorless,Furret,Furret,Darkness Ablaze,136,swsh3-136,0.27,normal,
-Colorless,Dodrio,Doduo,Unbroken Bonds,150,sm10-150,0.20,normal,
-Colorless,Dodrio,Dodrio,Unbroken Bonds,151,sm10-151,0.28,normal,
+Colorless,Noivern,Noibat,Burning Shadows,109,sm3-109,0.26,normal,
+Colorless,Noivern,Noivern,Journey Together,128,sv9-128,0.15,holofoil,Tuning Echo: free 110 + Confusion when hand sizes match
+Colorless,Dodrio,Doduo,BREAKthrough,115,xy8-115,0.23,normal,Doduo Delivery: draw 2
+Colorless,Dodrio,Dodrio,151,85,sv3pt5-85,0.24,holofoil,"Zooming Draw: 1 counter on itself, draw 1"
 Colorless,Basics,Chatot,Majestic Dawn,55,dp5-55,0.15,reverseHolofoil,Mimic
 Colorless,Basics,Snorlax,Vivid Voltage,131,swsh4-131,2.99,reverseHolofoil,Gormandize
 Colorless,Basics,Dunsparce,Celestial Storm,110,sm7-110,0.29,normal,Strike and Run
-Colorless,Basics,Oranguru,Sun & Moon,113,sm1-113,0.47,holofoil,Instruct
-Colorless,Basics,Ditto,151,132,sv3pt5-132,0.60,holofoil,
+Colorless,Basics,Oranguru,Sword & Shield,148,swsh1-148,0.29,holofoil,Primate Wisdom: swap a hand card with your top card
+Colorless,Basics,Miltank,Crimson Invasion,78,sm4-78,0.28,normal,Moomoo Malt: attaching heals 90
 Colorless,Basics,Kangaskhan,Team Up,128,sm9-128,0.25,normal,Fast Evolution
 Colorless,Basics,Skwovet,Scarlet & Violet,151,sv1-151,0.19,normal,Nest Stash
-Colorless,Basics,Lugia,Darkness Ablaze,140,swsh3-140,0.52,normal,
+Colorless,Basics,Bunnelby,Primal Clash,121,xy5-121,0.56,normal,Ω Barrage: attacks twice / mill or recycle
 Supporter,Draw,Professor's Research,Prismatic Evolutions,125,sv8pt5-125,0.13,normal,
 Supporter,Draw,Cynthia,Ultra Prism,119,sm5-119,0.69,normal,
 Supporter,Draw,Judge,Scarlet & Violet,176,sv1-176,0.20,normal,
@@ -199,7 +199,6 @@ Supporter,Draw,Copycat,Evolving Skies,143,swsh7-143,0.10,normal,
 Supporter,Draw,Bianca,Legendary Treasures,109,bw11-109,0.23,normal,
 Supporter,Draw,Lillie,Sun & Moon,122,sm1-122,0.22,normal,
 Supporter,Draw,Tate & Liza,Celestial Storm,148,sm7-148,0.63,normal,
-Supporter,Draw,Hop,Champion's Path,53,swsh35-53,0.15,normal,
 Supporter,Draw,Bird Keeper,Darkness Ablaze,159,swsh3-159,0.15,normal,
 Supporter,Draw,Professor Kukui,Sun & Moon,128,sm1-128,0.12,normal,
 Supporter,Draw,Colress,Plasma Storm,118,bw8-118,1.57,normal,
@@ -235,6 +234,8 @@ Supporter,Gust and disruption,Guzma,Burning Shadows,115,sm3-115,3.52,reverseHolo
 Supporter,Gust and disruption,Team Flare Grunt,XY,129,xy1-129,0.34,normal,
 Supporter,Gust and disruption,Hex Maniac,Ancient Origins,75,xy7-75,2.73,normal,
 Supporter,Gust and disruption,Faba,Lost Thunder,173,sm8-173,0.46,normal,
+Supporter,Gust and disruption,Plumeria,Burning Shadows,120,sm3-120,0.19,normal,
+Supporter,Gust and disruption,Lysandre,Flashfire,90,xy2-90,0.27,normal,
 Supporter,Recovery and healing,Klara,Chilling Reign,145,swsh6-145,0.25,normal,
 Supporter,Recovery and healing,Brock's Grit,Hidden Fates,53,sm115-53,0.22,normal,
 Supporter,Recovery and healing,Lana's Aid,Twilight Masquerade,155,sv6-155,0.27,normal,
@@ -243,7 +244,6 @@ Supporter,Recovery and healing,Gladion,Crimson Invasion,95,sm4-95,0.47,normal,
 Supporter,Recovery and healing,Pokémon Center Lady,Mega Evolution,123,me1-123,0.22,normal,
 Supporter,Recovery and healing,Lusamine,Crimson Invasion,96,sm4-96,0.47,normal,
 Supporter,Recovery and healing,Miriam,Scarlet & Violet,179,sv1-179,0.15,normal,
-Supporter,Recovery and healing,Penny,Scarlet & Violet,183,sv1-183,0.24,normal,
 Supporter,Energy and damage,Kiawe,Burning Shadows,116,sm3-116,0.28,normal,
 Supporter,Energy and damage,Bede,Sword & Shield,157,swsh1-157,0.10,normal,
 Supporter,Energy and damage,Bea,Vivid Voltage,147,swsh4-147,0.08,normal,
@@ -263,7 +263,6 @@ Item,Pokémon search and evolution,Dual Ball,Call of Legends,78,col1-78,0.50,nor
 Item,Pokémon search and evolution,Capturing Aroma,Silver Tempest,153,swsh12-153,0.14,normal,
 Item,Pokémon search and evolution,Evosoda,Generations,62,g1-62,0.42,normal,
 Item,Pokémon search and evolution,Battle VIP Pass,Fusion Strike,225,swsh8-225,0.24,normal,
-Item,Pokémon search and evolution,Poké Ball,Rebel Clash,164,swsh2-164,0.09,normal,
 Item,Pokémon search and evolution,Heavy Ball,BREAKthrough,140,xy8-140,0.54,normal,
 Item,Pokémon search and evolution,Dusk Ball,Surging Sparks,175,sv8-175,0.25,normal,
 Item,Pokémon search and evolution,Friend Ball,Celestial Storm,131,sm7-131,0.27,normal,
@@ -273,6 +272,7 @@ Item,Pokémon search and evolution,Net Ball,Lost Thunder,187,sm8-187,1.79,normal
 Item,Pokémon search and evolution,Dive Ball,Primal Clash,125,xy5-125,1.14,normal,
 Item,Pokémon search and evolution,Fog Crystal,Chilling Reign,140,swsh6-140,0.29,normal,
 Item,Energy search and recursion,Earthen Vessel,Paradox Rift,163,sv4-163,0.23,normal,
+Item,Energy search and recursion,Ether,Plasma Storm,121,bw8-121,0.37,normal,
 Item,Energy search and recursion,Energy Search,Sword & Shield,161,swsh1-161,0.17,normal,
 Item,Energy search and recursion,Professor's Letter,XY,123,xy1-123,0.31,normal,
 Item,Energy search and recursion,Fire Crystal,Unbroken Bonds,173,sm10-173,0.28,normal,
@@ -300,16 +300,16 @@ Item,Recovery,Night Stretcher,Shrouded Fable,61,sv6pt5-61,0.34,normal,
 Item,Recovery,Superior Energy Retrieval,Paldea Evolved,189,sv2-189,0.30,normal,
 Item,Recovery,Energy Recycler,Ancient Origins,72,xy7-72,0.22,normal,
 Item,Recovery,Revive,Evolutions,85,xy12-85,0.17,normal,
+Item,Discard,Battle Compressor Team Flare Gear,Phantom Forces,92,xy4-92,3.12,normal,discard up to 3 from deck
+Item,Discard,Brilliant Blender,Surging Sparks,164,sv8-164,0.92,holofoil,ACE SPEC: discard up to 5 from deck
 Item,Utility,Energy Switch,Crown Zenith,129,swsh12pt5-129,0.16,normal,
 Item,Utility,Crushing Hammer,Sword & Shield,159,swsh1-159,0.16,normal,
 Item,Utility,Enhanced Hammer,Twilight Masquerade,148,sv6-148,0.19,normal,
 Item,Utility,Field Blower,Guardians Rising,125,sm2-125,1.49,normal,
 Item,Utility,Tool Scrapper,Rebel Clash,168,swsh2-168,0.15,normal,
-Item,Utility,Lost Vacuum,Lost Origin,162,swsh11-162,0.17,normal,
 Item,Utility,Max Potion,BREAKpoint,103,xy9-103,0.20,normal,
 Item,Utility,Hyper Potion,Sword & Shield,166,swsh1-166,0.11,normal,
 Item,Utility,Super Potion,Evolutions,87,xy12-87,0.18,normal,
-Item,Utility,Full Heal,Champion's Path,51,swsh35-51,0.15,normal,
 Tool,Tools,Float Stone,BREAKthrough,137,xy8-137,5.40,normal,
 Tool,Tools,Air Balloon,Black Bolt,79,zsv10pt5-79,0.16,normal,
 Tool,Tools,Escape Board,Ultra Prism,122,sm5-122,0.13,normal,
@@ -334,6 +334,7 @@ Stadium,Stadiums,Jubilife Village,Astral Radiance,148,swsh10-148,0.16,normal,
 Stadium,Stadiums,Sky Field,Roaring Skies,89,xy6-89,0.77,normal,
 Stadium,Stadiums,Town Store,Obsidian Flames,196,sv3-196,0.22,normal,
 Stadium,Stadiums,Collapsed Stadium,Brilliant Stars,137,swsh9-137,0.16,normal,
+Stadium,Stadiums,Risky Ruins,Mega Evolution,127,me1-127,0.21,normal,Risky Ruins
 Energy,Special Energy,Double Colorless Energy,Evolutions,90,xy12-90,0.34,normal,
 Energy,Special Energy,Twin Energy,Rebel Clash,174,swsh2-174,0.28,normal,
 Energy,Special Energy,Rainbow Energy,Sun & Moon,137,sm1-137,0.34,normal,
@@ -345,7 +346,6 @@ Energy,Special Energy,Counter Energy,Crimson Invasion,100,sm4-100,0.60,normal,
 Energy,Special Energy,Reversal Energy,Paldea Evolved,192,sv2-192,0.25,normal,
 Energy,Special Energy,Capture Energy,Rebel Clash,171,swsh2-171,0.29,normal,
 Energy,Special Energy,Jet Energy,Paldea Evolved,190,sv2-190,0.32,normal,
-Energy,Special Energy,Recycle Energy,Unified Minds,212,sm11-212,0.56,normal,
 Energy,Special Energy,Gift Energy,Lost Origin,171,swsh11-171,0.22,normal,
 Energy,Special Energy,Unit Energy GrassFireWater,Ultra Prism,137,sm5-137,0.52,normal,
 Energy,Special Energy,Unit Energy LightningPsychicMetal,Ultra Prism,138,sm5-138,0.68,normal,

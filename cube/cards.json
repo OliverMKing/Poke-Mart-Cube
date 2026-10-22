@@ -33,7 +33,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-3",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6pt5-4",
@@ -69,7 +70,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-4",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6pt5-5",
@@ -105,7 +107,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-5",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-11",
@@ -141,14 +144,15 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-11",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh1-12",
+  "id": "sv6-15",
   "count": 1,
   "section": "Grass",
   "line": "Rillaboom",
-  "note": "",
+  "note": "Boom Boom Groove: search any card while Goldeen is Active",
   "name": "Thwackey",
   "supertype": "Pokémon",
   "subtypes": [
@@ -159,25 +163,26 @@
    "Grass"
   ],
   "evolvesFrom": "Grookey",
-  "price": 0.05,
+  "price": 0.54,
   "variant": "normal",
-  "set": "Sword & Shield",
-  "setid": "swsh1",
-  "number": "12",
-  "year": "2020",
-  "released": "2020/02/07",
-  "series": "Sword & Shield",
+  "set": "Twilight Masquerade",
+  "setid": "sv6",
+  "number": "15",
+  "year": "2024",
+  "released": "2024/05/24",
+  "series": "Scarlet & Violet",
   "text": [
-   "[C] Taunt : Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-   "[GGC] Double Hit 60×: Flip 2 coins. This attack does 60 damage for each heads."
+   "<Ability: Boom Boom Groove> Once during your turn, if your Active Pokémon has the Festival Lead Ability, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+   "[GG] Beat 50: "
   ],
   "weak": [
    "Fire×2"
   ],
   "retreat": 2,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-12",
-  "updated": "2026/10/15"
+  "rarity": "Common",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv6-15",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh45-13",
@@ -213,7 +218,8 @@
   "retreat": 3,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh45-13",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-14",
@@ -249,7 +255,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-14",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "smp-SM25",
@@ -285,7 +292,8 @@
   "retreat": 2,
   "rarity": "Promo",
   "url": "https://prices.pokemontcg.io/tcgplayer/smp-SM25",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-20",
@@ -321,7 +329,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-20",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-16",
@@ -357,7 +366,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-16",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-6",
@@ -393,7 +403,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-6",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-7",
@@ -429,7 +440,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-7",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-8",
@@ -465,7 +477,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-8",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-9",
@@ -501,43 +514,45 @@
   "retreat": 0,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-9",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "bw9-4",
+  "id": "xy9-9",
   "count": 1,
   "section": "Grass",
   "line": "Basics",
-  "note": "Propagation",
-  "name": "Exeggcute",
+  "note": "Mountain Munch: mill 1, or 4 when damaged",
+  "name": "Durant",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "30",
+  "hp": "70",
   "types": [
    "Grass"
   ],
   "evolvesFrom": null,
-  "price": 4.42,
+  "price": 0.1,
   "variant": "normal",
-  "set": "Plasma Freeze",
-  "setid": "bw9",
-  "number": "4",
-  "year": "2013",
-  "released": "2013/05/08",
-  "series": "Black & White",
+  "set": "BREAKpoint",
+  "setid": "xy9",
+  "number": "9",
+  "year": "2016",
+  "released": "2016/02/03",
+  "series": "XY",
   "text": [
-   "<Ability: Propagation> Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon into your hand.",
-   "[GC] Seed Bomb 20: "
+   "[G] Mountain Munch 10: Discard the top card of your opponent's deck.",
+   "[GC] Scrape Down : If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent's deck."
   ],
   "weak": [
    "Fire×2"
   ],
   "retreat": 1,
   "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/bw9-4",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/xy9-9",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv10-10",
@@ -573,43 +588,45 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv10-10",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh45-3",
+  "id": "sm11-4",
   "count": 1,
   "section": "Grass",
   "line": "Basics",
-  "note": "Woodland Stroll",
+  "note": "Time Spiral: devolve an opponent Pokémon",
   "name": "Celebi",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "70",
+  "hp": "80",
   "types": [
    "Grass"
   ],
   "evolvesFrom": null,
-  "price": 0.29,
-  "variant": "normal",
-  "set": "Shining Fates",
-  "setid": "swsh45",
-  "number": "3",
-  "year": "2021",
-  "released": "2021/02/19",
-  "series": "Sword & Shield",
+  "price": 4.08,
+  "variant": "holofoil",
+  "set": "Unified Minds",
+  "setid": "sm11",
+  "number": "4",
+  "year": "2019",
+  "released": "2019/08/02",
+  "series": "Sun & Moon",
   "text": [
-   "<Ability: Woodland Stroll> Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal an Energy card you find there, and put it into your hand. Shuffle the other cards back into your deck.",
-   "[GCC] Leaf Step 40: "
+   "[G] Time Spiral : Devolve 1 of your opponent's evolved Pokémon by removing the highest Stage Evolution card from it. Your opponent shuffles that card into their deck.",
+   "[G] Mind Bend 20: Your opponent's Active Pokémon is now Confused."
   ],
   "weak": [
    "Fire×2"
   ],
   "retreat": 1,
-  "rarity": "Rare",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh45-3",
-  "updated": "2026/10/15"
+  "rarity": "Rare Holo",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sm11-4",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh6-19",
@@ -645,7 +662,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh6-19",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-16",
@@ -681,7 +699,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-16",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-6",
@@ -717,7 +736,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-6",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-18",
@@ -753,7 +773,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-18",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-23",
@@ -789,7 +810,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-23",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm75-2",
@@ -825,7 +847,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm75-2",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "pgo-10",
@@ -861,7 +884,8 @@
   "retreat": 3,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/pgo-10",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-31",
@@ -897,7 +921,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-31",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-32",
@@ -933,7 +958,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-32",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-34",
@@ -969,7 +995,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-34",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-23",
@@ -1005,7 +1032,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-23",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-24",
@@ -1041,7 +1069,8 @@
   "retreat": 3,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-24",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-31",
@@ -1077,7 +1106,8 @@
   "retreat": 3,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-31",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-59",
@@ -1113,7 +1143,8 @@
   "retreat": 4,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-59",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-27",
@@ -1149,7 +1180,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-27",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv7-24",
@@ -1185,7 +1217,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv7-24",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-26",
@@ -1221,7 +1254,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-26",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-27",
@@ -1257,7 +1291,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-27",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy11-25",
@@ -1293,7 +1328,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy11-25",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-21",
@@ -1329,7 +1365,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-21",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-48",
@@ -1365,7 +1402,8 @@
   "retreat": 4,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-48",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm12-28",
@@ -1401,7 +1439,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm12-28",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-14",
@@ -1437,7 +1476,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-14",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-29",
@@ -1473,7 +1513,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-29",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-30",
@@ -1509,7 +1550,8 @@
   "retreat": 3,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-30",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-55",
@@ -1545,7 +1587,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-55",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-56",
@@ -1581,7 +1624,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-56",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-58",
@@ -1617,7 +1661,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-58",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-58",
@@ -1653,7 +1698,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-58",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-59",
@@ -1689,7 +1735,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-59",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-60",
@@ -1725,7 +1772,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-60",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm4-22",
@@ -1760,7 +1808,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm4-22",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy8-33",
@@ -1796,7 +1845,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy8-33",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3-60",
@@ -1832,7 +1882,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3-60",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3-62",
@@ -1868,78 +1919,81 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3-62",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm11-50",
+  "id": "sv8pt5-20",
   "count": 1,
   "section": "Water",
-  "line": "Golisopod",
-  "note": "",
-  "name": "Wimpod",
+  "line": "Seaking",
+  "note": "Festival Lead: turns on Thwackey",
+  "name": "Goldeen",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "70",
+  "hp": "50",
   "types": [
    "Water"
   ],
   "evolvesFrom": null,
-  "price": 0.33,
+  "price": 0.17,
   "variant": "normal",
-  "set": "Unified Minds",
-  "setid": "sm11",
-  "number": "50",
-  "year": "2019",
-  "released": "2019/08/02",
-  "series": "Sun & Moon",
+  "set": "Prismatic Evolutions",
+  "setid": "sv8pt5",
+  "number": "20",
+  "year": "2025",
+  "released": "2025/01/17",
+  "series": "Scarlet & Violet",
   "text": [
-   "[W] Sand Attack 10: If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack doesn't happen."
+   "<Ability: Festival Lead> If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.",
+   "[CC] Whirlpool 10: Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
   ],
   "weak": [
-   "Grass×2"
+   "Lightning×2"
   ],
   "retreat": 1,
   "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm11-50",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-20",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm11-51",
+  "id": "me5-14",
   "count": 1,
   "section": "Water",
-  "line": "Golisopod",
-  "note": "Emergency Exit / First Impression",
-  "name": "Golisopod",
+  "line": "Seaking",
+  "note": "Hydro Jet: 30 per Water Energy to any Pokémon",
+  "name": "Seaking",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
   ],
-  "hp": "140",
+  "hp": "110",
   "types": [
    "Water"
   ],
-  "evolvesFrom": "Wimpod",
-  "price": 0.58,
-  "variant": "holofoil",
-  "set": "Unified Minds",
-  "setid": "sm11",
-  "number": "51",
-  "year": "2019",
-  "released": "2019/08/02",
-  "series": "Sun & Moon",
+  "evolvesFrom": "Goldeen",
+  "price": 0.11,
+  "variant": "normal",
+  "set": "Pitch Black",
+  "setid": "me5",
+  "number": "14",
+  "year": "2026",
+  "released": "2026/07/17",
+  "series": "Mega Evolution",
   "text": [
-   "<Ability: Emergency Exit> If this Pokémon has 2 or fewer Energy attached to it, it has no Retreat Cost.",
-   "[WCCC] First Impression 120+: If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 60 more damage."
+   "[CCC] Hydro Jet : This attack does 30 damage to 1 of your opponent's Pokémon for each Water Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
   ],
   "weak": [
-   "Grass×2"
+   "Lightning×2"
   ],
-  "retreat": 4,
-  "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm11-51",
-  "updated": "2026/10/15"
+  "retreat": 1,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/704771",
+  "updated": null,
+  "price_source": "override"
  },
  {
   "id": "sv2-42",
@@ -1974,7 +2028,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-42",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-43",
@@ -2010,7 +2065,82 @@
   "retreat": 4,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-43",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "swsh10-43",
+  "count": 1,
+  "section": "Water",
+  "line": "Hisuian Basculegion",
+  "note": "Gather the Crew",
+  "name": "Hisuian Basculin",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Basic"
+  ],
+  "hp": "50",
+  "types": [
+   "Water"
+  ],
+  "evolvesFrom": null,
+  "price": 0.13,
+  "variant": "normal",
+  "set": "Astral Radiance",
+  "setid": "swsh10",
+  "number": "43",
+  "year": "2022",
+  "released": "2022/05/27",
+  "series": "Sword & Shield",
+  "text": [
+   "[] Gather the Crew : Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+   "[W] Tackle 10: "
+  ],
+  "weak": [
+   "Lightning×2"
+  ],
+  "retreat": 1,
+  "rarity": "Common",
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-43",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "swsh11-45",
+  "count": 1,
+  "section": "Water",
+  "line": "Hisuian Basculegion",
+  "note": "Upstream Spirits: free, 20 per basic Energy in discard",
+  "name": "Hisuian Basculegion",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+   "Water"
+  ],
+  "evolvesFrom": "Hisuian Basculin",
+  "price": 0.41,
+  "variant": "holofoil",
+  "set": "Lost Origin",
+  "setid": "swsh11",
+  "number": "45",
+  "year": "2022",
+  "released": "2022/09/09",
+  "series": "Sword & Shield",
+  "text": [
+   "[] Upstream Spirits 20×: This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck.",
+   "[W] Water Shot 70: Discard an Energy from this Pokémon."
+  ],
+  "weak": [
+   "Lightning×2"
+  ],
+  "retreat": 1,
+  "rarity": "Rare Holo",
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh11-45",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-21",
@@ -2046,7 +2176,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-21",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-44",
@@ -2082,7 +2213,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-44",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh9-41",
@@ -2118,115 +2250,45 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-41",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sv3pt5-131",
+  "id": "me1-34",
   "count": 1,
   "section": "Water",
   "line": "Basics",
-  "note": "",
-  "name": "Lapras",
+  "note": "Riptide: 20 per Basic Water Energy in discard",
+  "name": "Kyogre",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "110",
+  "hp": "150",
   "types": [
    "Water"
   ],
   "evolvesFrom": null,
   "price": 0.23,
-  "variant": "normal",
-  "set": "151",
-  "setid": "sv3pt5",
-  "number": "131",
-  "year": "2023",
-  "released": "2023/09/22",
-  "series": "Scarlet & Violet",
-  "text": [
-   "[W] Hop on My Back : Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-   "[WCC] Aqua Edge 90: "
-  ],
-  "weak": [
-   "Lightning×2"
-  ],
-  "retreat": 1,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-131",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh3-37",
-  "count": 1,
-  "section": "Water",
-  "line": "Basics",
-  "note": "",
-  "name": "Suicune",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Basic"
-  ],
-  "hp": "120",
-  "types": [
-   "Water"
-  ],
-  "evolvesFrom": null,
-  "price": 0.83,
   "variant": "holofoil",
-  "set": "Darkness Ablaze",
-  "setid": "swsh3",
-  "number": "37",
-  "year": "2020",
-  "released": "2020/08/14",
-  "series": "Sword & Shield",
+  "set": "Mega Evolution",
+  "setid": "me1",
+  "number": "34",
+  "year": "2025",
+  "released": "2025/09/26",
+  "series": "Mega Evolution",
   "text": [
-   "[W] Wave Splash 20: ",
-   "[WWC] Aurora Loop 130: Put 2 Water Energy attached to this Pokémon into your hand."
+   "[W] Riptide 20×: This attack does 20 damage for each Basic Water Energy card in your discard pile. Then, shuffle those cards into your deck.",
+   "[WWC] Swirling Waves 130: Discard 2 Energy from this Pokémon."
   ],
   "weak": [
    "Lightning×2"
   ],
-  "retreat": 1,
-  "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-37",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh10-43",
-  "count": 1,
-  "section": "Water",
-  "line": "Basics",
-  "note": "Gather the Crew",
-  "name": "Hisuian Basculin",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Basic"
-  ],
-  "hp": "50",
-  "types": [
-   "Water"
-  ],
-  "evolvesFrom": null,
-  "price": 0.13,
-  "variant": "normal",
-  "set": "Astral Radiance",
-  "setid": "swsh10",
-  "number": "43",
-  "year": "2022",
-  "released": "2022/05/27",
-  "series": "Sword & Shield",
-  "text": [
-   "[] Gather the Crew : Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-   "[W] Tackle 10: "
-  ],
-  "weak": [
-   "Lightning×2"
-  ],
-  "retreat": 1,
-  "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-43",
-  "updated": "2026/10/15"
+  "retreat": 3,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/me1-34",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-56",
@@ -2263,7 +2325,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-56",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-75",
@@ -2299,7 +2362,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-75",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-55",
@@ -2335,7 +2399,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-55",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh3-57",
@@ -2371,7 +2436,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-57",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-34",
@@ -2407,7 +2473,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-34",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-35",
@@ -2443,7 +2510,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-35",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-36",
@@ -2479,7 +2547,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-36",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-45",
@@ -2514,7 +2583,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-45",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "bw9-33",
@@ -2550,7 +2620,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/bw9-33",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-25",
@@ -2586,7 +2657,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-25",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-64",
@@ -2622,79 +2694,82 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-64",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sv8-62",
+  "id": "me2-67",
   "count": 1,
   "section": "Lightning",
-  "line": "Zebstrika",
-  "note": "Add On",
-  "name": "Blitzle",
+  "line": "Toxtricity",
+  "note": "Darkness type. Call for Family for D",
+  "name": "Toxel",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
   "hp": "70",
   "types": [
-   "Lightning"
+   "Darkness"
   ],
   "evolvesFrom": null,
-  "price": 0.06,
+  "price": 0.17,
   "variant": "normal",
-  "set": "Surging Sparks",
-  "setid": "sv8",
-  "number": "62",
-  "year": "2024",
-  "released": "2024/11/08",
-  "series": "Scarlet & Violet",
+  "set": "Phantasmal Flames",
+  "setid": "me2",
+  "number": "67",
+  "year": "2025",
+  "released": "2025/11/14",
+  "series": "Mega Evolution",
   "text": [
-   "[C] Add On : Draw a card.",
-   "[LC] Static Shock 20: "
+   "[D] Call for Family : Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+   "[DC] Playful Kick 20: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 1,
   "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv8-62",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/me2-67",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm8-82",
+  "id": "sv3-72",
   "count": 1,
   "section": "Lightning",
-  "line": "Zebstrika",
-  "note": "Sprint: new hand of 4",
-  "name": "Zebstrika",
+  "line": "Toxtricity",
+  "note": "Loud Mix: 50 + 30 for each type on your Bench",
+  "name": "Toxtricity",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
   ],
-  "hp": "110",
+  "hp": "140",
   "types": [
    "Lightning"
   ],
-  "evolvesFrom": "Blitzle",
-  "price": 1.55,
-  "variant": "normal",
-  "set": "Lost Thunder",
-  "setid": "sm8",
-  "number": "82",
-  "year": "2018",
-  "released": "2018/11/02",
-  "series": "Sun & Moon",
+  "evolvesFrom": "Toxel",
+  "price": 0.19,
+  "variant": "holofoil",
+  "set": "Obsidian Flames",
+  "setid": "sv3",
+  "number": "72",
+  "year": "2023",
+  "released": "2023/08/11",
+  "series": "Scarlet & Violet",
   "text": [
-   "<Ability: Sprint> Once during your turn (before your attack), you may discard your hand and draw 4 cards.",
-   "[LC] Head Bolt 60: "
+   "[L] Leer : Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+   "[LC] Loud Mix 50+: This attack does 30 more damage for each different type of Pokémon on your Bench."
   ],
   "weak": [
    "Fighting×2"
   ],
-  "retreat": 1,
+  "retreat": 2,
   "rarity": "Rare",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm8-82",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv3-72",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv7-46",
@@ -2730,7 +2805,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv7-46",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv7-47",
@@ -2766,7 +2842,8 @@
   "retreat": 3,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv7-47",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-65",
@@ -2802,7 +2879,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-65",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "smp-SM30",
@@ -2838,7 +2916,8 @@
   "retreat": 0,
   "rarity": "Promo",
   "url": "https://prices.pokemontcg.io/tcgplayer/smp-SM30",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm35-32",
@@ -2874,7 +2953,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm35-32",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-72",
@@ -2910,7 +2990,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-72",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-51",
@@ -2946,79 +3027,82 @@
   "retreat": 3,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-51",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm7-54",
+  "id": "pl3-71",
   "count": 1,
   "section": "Lightning",
   "line": "Basics",
-  "note": "Ditch and Draw",
+  "note": "Call for Family / Trash Charge",
   "name": "Minun",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "70",
+  "hp": "60",
   "types": [
    "Lightning"
   ],
   "evolvesFrom": null,
-  "price": 1.6,
+  "price": 26.11,
   "variant": "normal",
-  "set": "Celestial Storm",
-  "setid": "sm7",
-  "number": "54",
-  "year": "2018",
-  "released": "2018/08/03",
-  "series": "Sun & Moon",
+  "set": "Supreme Victors",
+  "setid": "pl3",
+  "number": "71",
+  "year": "2009",
+  "released": "2009/08/19",
+  "series": "Platinum",
   "text": [
-   "[C] Ditch and Draw : You may discard any number of cards from your hand. Then, draw cards until you have 5 cards in your hand.",
-   "[LC] Electro Ball 30: "
+   "[] Call for Family : Search your deck for up to 2 Lightning Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+   "[L] Trash Charge 10: Search your discard pile for a Lightning Energy card and attach it to 1 of your Pokémon."
   ],
   "weak": [
-   "Fighting×2"
+   "Fighting+10"
   ],
   "retreat": 1,
   "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm7-54",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/pl3-71",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm7-53",
+  "id": "swsh8-89",
   "count": 1,
   "section": "Lightning",
   "line": "Basics",
-  "note": "Draw for Everybody",
+  "note": "Spark Duo: 120 after Minun attacks",
   "name": "Plusle",
   "supertype": "Pokémon",
   "subtypes": [
-   "Basic"
+   "Basic",
+   "Rapid Strike"
   ],
   "hp": "70",
   "types": [
    "Lightning"
   ],
   "evolvesFrom": null,
-  "price": 2.29,
+  "price": 0.15,
   "variant": "normal",
-  "set": "Celestial Storm",
-  "setid": "sm7",
-  "number": "53",
-  "year": "2018",
-  "released": "2018/08/03",
-  "series": "Sun & Moon",
+  "set": "Fusion Strike",
+  "setid": "swsh8",
+  "number": "89",
+  "year": "2021",
+  "released": "2021/11/12",
+  "series": "Sword & Shield",
   "text": [
-   "[C] Draw for Everybody : Shuffle your hand into your deck. Then, draw a card for each Benched Pokémon (both yours and your opponent's).",
-   "[LC] Electro Ball 30: "
+   "[C] Spark Duo 20+: If 1 of your Minun used an attack during your last turn, this attack does 100 more damage."
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 1,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm7-53",
-  "updated": "2026/10/15"
+  "rarity": "Common",
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh8-89",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4pt5-27",
@@ -3053,7 +3137,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4pt5-27",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12-68",
@@ -3089,7 +3174,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12-68",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12-69",
@@ -3125,7 +3211,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12-69",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-62",
@@ -3161,14 +3248,15 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-62",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sv6pt5-18",
+  "id": "swsh4-69",
   "count": 1,
   "section": "Psychic",
   "line": "Dusknoir",
-  "note": "",
+  "note": "Future Sight: arrange the top 4 of either deck",
   "name": "Duskull",
   "supertype": "Pokémon",
   "subtypes": [
@@ -3179,25 +3267,25 @@
    "Psychic"
   ],
   "evolvesFrom": null,
-  "price": 0.22,
+  "price": 0.17,
   "variant": "normal",
-  "set": "Shrouded Fable",
-  "setid": "sv6pt5",
-  "number": "18",
-  "year": "2024",
-  "released": "2024/08/02",
-  "series": "Scarlet & Violet",
+  "set": "Vivid Voltage",
+  "setid": "swsh4",
+  "number": "69",
+  "year": "2020",
+  "released": "2020/11/13",
+  "series": "Sword & Shield",
   "text": [
-   "[P] Come and Get You : Put up to 3 Duskull from your discard pile onto your Bench.",
-   "[PP] Mumble 30: "
+   "[C] Future Sight : Look at the top 4 cards of either player's deck and put them back in any order."
   ],
   "weak": [
    "Darkness×2"
   ],
   "retreat": 1,
   "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-18",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-69",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8pt5-36",
@@ -3233,43 +3321,45 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-36",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sv6pt5-20",
+  "id": "bw7-63",
   "count": 1,
   "section": "Psychic",
   "line": "Dusknoir",
-  "note": "Cursed Blast: 13 counters / 150",
+  "note": "Sinister Hand: move damage counters freely",
   "name": "Dusknoir",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 2"
   ],
-  "hp": "160",
+  "hp": "130",
   "types": [
    "Psychic"
   ],
   "evolvesFrom": "Dusclops",
-  "price": 0.25,
+  "price": 4.74,
   "variant": "holofoil",
-  "set": "Shrouded Fable",
-  "setid": "sv6pt5",
-  "number": "20",
-  "year": "2024",
-  "released": "2024/08/02",
-  "series": "Scarlet & Violet",
+  "set": "Boundaries Crossed",
+  "setid": "bw7",
+  "number": "63",
+  "year": "2012",
+  "released": "2012/11/07",
+  "series": "Black & White",
   "text": [
-   "<Ability: Cursed Blast> Once during your turn, you may put 13 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.",
-   "[PPC] Shadow Bind 150: During your opponent's next turn, the Defending Pokémon can't retreat."
+   "<Ability: Sinister Hand> As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another of your opponent's Pokémon.",
+   "[PCCC] Shadow Punch 60: This attack's damage isn't affected by Resistance."
   ],
   "weak": [
    "Darkness×2"
   ],
   "retreat": 3,
-  "rarity": "Rare",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-20",
-  "updated": "2026/10/15"
+  "rarity": "Rare Holo",
+  "url": "https://prices.pokemontcg.io/tcgplayer/bw7-63",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-85",
@@ -3305,7 +3395,8 @@
   "retreat": 3,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-85",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv7-58",
@@ -3341,7 +3432,8 @@
   "retreat": 3,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv7-58",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-50",
@@ -3376,7 +3468,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-50",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-51",
@@ -3412,7 +3505,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-51",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-75",
@@ -3447,7 +3541,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-75",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-83",
@@ -3483,7 +3578,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-83",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm10-77",
@@ -3518,7 +3614,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm10-77",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm10-78",
@@ -3554,7 +3651,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm10-78",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "cel25-11",
@@ -3590,7 +3688,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/cel25-11",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-79",
@@ -3626,14 +3725,15 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-79",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh10-65",
+  "id": "me55c-43",
   "count": 1,
   "section": "Psychic",
   "line": "Basics",
-  "note": "",
+  "note": "Set Up: draw to 7",
   "name": "Uxie",
   "supertype": "Pokémon",
   "subtypes": [
@@ -3644,25 +3744,26 @@
    "Psychic"
   ],
   "evolvesFrom": null,
-  "price": 0.13,
-  "variant": "normal",
-  "set": "Astral Radiance",
-  "setid": "swsh10",
-  "number": "65",
-  "year": "2022",
-  "released": "2022/05/27",
-  "series": "Sword & Shield",
+  "price": 5.48,
+  "variant": "holofoil",
+  "set": "30th Celebration: Classic Collection",
+  "setid": "me55c",
+  "number": "43",
+  "year": "2026",
+  "released": "2026/09/16",
+  "series": "Mega Evolution",
   "text": [
-   "[C] Wise Guidance : Search your deck for a card and put it into your hand. Then, shuffle your deck.",
-   "[P] Psyshot 20: "
+   "<Poké-POWER: Set Up> Once during your turn, when you put Uxie from your hand onto your Bench, you may draw cards until you have 7 cards in your hand.",
+   "[C] Psychic Restore 20: You may put Uxie and all cards attached to it on the bottom of your deck in any order."
   ],
   "weak": [
-   "Darkness×2"
+   "Psychic+20"
   ],
   "retreat": 1,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-65",
-  "updated": "2026/10/15"
+  "rarity": "Rare",
+  "url": "https://www.tcgplayer.com/product/716163",
+  "updated": null,
+  "price_source": "override"
  },
  {
   "id": "sv8-80",
@@ -3697,7 +3798,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-80",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp5-49",
@@ -3733,7 +3835,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp5-49",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-59",
@@ -3769,7 +3872,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-59",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-62",
@@ -3804,7 +3908,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-62",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-64",
@@ -3840,7 +3945,8 @@
   "retreat": 3,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-64",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh35-26",
@@ -3876,7 +3982,8 @@
   "retreat": 3,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-26",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-103",
@@ -3911,7 +4018,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-103",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-104",
@@ -3947,7 +4055,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-104",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-105",
@@ -3983,7 +4092,8 @@
   "retreat": 3,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-105",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-101",
@@ -4019,7 +4129,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-101",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp4-15",
@@ -4055,7 +4166,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp4-15",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-113",
@@ -4091,7 +4203,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-113",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-114",
@@ -4127,7 +4240,117 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-114",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv4-102",
+  "count": 1,
+  "section": "Fighting",
+  "line": "Garganacl",
+  "note": "Corner: Defending Pokémon cannot retreat",
+  "name": "Nacli",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Basic"
+  ],
+  "hp": "70",
+  "types": [
+   "Fighting"
+  ],
+  "evolvesFrom": null,
+  "price": 0.08,
+  "variant": "normal",
+  "set": "Paradox Rift",
+  "setid": "sv4",
+  "number": "102",
+  "year": "2023",
+  "released": "2023/11/03",
+  "series": "Scarlet & Violet",
+  "text": [
+   "[F] Corner 10: During your opponent's next turn, the Defending Pokémon can't retreat."
+  ],
+  "weak": [
+   "Grass×2"
+  ],
+  "retreat": 3,
+  "rarity": "Common",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv4-102",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv2-122",
+  "count": 1,
+  "section": "Fighting",
+  "line": "Garganacl",
+  "note": "",
+  "name": "Naclstack",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+   "Fighting"
+  ],
+  "evolvesFrom": "Nacli",
+  "price": 0.11,
+  "variant": "normal",
+  "set": "Paldea Evolved",
+  "setid": "sv2",
+  "number": "122",
+  "year": "2023",
+  "released": "2023/06/09",
+  "series": "Scarlet & Violet",
+  "text": [
+   "[FF] Salt Cannon 60×: Flip 3 coins. This attack does 60 damage for each heads."
+  ],
+  "weak": [
+   "Grass×2"
+  ],
+  "retreat": 3,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv2-122",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv2-123",
+  "count": 1,
+  "section": "Fighting",
+  "line": "Garganacl",
+  "note": "Blessed Salt: heal 20 from each Pokémon every turn / 130 + mill 1",
+  "name": "Garganacl",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 2"
+  ],
+  "hp": "180",
+  "types": [
+   "Fighting"
+  ],
+  "evolvesFrom": "Naclstack",
+  "price": 0.17,
+  "variant": "holofoil",
+  "set": "Paldea Evolved",
+  "setid": "sv2",
+  "number": "123",
+  "year": "2023",
+  "released": "2023/06/09",
+  "series": "Scarlet & Violet",
+  "text": [
+   "<Ability: Blessed Salt> During Pokémon Checkup, heal 20 damage from each of your Pokémon.",
+   "[FF] Knocking Hammer 130: Discard the top card of your opponent's deck."
+  ],
+  "weak": [
+   "Grass×2"
+  ],
+  "retreat": 3,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv2-123",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-86",
@@ -4163,7 +4386,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-86",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "cel25c-107_A",
@@ -4201,78 +4425,8 @@
   "retreat": 4,
   "rarity": "Classic Collection",
   "url": "https://prices.pokemontcg.io/tcgplayer/cel25c-107_A",
-  "updated": "2026/10/15"
- },
- {
-  "id": "sv5-89",
-  "count": 1,
-  "section": "Fighting",
-  "line": "Lycanroc",
-  "note": "",
-  "name": "Rockruff",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Basic"
-  ],
-  "hp": "70",
-  "types": [
-   "Fighting"
-  ],
-  "evolvesFrom": null,
-  "price": 0.14,
-  "variant": "normal",
-  "set": "Temporal Forces",
-  "setid": "sv5",
-  "number": "89",
-  "year": "2024",
-  "released": "2024/03/22",
-  "series": "Scarlet & Violet",
-  "text": [
-   "[C] Paw Shake Punch 10: "
-  ],
-  "weak": [
-   "Grass×2"
-  ],
-  "retreat": 1,
-  "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv5-89",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh35-30",
-  "count": 1,
-  "section": "Fighting",
-  "line": "Lycanroc",
-  "note": "150 for FFC",
-  "name": "Lycanroc",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Stage 1"
-  ],
-  "hp": "120",
-  "types": [
-   "Fighting"
-  ],
-  "evolvesFrom": "Rockruff",
-  "price": 0.2,
-  "variant": "holofoil",
-  "set": "Champion's Path",
-  "setid": "swsh35",
-  "number": "30",
-  "year": "2020",
-  "released": "2020/09/25",
-  "series": "Sword & Shield",
-  "text": [
-   "[C] Rock Throw 30: ",
-   "[FFC] Slashing Strike 150: During your next turn, this Pokémon can't use Slashing Strike."
-  ],
-  "weak": [
-   "Grass×2"
-  ],
-  "retreat": 2,
-  "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-30",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-118",
@@ -4308,7 +4462,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-66",
@@ -4344,7 +4499,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-66",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-106",
@@ -4380,7 +4536,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-106",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-107",
@@ -4416,43 +4573,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-107",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh4-89",
-  "count": 1,
-  "section": "Fighting",
-  "line": "Basics",
-  "note": "",
-  "name": "Regirock",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Basic"
-  ],
-  "hp": "130",
-  "types": [
-   "Fighting"
-  ],
-  "evolvesFrom": null,
-  "price": 0.29,
-  "variant": "holofoil",
-  "set": "Vivid Voltage",
-  "setid": "swsh4",
-  "number": "89",
-  "year": "2020",
-  "released": "2020/11/13",
-  "series": "Sword & Shield",
-  "text": [
-   "[FC] Rock Tumble 40: This attack's damage isn't affected by Resistance.",
-   "[FFC] Megaton Fall 130: This Pokémon also does 30 damage to itself."
-  ],
-  "weak": [
-   "Grass×2"
-  ],
-  "retreat": 3,
-  "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-89",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-117",
@@ -4488,7 +4610,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-117",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-84",
@@ -4524,7 +4647,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-84",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-117",
@@ -4560,7 +4684,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-117",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-118",
@@ -4596,14 +4721,15 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-119",
   "count": 1,
   "section": "Darkness",
   "line": "Galarian Obstagoon",
-  "note": "Untamed Shout",
+  "note": "Untamed Shout: 3 damage counters on evolve",
   "name": "Galarian Obstagoon",
   "supertype": "Pokémon",
   "subtypes": [
@@ -4632,7 +4758,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-119",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-41",
@@ -4668,7 +4795,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-41",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh5-90",
@@ -4704,7 +4832,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh5-90",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh5-91",
@@ -4740,7 +4869,8 @@
   "retreat": 0,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh5-91",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-102",
@@ -4775,7 +4905,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-102",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy8-91",
@@ -4811,7 +4942,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy8-91",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-133",
@@ -4846,7 +4978,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-133",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-134",
@@ -4882,7 +5015,8 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-134",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-131",
@@ -4918,7 +5052,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-131",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-132",
@@ -4954,7 +5089,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-132",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-86",
@@ -4990,7 +5126,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-86",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-96",
@@ -5026,7 +5163,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-96",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp7-48",
@@ -5061,7 +5199,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp7-48",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy6-40",
@@ -5097,7 +5236,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy6-40",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy11-65",
@@ -5133,7 +5273,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy11-65",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3-136",
@@ -5169,7 +5310,8 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3-136",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-93",
@@ -5205,7 +5347,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-93",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm11-140",
@@ -5241,7 +5384,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm11-140",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm10-112",
@@ -5275,7 +5419,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm10-112",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-116",
@@ -5311,7 +5456,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-116",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-114",
@@ -5347,7 +5493,8 @@
   "retreat": 2,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-114",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-115",
@@ -5383,7 +5530,8 @@
   "retreat": 3,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-115",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-164",
@@ -5418,7 +5566,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-164",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-165",
@@ -5454,7 +5603,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-165",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-148",
@@ -5490,7 +5640,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-148",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-100",
@@ -5526,7 +5677,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-100",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy4-61",
@@ -5562,7 +5714,8 @@
   "retreat": 3,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy4-61",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-149",
@@ -5597,7 +5750,8 @@
   "retreat": 3,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-149",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6pt5-42",
@@ -5633,79 +5787,82 @@
   "retreat": 4,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-42",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh1-127",
+  "id": "swsh2-138",
   "count": 1,
   "section": "Metal",
-  "line": "Galarian Perrserker",
-  "note": "",
-  "name": "Galarian Meowth",
+  "line": "Archaludon",
+  "note": "Metal Sharpener: 1 Metal from discard",
+  "name": "Duraludon",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "70",
+  "hp": "130",
   "types": [
    "Metal"
   ],
   "evolvesFrom": null,
-  "price": 0.18,
-  "variant": "normal",
-  "set": "Sword & Shield",
-  "setid": "swsh1",
-  "number": "127",
-  "year": "2020",
-  "released": "2020/02/07",
-  "series": "Sword & Shield",
-  "text": [
-   "[C] Hone Claws : During your next turn, this Pokémon's Slash attack does 60 more damage (before applying Weakness and Resistance).",
-   "[MC] Slash 30: "
-  ],
-  "weak": [
-   "Fire×2"
-  ],
-  "retreat": 1,
-  "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-127",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh1-128",
-  "count": 1,
-  "section": "Metal",
-  "line": "Galarian Perrserker",
-  "note": "Steely Spirit: Metal +20",
-  "name": "Galarian Perrserker",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Stage 1"
-  ],
-  "hp": "120",
-  "types": [
-   "Metal"
-  ],
-  "evolvesFrom": "Galarian Meowth",
-  "price": 0.32,
+  "price": 0.45,
   "variant": "holofoil",
-  "set": "Sword & Shield",
-  "setid": "swsh1",
-  "number": "128",
+  "set": "Rebel Clash",
+  "setid": "swsh2",
+  "number": "138",
   "year": "2020",
-  "released": "2020/02/07",
+  "released": "2020/05/01",
   "series": "Sword & Shield",
   "text": [
-   "<Ability: Steely Spirit> Your Metal Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-   "[MMC] Metal Claw 70: "
+   "[C] Metal Sharpener 30: Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
+   "[MMC] Power Beam 110: "
   ],
   "weak": [
    "Fire×2"
   ],
   "retreat": 2,
   "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-128",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-138",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv7-107",
+  "count": 1,
+  "section": "Metal",
+  "line": "Archaludon",
+  "note": "Metal Bridge: free retreat with Metal / 160",
+  "name": "Archaludon",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 1"
+  ],
+  "hp": "180",
+  "types": [
+   "Metal"
+  ],
+  "evolvesFrom": "Duraludon",
+  "price": 0.05,
+  "variant": "holofoil",
+  "set": "Stellar Crown",
+  "setid": "sv7",
+  "number": "107",
+  "year": "2024",
+  "released": "2024/09/13",
+  "series": "Scarlet & Violet",
+  "text": [
+   "<Ability: Metal Bridge> All of your Pokémon that have Metal Energy attached have no Retreat Cost.",
+   "[MMC] Iron Blaster 160: During your next turn, this Pokémon can't attack."
+  ],
+  "weak": [
+   "Fire×2"
+  ],
+  "retreat": 2,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv7-107",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-1",
@@ -5741,7 +5898,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-1",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-126",
@@ -5777,7 +5935,8 @@
   "retreat": 1,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-126",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv7-98",
@@ -5813,7 +5972,8 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv7-98",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh6-114",
@@ -5849,7 +6009,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh6-114",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-108",
@@ -5885,7 +6046,8 @@
   "retreat": 3,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-108",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-112",
@@ -5921,7 +6083,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-112",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "cel25-20",
@@ -5957,43 +6120,44 @@
   "retreat": 2,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/cel25-20",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh2-138",
+  "id": "me3-59",
   "count": 1,
   "section": "Metal",
   "line": "Basics",
-  "note": "",
-  "name": "Duraludon",
+  "note": "Memory Lock: block one attack",
+  "name": "Klefki",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "130",
+  "hp": "70",
   "types": [
    "Metal"
   ],
   "evolvesFrom": null,
-  "price": 0.45,
-  "variant": "holofoil",
-  "set": "Rebel Clash",
-  "setid": "swsh2",
-  "number": "138",
-  "year": "2020",
-  "released": "2020/05/01",
-  "series": "Sword & Shield",
+  "price": 0.06,
+  "variant": "normal",
+  "set": "Perfect Order",
+  "setid": "me3",
+  "number": "59",
+  "year": "2026",
+  "released": "2026/03/27",
+  "series": "Mega Evolution",
   "text": [
-   "[C] Metal Sharpener 30: Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-   "[MMC] Power Beam 110: "
+   "[M] Memory Lock 30: Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack."
   ],
   "weak": [
    "Fire×2"
   ],
-  "retreat": 2,
-  "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-138",
-  "updated": "2026/10/15"
+  "retreat": 1,
+  "rarity": "Common",
+  "url": "https://www.tcgplayer.com/product/684436",
+  "updated": null,
+  "price_source": "override"
  },
  {
   "id": "swsh12pt5-97",
@@ -6029,7 +6193,8 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-97",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-121",
@@ -6065,7 +6230,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-121",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-123",
@@ -6101,7 +6267,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-123",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-18",
@@ -6137,7 +6304,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-18",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm10-155",
@@ -6173,7 +6341,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm10-155",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp4-49",
@@ -6209,7 +6378,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp4-49",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh6-118",
@@ -6245,78 +6415,82 @@
   "retreat": 2,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh6-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh9-120",
+  "id": "sv3pt5-113",
   "count": 1,
   "section": "Colorless",
-  "line": "Bibarel",
-  "note": "",
-  "name": "Bidoof",
+  "line": "Blissey",
+  "note": "Lucky Bonus: may bench itself from your Prizes, flip for an extra Prize",
+  "name": "Chansey",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "70",
+  "hp": "110",
   "types": [
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.15,
-  "variant": "normal",
-  "set": "Brilliant Stars",
-  "setid": "swsh9",
-  "number": "120",
-  "year": "2022",
-  "released": "2022/02/25",
-  "series": "Sword & Shield",
+  "price": 0.35,
+  "variant": "holofoil",
+  "set": "151",
+  "setid": "sv3pt5",
+  "number": "113",
+  "year": "2023",
+  "released": "2023/09/22",
+  "series": "Scarlet & Violet",
   "text": [
-   "[CC] Rollout 30: "
+   "<Ability: Lucky Bonus> If you took this Pokémon as a face-down Prize card during your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench. If you put this Pokémon onto your Bench in this way, flip a coin. If heads, take 1 more Prize card.",
+   "[CCC] Gentle Slap 70: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 2,
-  "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-120",
-  "updated": "2026/10/15"
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-113",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh9-121",
+  "id": "pgo-52",
   "count": 1,
   "section": "Colorless",
-  "line": "Bibarel",
-  "note": "Industrious Incisors: draw to 5",
-  "name": "Bibarel",
+  "line": "Blissey",
+  "note": "Enriching Egg: fully heal a Benched Pokémon / 200 HP",
+  "name": "Blissey",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
   ],
-  "hp": "120",
+  "hp": "200",
   "types": [
    "Colorless"
   ],
-  "evolvesFrom": "Bidoof",
-  "price": 0.32,
+  "evolvesFrom": "Chansey",
+  "price": 0.27,
   "variant": "holofoil",
-  "set": "Brilliant Stars",
-  "setid": "swsh9",
-  "number": "121",
+  "set": "Pokémon GO",
+  "setid": "pgo",
+  "number": "52",
   "year": "2022",
-  "released": "2022/02/25",
+  "released": "2022/07/01",
   "series": "Sword & Shield",
   "text": [
-   "<Ability: Industrious Incisors> Once during your turn, you may draw cards until you have 5 cards in your hand.",
-   "[CCC] Tail Smash 100: Flip a coin. If tails, this attack does nothing."
+   "[C] Enriching Egg : Heal all damage from 1 of your Benched Pokémon.",
+   "[CCC] Zen Headbutt 100: "
   ],
   "weak": [
    "Fighting×2"
   ],
-  "retreat": 2,
+  "retreat": 4,
   "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-121",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/pgo-52",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh9-124",
@@ -6352,7 +6526,8 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-124",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-147",
@@ -6388,15 +6563,89 @@
   "retreat": 1,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-147",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh3-135",
+  "id": "sm3-109",
   "count": 1,
   "section": "Colorless",
-  "line": "Furret",
+  "line": "Noivern",
   "note": "",
-  "name": "Sentret",
+  "name": "Noibat",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Basic"
+  ],
+  "hp": "50",
+  "types": [
+   "Colorless"
+  ],
+  "evolvesFrom": null,
+  "price": 0.26,
+  "variant": "normal",
+  "set": "Burning Shadows",
+  "setid": "sm3",
+  "number": "109",
+  "year": "2017",
+  "released": "2017/08/05",
+  "series": "Sun & Moon",
+  "text": [
+   "[C] Agility 10: Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn."
+  ],
+  "weak": [
+   "Lightning×2"
+  ],
+  "retreat": 1,
+  "rarity": "Common",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sm3-109",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv9-128",
+  "count": 1,
+  "section": "Colorless",
+  "line": "Noivern",
+  "note": "Tuning Echo: free 110 + Confusion when hand sizes match",
+  "name": "Noivern",
+  "supertype": "Pokémon",
+  "subtypes": [
+   "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+   "Colorless"
+  ],
+  "evolvesFrom": "Noibat",
+  "price": 0.15,
+  "variant": "holofoil",
+  "set": "Journey Together",
+  "setid": "sv9",
+  "number": "128",
+  "year": "2025",
+  "released": "2025/03/28",
+  "series": "Scarlet & Violet",
+  "text": [
+   "<Ability: Tuning Echo> If you have the same number of cards in your hand as your opponent, ignore all Energy in the cost of Frightening Howl used by this Pokémon.",
+   "[CCC] Frightening Howl 110: Your opponent's Active Pokémon is now Confused."
+  ],
+  "weak": [
+   "Lightning×2"
+  ],
+  "retreat": 0,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv9-128",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy8-115",
+  "count": 1,
+  "section": "Colorless",
+  "line": "Dodrio",
+  "note": "Doduo Delivery: draw 2",
+  "name": "Doduo",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
@@ -6406,103 +6655,33 @@
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.09,
+  "price": 0.23,
   "variant": "normal",
-  "set": "Darkness Ablaze",
-  "setid": "swsh3",
-  "number": "135",
-  "year": "2020",
-  "released": "2020/08/14",
-  "series": "Sword & Shield",
+  "set": "BREAKthrough",
+  "setid": "xy8",
+  "number": "115",
+  "year": "2015",
+  "released": "2015/11/04",
+  "series": "XY",
   "text": [
-   "[C] Call for Family : Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
-  ],
-  "weak": [
-   "Fighting×2"
-  ],
-  "retreat": 1,
-  "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-135",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh3-136",
-  "count": 1,
-  "section": "Colorless",
-  "line": "Furret",
-  "note": "",
-  "name": "Furret",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Stage 1"
-  ],
-  "hp": "110",
-  "types": [
-   "Colorless"
-  ],
-  "evolvesFrom": "Sentret",
-  "price": 0.27,
-  "variant": "normal",
-  "set": "Darkness Ablaze",
-  "setid": "swsh3",
-  "number": "136",
-  "year": "2020",
-  "released": "2020/08/14",
-  "series": "Sword & Shield",
-  "text": [
-   "[C] Feelin' Fine : Draw 3 cards.",
-   "[C] Tail Smash 90: Flip a coin. If tails, this attack does nothing."
-  ],
-  "weak": [
-   "Fighting×2"
-  ],
-  "retreat": 1,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-136",
-  "updated": "2026/10/15"
- },
- {
-  "id": "sm10-150",
-  "count": 1,
-  "section": "Colorless",
-  "line": "Dodrio",
-  "note": "",
-  "name": "Doduo",
-  "supertype": "Pokémon",
-  "subtypes": [
-   "Basic"
-  ],
-  "hp": "70",
-  "types": [
-   "Colorless"
-  ],
-  "evolvesFrom": null,
-  "price": 0.2,
-  "variant": "normal",
-  "set": "Unbroken Bonds",
-  "setid": "sm10",
-  "number": "150",
-  "year": "2019",
-  "released": "2019/05/03",
-  "series": "Sun & Moon",
-  "text": [
-   "[C] Peck 10: ",
-   "[CC] Double Peck 20×: Flip 2 coins. This attack does 20 damage for each heads."
+   "[C] Simultaneous Peck 30: Flip 2 coins. If either of them is tails, this attack does nothing.",
+   "[CC] Doduo Delivery : Draw 2 cards."
   ],
   "weak": [
    "Lightning×2"
   ],
   "retreat": 1,
   "rarity": "Common",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm10-150",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/xy8-115",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm10-151",
+  "id": "sv3pt5-85",
   "count": 1,
   "section": "Colorless",
   "line": "Dodrio",
-  "note": "",
+  "note": "Zooming Draw: 1 counter on itself, draw 1",
   "name": "Dodrio",
   "supertype": "Pokémon",
   "subtypes": [
@@ -6513,25 +6692,26 @@
    "Colorless"
   ],
   "evolvesFrom": "Doduo",
-  "price": 0.28,
-  "variant": "normal",
-  "set": "Unbroken Bonds",
-  "setid": "sm10",
-  "number": "151",
-  "year": "2019",
-  "released": "2019/05/03",
-  "series": "Sun & Moon",
+  "price": 0.24,
+  "variant": "holofoil",
+  "set": "151",
+  "setid": "sv3pt5",
+  "number": "85",
+  "year": "2023",
+  "released": "2023/09/22",
+  "series": "Scarlet & Violet",
   "text": [
-   "[CC] Tri Attack 60×: Flip 3 coins. This attack does 60 damage for each heads.",
-   "[CC] Accelerating Stab 90: This Pokémon can't use Accelerating Stab during your next turn."
+   "<Ability: Zooming Draw> Once during your turn, you may put 1 damage counter on this Pokémon. If you do, draw a card.",
+   "[C] Ballistic Beak 10+: This attack does 30 more damage for each damage counter on this Pokémon."
   ],
   "weak": [
    "Lightning×2"
   ],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm10-151",
-  "updated": "2026/10/15"
+  "retreat": 1,
+  "rarity": "Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-85",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp5-55",
@@ -6567,7 +6747,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp5-55",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-131",
@@ -6603,7 +6784,8 @@
   "retreat": 3,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-131",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-110",
@@ -6639,14 +6821,15 @@
   "retreat": 1,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-110",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sm1-113",
+  "id": "swsh1-148",
   "count": 1,
   "section": "Colorless",
   "line": "Basics",
-  "note": "Instruct",
+  "note": "Primate Wisdom: swap a hand card with your top card",
   "name": "Oranguru",
   "supertype": "Pokémon",
   "subtypes": [
@@ -6657,61 +6840,63 @@
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.47,
+  "price": 0.29,
   "variant": "holofoil",
-  "set": "Sun & Moon",
-  "setid": "sm1",
-  "number": "113",
-  "year": "2017",
-  "released": "2017/02/03",
-  "series": "Sun & Moon",
+  "set": "Sword & Shield",
+  "setid": "swsh1",
+  "number": "148",
+  "year": "2020",
+  "released": "2020/02/07",
+  "series": "Sword & Shield",
   "text": [
-   "<Ability: Instruct> Once during your turn (before your attack), you may draw cards until you have 3 cards in your hand.",
-   "[CCC] Psychic 60+: This attack does 20 more damage times the amount of Energy attached to your opponent's Active Pokémon."
+   "<Ability: Primate Wisdom> Once during your turn, you may switch a card from your hand with the top card of your deck.",
+   "[CCC] Whap Down 70: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 2,
   "rarity": "Rare Holo",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm1-113",
-  "updated": "2026/10/15"
+  "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-148",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "sv3pt5-132",
+  "id": "sm4-78",
   "count": 1,
   "section": "Colorless",
   "line": "Basics",
-  "note": "",
-  "name": "Ditto",
+  "note": "Moomoo Malt: attaching heals 90",
+  "name": "Miltank",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "60",
+  "hp": "100",
   "types": [
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.6,
-  "variant": "holofoil",
-  "set": "151",
-  "setid": "sv3pt5",
-  "number": "132",
-  "year": "2023",
-  "released": "2023/09/22",
-  "series": "Scarlet & Violet",
+  "price": 0.28,
+  "variant": "normal",
+  "set": "Crimson Invasion",
+  "setid": "sm4",
+  "number": "78",
+  "year": "2017",
+  "released": "2017/11/03",
+  "series": "Sun & Moon",
   "text": [
-   "<Ability: Transformative Start> Once during your first turn, if this Pokémon is in the Active Spot, you may search your deck and choose a Basic Pokémon you find there, except any Ditto. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place. Then, shuffle your deck.",
-   "[C] Splup 10: "
+   "<Ability: Moomoo Malt> As long as this Pokémon is your Active Pokémon, whenever you attach an Energy card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon.",
+   "[CCC] Sitdown Splash 60+: Flip a coin. If heads, this attack does 30 more damage."
   ],
   "weak": [
    "Fighting×2"
   ],
-  "retreat": 1,
-  "rarity": "Rare",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-132",
-  "updated": "2026/10/15"
+  "retreat": 2,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sm4-78",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-128",
@@ -6747,7 +6932,8 @@
   "retreat": 2,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-128",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-151",
@@ -6783,43 +6969,46 @@
   "retreat": 1,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-151",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
-  "id": "swsh3-140",
+  "id": "xy5-121",
   "count": 1,
   "section": "Colorless",
   "line": "Basics",
-  "note": "",
-  "name": "Lugia",
+  "note": "Ω Barrage: attacks twice / mill or recycle",
+  "name": "Bunnelby",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "130",
+  "hp": "60",
   "types": [
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.52,
+  "price": 0.56,
   "variant": "normal",
-  "set": "Darkness Ablaze",
-  "setid": "swsh3",
-  "number": "140",
-  "year": "2020",
-  "released": "2020/08/14",
-  "series": "Sword & Shield",
+  "set": "Primal Clash",
+  "setid": "xy5",
+  "number": "121",
+  "year": "2015",
+  "released": "2015/02/04",
+  "series": "XY",
   "text": [
-   "[C] Gust 30: ",
-   "[CCC] Energy Loop 120: Put an Energy attached to this Pokémon into your hand."
+   "<Ancient Trait: Ω Barrage> This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)",
+   "[C] Burrow : Discard the top card of your opponent's deck.",
+   "[C] Rototiller : Shuffle a card from your discard pile into your deck."
   ],
   "weak": [
-   "Lightning×2"
+   "Fighting×2"
   ],
   "retreat": 2,
-  "rarity": "Rare",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-140",
-  "updated": "2026/10/15"
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/xy5-121",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8pt5-125",
@@ -6851,7 +7040,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-125",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm5-119",
@@ -6883,7 +7073,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm5-119",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-176",
@@ -6915,7 +7106,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-176",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy10-105",
@@ -6947,7 +7139,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy10-105",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4pt5-80",
@@ -6979,7 +7172,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4pt5-80",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh35-56",
@@ -7011,7 +7205,8 @@
   "retreat": 0,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-56",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-143",
@@ -7043,7 +7238,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-143",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "bw11-109",
@@ -7075,7 +7271,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/bw11-109",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-122",
@@ -7107,7 +7304,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-122",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-148",
@@ -7139,39 +7337,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-148",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh35-53",
-  "count": 1,
-  "section": "Supporter",
-  "line": "Draw",
-  "note": "",
-  "name": "Hop",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Supporter"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.15,
-  "variant": "normal",
-  "set": "Champion's Path",
-  "setid": "swsh35",
-  "number": "53",
-  "year": "2020",
-  "released": "2020/09/25",
-  "series": "Sword & Shield",
-  "text": [
-   "Draw 3 cards.",
-   "You may play only 1 Supporter card during your turn."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-53",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh3-159",
@@ -7203,7 +7370,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-159",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-128",
@@ -7235,7 +7403,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-128",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "bw8-118",
@@ -7268,7 +7437,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/bw8-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm115-56",
@@ -7301,7 +7471,8 @@
   "retreat": 0,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm115-56",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv9-149",
@@ -7333,7 +7504,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv9-149",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-179",
@@ -7365,7 +7537,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-179",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-164",
@@ -7397,7 +7570,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-164",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-184",
@@ -7429,7 +7603,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-184",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-147",
@@ -7462,7 +7637,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-147",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-172",
@@ -7494,7 +7670,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-172",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3-194",
@@ -7526,7 +7703,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3-194",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-145",
@@ -7558,7 +7736,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-145",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm12-189",
@@ -7592,7 +7771,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm12-189",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh35-65",
@@ -7624,7 +7804,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-65",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-166",
@@ -7656,7 +7837,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-166",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-166",
@@ -7688,7 +7870,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-166",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-175",
@@ -7720,7 +7903,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-175",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "rsv10pt5-84",
@@ -7752,7 +7936,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/rsv10pt5-84",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-127",
@@ -7784,7 +7969,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-127",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-188",
@@ -7816,7 +8002,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-188",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm12-201",
@@ -7848,7 +8035,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm12-201",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-147",
@@ -7880,7 +8068,8 @@
   "retreat": 0,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-147",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm5-135",
@@ -7912,7 +8101,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm5-135",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh3-165",
@@ -7944,7 +8134,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-165",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8pt5-105",
@@ -7976,7 +8167,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-105",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-160",
@@ -8008,7 +8200,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-160",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-174",
@@ -8040,7 +8233,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-174",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh7-152",
@@ -8072,7 +8266,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh7-152",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-145",
@@ -8104,7 +8299,8 @@
   "retreat": 0,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-145",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy6-94",
@@ -8136,7 +8332,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy6-94",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "me1-114",
@@ -8168,7 +8365,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/me1-114",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm3-115",
@@ -8200,7 +8398,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm3-115",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy1-129",
@@ -8232,7 +8431,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy1-129",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy7-75",
@@ -8264,7 +8464,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy7-75",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-173",
@@ -8296,7 +8497,74 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-173",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sm3-120",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Gust and disruption",
+  "note": "",
+  "name": "Plumeria",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.19,
+  "variant": "normal",
+  "set": "Burning Shadows",
+  "setid": "sm3",
+  "number": "120",
+  "year": "2017",
+  "released": "2017/08/05",
+  "series": "Sun & Moon",
+  "text": [
+   "Discard 2 cards from your hand. If you do, discard an Energy from 1 of your opponent's Pokémon.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sm3-120",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy2-90",
+  "count": 1,
+  "section": "Supporter",
+  "line": "Gust and disruption",
+  "note": "",
+  "name": "Lysandre",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Supporter"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.27,
+  "variant": "normal",
+  "set": "Flashfire",
+  "setid": "xy2",
+  "number": "90",
+  "year": "2014",
+  "released": "2014/05/07",
+  "series": "XY",
+  "text": [
+   "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+   "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/xy2-90",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh6-145",
@@ -8328,7 +8596,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh6-145",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm115-53",
@@ -8360,7 +8629,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm115-53",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-155",
@@ -8392,7 +8662,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-155",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm3-112",
@@ -8424,7 +8695,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm3-112",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm4-95",
@@ -8456,7 +8728,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm4-95",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "me1-123",
@@ -8488,7 +8761,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/me1-123",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm4-96",
@@ -8520,7 +8794,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm4-96",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-179",
@@ -8552,39 +8827,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-179",
-  "updated": "2026/10/15"
- },
- {
-  "id": "sv1-183",
-  "count": 1,
-  "section": "Supporter",
-  "line": "Recovery and healing",
-  "note": "",
-  "name": "Penny",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Supporter"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.24,
-  "variant": "normal",
-  "set": "Scarlet & Violet",
-  "setid": "sv1",
-  "number": "183",
-  "year": "2023",
-  "released": "2023/03/31",
-  "series": "Scarlet & Violet",
-  "text": [
-   "Put 1 of your Basic Pokémon and all attached cards into your hand.",
-   "You may play only 1 Supporter card during your turn."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sv1-183",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm3-116",
@@ -8616,7 +8860,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm3-116",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-157",
@@ -8648,7 +8893,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-157",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-147",
@@ -8680,7 +8926,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-147",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-154",
@@ -8712,7 +8959,8 @@
   "retreat": 0,
   "rarity": "Rare Holo",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-154",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-191",
@@ -8744,7 +8992,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-191",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "base4-105",
@@ -8773,7 +9022,8 @@
   "retreat": 0,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/base4-105",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh9-150",
@@ -8805,7 +9055,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-150",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-181",
@@ -8837,7 +9088,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-181",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh8-237",
@@ -8869,7 +9121,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh8-237",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh5-129",
@@ -8901,7 +9154,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh5-129",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-164",
@@ -8933,7 +9187,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-164",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-163",
@@ -8965,7 +9220,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-163",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-152",
@@ -8997,7 +9253,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-152",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv5-144",
@@ -9029,7 +9286,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv5-144",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-134",
@@ -9061,7 +9319,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-134",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "col1-78",
@@ -9092,7 +9351,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/col1-78",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12-153",
@@ -9124,7 +9384,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12-153",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "g1-62",
@@ -9156,7 +9417,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/g1-62",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh8-225",
@@ -9189,39 +9451,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh8-225",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh2-164",
-  "count": 1,
-  "section": "Item",
-  "line": "Pokémon search and evolution",
-  "note": "",
-  "name": "Poké Ball",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Item"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.09,
-  "variant": "normal",
-  "set": "Rebel Clash",
-  "setid": "swsh2",
-  "number": "164",
-  "year": "2020",
-  "released": "2020/05/01",
-  "series": "Sword & Shield",
-  "text": [
-   "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-   "You may play any number of Item cards during your turn."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-164",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy8-140",
@@ -9253,7 +9484,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy8-140",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-175",
@@ -9285,7 +9517,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-175",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm7-131",
@@ -9317,7 +9550,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm7-131",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "dp7-86",
@@ -9348,7 +9582,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/dp7-86",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-146",
@@ -9380,7 +9615,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-146",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm8-187",
@@ -9412,7 +9648,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm8-187",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy5-125",
@@ -9444,7 +9681,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy5-125",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh6-140",
@@ -9476,7 +9714,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh6-140",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-163",
@@ -9509,7 +9748,41 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-163",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "bw8-121",
+  "count": 1,
+  "section": "Item",
+  "line": "Energy search and recursion",
+  "note": "",
+  "name": "Ether",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Item"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.37,
+  "variant": "normal",
+  "set": "Plasma Storm",
+  "setid": "bw8",
+  "number": "121",
+  "year": "2013",
+  "released": "2013/02/06",
+  "series": "Black & White",
+  "text": [
+   "Reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If it is not a basic Energy card, return it to the top of your deck.",
+   "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/bw8-121",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-161",
@@ -9541,7 +9814,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-161",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy1-123",
@@ -9573,7 +9847,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy1-123",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm10-173",
@@ -9605,7 +9880,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm10-173",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-119",
@@ -9637,7 +9913,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-119",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-139",
@@ -9669,7 +9946,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-139",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-170",
@@ -9701,7 +9979,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-170",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-186",
@@ -9733,7 +10012,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-186",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy6-92",
@@ -9765,7 +10045,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy6-92",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy4-109",
@@ -9797,7 +10078,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy4-109",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-172",
@@ -9829,7 +10111,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-172",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy5-122",
@@ -9861,7 +10144,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy5-122",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-145",
@@ -9893,7 +10177,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-145",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-144",
@@ -9925,7 +10210,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-144",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh5-125",
@@ -9957,7 +10243,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh5-125",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-154",
@@ -9989,7 +10276,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-154",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm3-124",
@@ -10021,7 +10309,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm3-124",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-165",
@@ -10053,7 +10342,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-165",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4-160",
@@ -10085,7 +10375,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4-160",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-138",
@@ -10117,7 +10408,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-138",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-188",
@@ -10149,7 +10441,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-188",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-130",
@@ -10181,7 +10474,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-130",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "bw1-92",
@@ -10213,7 +10507,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/bw1-92",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-171",
@@ -10245,7 +10540,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-171",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6pt5-61",
@@ -10277,7 +10573,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-61",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-189",
@@ -10309,7 +10606,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-189",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy7-72",
@@ -10341,7 +10639,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy7-72",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy12-85",
@@ -10373,7 +10672,76 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy12-85",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "xy4-92",
+  "count": 1,
+  "section": "Item",
+  "line": "Discard",
+  "note": "discard up to 3 from deck",
+  "name": "Battle Compressor Team Flare Gear",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Item"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 3.12,
+  "variant": "normal",
+  "set": "Phantom Forces",
+  "setid": "xy4",
+  "number": "92",
+  "year": "2014",
+  "released": "2014/11/05",
+  "series": "XY",
+  "text": [
+   "Search your deck for up to 3 cards and discard them. Shuffle your deck afterward.",
+   "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/xy4-92",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "sv8-164",
+  "count": 1,
+  "section": "Item",
+  "line": "Discard",
+  "note": "ACE SPEC: discard up to 5 from deck",
+  "name": "Brilliant Blender",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Item",
+   "ACE SPEC"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.92,
+  "variant": "holofoil",
+  "set": "Surging Sparks",
+  "setid": "sv8",
+  "number": "164",
+  "year": "2024",
+  "released": "2024/11/08",
+  "series": "Scarlet & Violet",
+  "text": [
+   "Search your deck for up to 5 cards and discard them. Then, shuffle your deck.",
+   "You may play any number of Item cards during your turn.",
+   "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "ACE SPEC Rare",
+  "url": "https://prices.pokemontcg.io/tcgplayer/sv8-164",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh12pt5-129",
@@ -10405,7 +10773,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh12pt5-129",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-159",
@@ -10437,7 +10806,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-159",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-148",
@@ -10469,7 +10839,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-148",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm2-125",
@@ -10501,7 +10872,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm2-125",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-168",
@@ -10533,39 +10905,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-168",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh11-162",
-  "count": 1,
-  "section": "Item",
-  "line": "Utility",
-  "note": "",
-  "name": "Lost Vacuum",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Item"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.17,
-  "variant": "normal",
-  "set": "Lost Origin",
-  "setid": "swsh11",
-  "number": "162",
-  "year": "2022",
-  "released": "2022/09/09",
-  "series": "Sword & Shield",
-  "text": [
-   "You can use this card only if you put another card from your hand in the Lost Zone. Choose a Pokémon Tool attached to any Pokémon, or any Stadium in play, and put it in the Lost Zone.",
-   "You may play any number of Item cards during your turn."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh11-162",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy9-103",
@@ -10597,7 +10938,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy9-103",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-166",
@@ -10629,7 +10971,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-166",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy12-87",
@@ -10661,39 +11004,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy12-87",
-  "updated": "2026/10/15"
- },
- {
-  "id": "swsh35-51",
-  "count": 1,
-  "section": "Item",
-  "line": "Utility",
-  "note": "",
-  "name": "Full Heal",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Item"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.15,
-  "variant": "normal",
-  "set": "Champion's Path",
-  "setid": "swsh35",
-  "number": "51",
-  "year": "2020",
-  "released": "2020/09/25",
-  "series": "Sword & Shield",
-  "text": [
-   "Remove all Special Conditions from your Active Pokémon.",
-   "You may play any number of Item cards during your turn."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/swsh35-51",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy8-137",
@@ -10726,7 +11038,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy8-137",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "zsv10pt5-79",
@@ -10759,7 +11072,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/zsv10pt5-79",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm5-122",
@@ -10792,7 +11106,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm5-122",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8pt5-126",
@@ -10824,7 +11139,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8pt5-126",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-118",
@@ -10857,7 +11173,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy1-121",
@@ -10890,7 +11207,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy1-121",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-185",
@@ -10923,7 +11241,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-185",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-169",
@@ -10955,7 +11274,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-169",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-159",
@@ -10988,7 +11308,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-159",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-173",
@@ -11020,7 +11341,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-173",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-158",
@@ -11053,7 +11375,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-158",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv8-169",
@@ -11086,7 +11409,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv8-169",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm3-126",
@@ -11119,7 +11443,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm3-126",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3pt5-163",
@@ -11151,7 +11476,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3pt5-163",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv6-158",
@@ -11184,7 +11510,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv6-158",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm9-156",
@@ -11216,7 +11543,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm9-156",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-169",
@@ -11248,7 +11576,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-169",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv4pt5-76",
@@ -11280,7 +11609,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv4pt5-76",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-178",
@@ -11312,7 +11642,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-178",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv1-167",
@@ -11344,7 +11675,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv1-167",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh10-148",
@@ -11375,7 +11707,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh10-148",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy6-89",
@@ -11408,7 +11741,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy6-89",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv3-196",
@@ -11440,7 +11774,8 @@
   "retreat": 0,
   "rarity": "Common",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv3-196",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh9-137",
@@ -11471,7 +11806,41 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh9-137",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "me1-127",
+  "count": 1,
+  "section": "Stadium",
+  "line": "Stadiums",
+  "note": "Risky Ruins",
+  "name": "Risky Ruins",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Stadium"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.21,
+  "variant": "normal",
+  "set": "Mega Evolution",
+  "setid": "me1",
+  "number": "127",
+  "year": "2025",
+  "released": "2025/09/26",
+  "series": "Mega Evolution",
+  "text": [
+   "Whenever any player puts a Basic non-Darkness Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon.",
+   "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://prices.pokemontcg.io/tcgplayer/me1-127",
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "xy12-90",
@@ -11502,7 +11871,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/xy12-90",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-174",
@@ -11534,7 +11904,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-174",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm1-137",
@@ -11565,7 +11936,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm1-137",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh1-186",
@@ -11597,7 +11969,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh1-186",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-191",
@@ -11628,7 +12001,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-191",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "zsv10pt5-86",
@@ -11659,7 +12033,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/zsv10pt5-86",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "ex2-93",
@@ -11690,7 +12065,8 @@
   "retreat": 0,
   "rarity": "Rare",
   "url": "https://prices.pokemontcg.io/tcgplayer/ex2-93",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm4-100",
@@ -11722,7 +12098,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm4-100",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-192",
@@ -11753,7 +12130,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-192",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-171",
@@ -11785,7 +12163,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-171",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sv2-190",
@@ -11818,39 +12197,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sv2-190",
-  "updated": "2026/10/15"
- },
- {
-  "id": "sm11-212",
-  "count": 1,
-  "section": "Energy",
-  "line": "Special Energy",
-  "note": "",
-  "name": "Recycle Energy",
-  "supertype": "Energy",
-  "subtypes": [
-   "Special"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.56,
-  "variant": "normal",
-  "set": "Unified Minds",
-  "setid": "sm11",
-  "number": "212",
-  "year": "2019",
-  "released": "2019/08/02",
-  "series": "Sun & Moon",
-  "text": [
-   "This card provides Colorless Energy.",
-   "If this card is discarded from play, put it into your hand instead of the discard pile."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://prices.pokemontcg.io/tcgplayer/sm11-212",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh11-171",
@@ -11881,7 +12229,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh11-171",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm5-137",
@@ -11913,7 +12262,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm5-137",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm5-138",
@@ -11945,7 +12295,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm5-138",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "sm6-118",
@@ -11977,7 +12328,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/sm6-118",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "bw6-117",
@@ -12008,7 +12360,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/bw6-117",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-162",
@@ -12040,7 +12393,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-162",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh3-174",
@@ -12072,7 +12426,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-174",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-165",
@@ -12104,7 +12459,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-165",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-173",
@@ -12136,7 +12492,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-173",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh2-172",
@@ -12168,7 +12525,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh2-172",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-164",
@@ -12200,7 +12558,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-164",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh3-175",
@@ -12232,7 +12591,8 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh3-175",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  },
  {
   "id": "swsh4-163",
@@ -12264,6 +12624,7 @@
   "retreat": 0,
   "rarity": "Uncommon",
   "url": "https://prices.pokemontcg.io/tcgplayer/swsh4-163",
-  "updated": "2026/10/15"
+  "updated": "2026/10/15",
+  "price_source": "api"
  }
 ]
