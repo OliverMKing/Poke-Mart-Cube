@@ -47,7 +47,7 @@ add('Water','Hisuian Basculegion',[('swsh10-43','Gather the Crew'),('swsh11-45',
 add('Water','Basics',[('sm2-21','Beacon: search 2 Pokémon'),('sv5-44','Rapid Draw'),('swsh9-41','Wave Veil: Bench shield'),('me1-34','Riptide: 20 per Basic Water Energy in discard'),('sv4-56','Hyper Blower')])
 # LIGHTNING
 add('Lightning','Eelektross',[('swsh4-57','Levitate: free retreat with Energy'),('zsv10pt5-31','Dynamotor'),('sm11-66','Electric Swamp: Bench it from hand with 4 L in play / 130')])
-add('Lightning','Magnezone',[('sm6-34','Searching Magnet'),('sm6-35',),('sm6-36','Magnetic Circuit: attach L from hand')])
+add('Lightning','Magnezone',[('sm6-34','Searching Magnet'),('sm12-69','Call Signal: find 3 Supporters, then it is Knocked Out'),('sm6-36','Magnetic Circuit: attach L from hand')])
 add('Lightning','Electrode',[('swsh4-45',),('bw9-33','Magnetic Draw: draw to 4')])
 add('Lightning','Raichu',[('sv3pt5-25',),('sv2-64','Electrocharge / 200')])
 add('Lightning','Toxtricity',[('me2-67','Darkness type. Call for Family for D'),('sv3-72','Loud Mix: 50 + 30 for each type on your Bench')])

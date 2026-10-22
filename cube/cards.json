@@ -2477,39 +2477,39 @@
   "price_source": "api"
  },
  {
-  "id": "sm6-35",
+  "id": "sm12-69",
   "count": 1,
   "section": "Lightning",
   "line": "Magnezone",
-  "note": "",
+  "note": "Call Signal: find 3 Supporters, then it is Knocked Out",
   "name": "Magneton",
   "supertype": "Pokémon",
   "subtypes": [
    "Stage 1"
   ],
-  "hp": "90",
+  "hp": "80",
   "types": [
    "Lightning"
   ],
   "evolvesFrom": "Magnemite",
-  "price": 0.23,
-  "variant": "normal",
-  "set": "Forbidden Light",
-  "setid": "sm6",
-  "number": "35",
-  "year": "2018",
-  "released": "2018/05/04",
+  "price": 1.07,
+  "variant": "holofoil",
+  "set": "Cosmic Eclipse",
+  "setid": "sm12",
+  "number": "69",
+  "year": "2019",
+  "released": "2019/11/01",
   "series": "Sun & Moon",
   "text": [
-   "[L] Ram 20: ",
-   "[LLC] Zap Cannon 80: This Pokémon can't use Zap Cannon during your next turn."
+   "<Ability: Call Signal> Once during your turn (before your attack), you may search your deck for up to 3 Supporter cards, reveal them, and put them into your hand. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out.",
+   "[LLC] Magnetic Blast 50: "
   ],
   "weak": [
    "Fighting×2"
   ],
   "retreat": 2,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/165686",
+  "rarity": "Rare Holo",
+  "url": "https://www.tcgplayer.com/product/201243",
   "updated": "2026/10/15",
   "price_source": "api"
  },
