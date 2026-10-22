@@ -99,7 +99,7 @@ In a singleton cube, each evolution line has only one card for each stage.
 These cards help a player finish a line:
 
 - Rare Candy, Pokémon Breeder, Wally, Evosoda and Meganium evolve a Pokémon without the usual steps. Meganium's Quick-Ripening Herb Ability works like a Rare Candy each turn.
-- Evolution Incense, Timer Ball, Capturing Aroma, Jacq, Hilda, Kangaskhan and Bayleef find Evolution cards.
+- Evolution Incense, Timer Ball, Capturing Aroma, Jacq, Hilda and Bayleef find Evolution cards.
 
 With 6 players, each 15-card pack comes back to each player two times, at picks 7 and 13.
 A player who takes a Stage 2 from a pack often gets its Basic and Stage 1 back from the same pack.
@@ -112,8 +112,8 @@ The page calculates this table again each time you build it. Update this copy af
 | Attacking type | Pokémon hit for double damage | Main targets |
 |---|---|---|
 | Fire | 38 | Grass 20, Metal 18 |
-| Fighting | 38 | Lightning 19, Colorless 13, Darkness 6 |
-| Lightning | 31 | Water 16, Colorless 7, Darkness 4, Metal 3, Lightning 1 |
+| Fighting | 37 | Lightning 19, Colorless 12, Darkness 6 |
+| Lightning | 32 | Water 16, Colorless 8, Darkness 4, Metal 3, Lightning 1 |
 | Water | 23 | Fire 21, Fighting 2 |
 | Grass | 17 | Darkness 9, Fighting 7, Water 1 |
 | Darkness | 15 | Psychic 15 |
@@ -225,6 +225,7 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-22 | Phantasmal Flames Toxel is a Darkness Pokémon. It stays in the Lightning section because Lightning Toxtricity evolves from it. Its Call for Family attack needs a Darkness Energy. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. Remoraid is Plasma Blast (bw10-18). Its Bubble Beam attack can Paralyze the Defending Pokémon. Its Weakness is Lightning, not Grass. |
 | 2026-10-22 | Synced the card list with the CubeKoga list again. The Rowlet, Dartrix and Decidueye line became a Chikorita (sm8-5), Bayleef (dp2-41) and Meganium (sm8-8) line. Shrouded Fable Decidueye did 170 damage for one Energy, which was too strong. Meganium's Quick-Ripening Herb works like a Rare Candy each turn. Bayleef's Evolution Impulse finds an Evolution card, and Chikorita's Synthesis attaches a Grass Energy from the deck. Meganium costs about 5.78 USD. |
+| 2026-10-22 | Synced the card list with the CubeKoga list again. Celebrations Lugia (cel25-22) replaced Team Up Kangaskhan (sm9-128). Lugia is a Colorless attacker: Aero Ball does 20 damage for each Energy on both Active Pokémon, and Deep Crush does 160 for four Energy of any type. Bayleef and the other line-finishing cards still find Evolution cards. |
 
 ## Options
 

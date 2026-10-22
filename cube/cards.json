@@ -6899,12 +6899,12 @@
   "price_source": "api"
  },
  {
-  "id": "sm9-128",
+  "id": "cel25-22",
   "count": 1,
   "section": "Colorless",
   "line": "Basics",
-  "note": "Fast Evolution",
-  "name": "Kangaskhan",
+  "note": "Aero Ball / Deep Crush 160 for CCCC",
+  "name": "Lugia",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
@@ -6914,24 +6914,24 @@
    "Colorless"
   ],
   "evolvesFrom": null,
-  "price": 0.25,
-  "variant": "normal",
-  "set": "Team Up",
-  "setid": "sm9",
-  "number": "128",
-  "year": "2019",
-  "released": "2019/02/01",
-  "series": "Sun & Moon",
+  "price": 0.76,
+  "variant": "holofoil",
+  "set": "Celebrations",
+  "setid": "cel25",
+  "number": "22",
+  "year": "2021",
+  "released": "2021/10/08",
+  "series": "Sword & Shield",
   "text": [
-   "[C] Fast Evolution : Search your deck for up to 2 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-   "[CCC] Mega Punch 80: "
+   "[CC] Aero Ball 20×: This attack does 20 damage for each Energy attached to both Active Pokémon.",
+   "[CCCC] Deep Crush 160: During your next turn, this Pokémon can't attack."
   ],
   "weak": [
-   "Fighting×2"
+   "Lightning×2"
   ],
   "retreat": 2,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/183917",
+  "rarity": "Rare",
+  "url": "https://www.tcgplayer.com/product/250317",
   "updated": "2026/10/15",
   "price_source": "api"
  },

@@ -92,7 +92,7 @@ add('Colorless','Blissey',[('sv3pt5-113','Lucky Bonus: may bench itself from you
 add('Colorless','Cinccino',[('swsh9-124','Call for Family'),('swsh1-147','Make Do')])
 add('Colorless','Noivern',[('sm3-109',),('sv9-128','Tuning Echo: free 110 + Confusion when hand sizes match')])
 add('Colorless','Dodrio',[('xy8-115','Doduo Delivery: draw 2'),('sv3pt5-85','Zooming Draw: 1 counter on itself, draw 1')])
-add('Colorless','Basics',[('dp5-55','Mimic'),('swsh4-131','Gormandize'),('sm7-110','Strike and Run'),('swsh1-148','Primate Wisdom: swap a hand card with your top card'),('sm4-78','Moomoo Malt: attaching heals 90'),('sm9-128','Fast Evolution'),('sv1-151','Nest Stash'),('xy5-121','Ω Barrage: attacks twice / mill or recycle')])
+add('Colorless','Basics',[('dp5-55','Mimic'),('swsh4-131','Gormandize'),('sm7-110','Strike and Run'),('swsh1-148','Primate Wisdom: swap a hand card with your top card'),('sm4-78','Moomoo Malt: attaching heals 90'),('cel25-22','Aero Ball / Deep Crush 160 for CCCC'),('sv1-151','Nest Stash'),('xy5-121','Ω Barrage: attacks twice / mill or recycle')])
 # SUPPORTERS
 add('Supporter','Draw',[('sv8pt5-125',),('sm5-119',),('sv1-176',),('xy10-105',),('sv4pt5-80',),('swsh35-56',),('swsh7-143',),('bw11-109',),('sm1-122',),('sm7-148',),('swsh3-159',),('sm1-128',),('bw8-118',),('sm115-56',),('sv9-149',),('sv2-179',),('swsh7-164',),('sv2-184',),('sv5-147',),('sv4-172',),('sv3-194',),('sv6-145',),('sm12-189',)])
 add('Supporter','Search',[('swsh35-65',),('swsh2-166',),('sv1-166',),('sv1-175',),('rsv10pt5-84',),('sm2-127',),('sm8-188',),('sm12-201',),('swsh10-147',),('sm5-135',),('swsh3-165',),('sv8pt5-105',),('sv6-160',),('sv8-174',),('swsh7-152',),('sm7-145',),('xy6-94',)])
