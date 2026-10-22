@@ -78,9 +78,9 @@ The cube supports two slower strategies.
 
 **Tank and heal** decks wear the opponent down.
 
-- Healing Pokémon: Garganacl (heals 20 from each of your Pokémon every turn), Blissey (fully heals a Benched Pokémon) and Miltank.
+- Healing Pokémon: Garganacl (heals 20 from each of your Pokémon every turn), Blissey (fully heals a Benched Pokémon), Miltank and Oricorio (heals 20 from your Active Evolution Pokémon every turn).
 - Hard-to-damage Pokémon: Donphan, Scizor, Zamazenta, Copperajah and Blissey (200 HP).
-- Healing Trainers: Max Potion, Hyper Potion, Super Potion, Pokémon Center Lady, Leftovers and Acerola.
+- Healing Trainers: Max Potion, Hyper Potion, Super Potion, Spicy Seasoned Curry, Pokémon Center Lady, Leftovers and Acerola.
 
 ## Discard synergy
 
@@ -136,6 +136,7 @@ Check these points after the first drafts:
 7. **Mill speed.** Bunnelby can mill 2 cards each turn, but Super Rod, Miriam, Brock's Grit and other cards shuffle cards back into the deck. Check that milling decks can win.
 8. **Time Spiral.** Celebi's devolve attack shuffles the top stage of an evolved Pokémon into the opponent's deck. In a singleton cube, that card is often the only copy. Check that it is not too strong.
 9. **Meganium.** Quick-Ripening Herb evolves a Basic Pokémon into a Stage 2 Pokémon each turn. It also works on the first turn. Check how much faster it makes Stage 2 decks.
+10. **Conkeldurr and Spicy Seasoned Curry.** Curry Burns your Active Pokémon. A Conkeldurr with a Special Condition uses Gutsy Swing for 250 damage with no Energy. Check how often this combo decides games.
 
 ## Cards left out
 
@@ -230,6 +231,8 @@ It is not a Lost Zone payoff, and the cube has no Lost Zone strategy.
 | 2026-10-23 | Changed the card mix to match typical singleton cubes. The 30 singleton cubes among the most-liked CubeKoga cubes have a median of 19% Supporters and 4% Special Energy. The cube had 16% and 7%. Removed six Special Energy cards: Twin Energy and Multi Energy (functional reprints of Double Colorless Energy and Luminous Energy in this cube), Prism Energy and the three Unit Energy cards. Added six Supporters: Teammates (xy5-141), Brigette (xy8-134), Korrina (xy3-95), Adaman (swsh10-135), Xerosic (xy4-110) and Ace Trainer (xy7-69). Korrina and Adaman give Fighting and Metal their own Supporters. The cube now has 65 Supporters, 62 Items and 18 Special Energy cards. |
 | 2026-10-23 | Replaced the Fomantis and Lurantis line with a Poltchageist (me5-5) and Sinistcha (sv6-22) line. Sinistcha's Cursed Drop puts 4 damage counters on the opponent's Pokémon in any way, and Spill the Tea discards up to 3 Grass Energy from your Pokémon for 70 damage each. Pitch Black Poltchageist has no API price yet, so it is in `price_overrides`. |
 | 2026-10-23 | Synced the card list with the CubeKoga list again. Magneton is Cosmic Eclipse (sm12-69). Its Call Signal Ability finds up to 3 Supporter cards, and then Magneton is Knocked Out, so the opponent takes a Prize card. A player who uses it loses the only Magneton, so Magnezone then needs Rare Candy, Pokémon Breeder or Meganium. |
+| 2026-10-23 | Synced the card list with the CubeKoga list again. Spicy Seasoned Curry (swsh10-151) replaced Heavy Ball (xy8-140). Curry Burns your Active Pokémon and heals 40 damage from it, so Conkeldurr's Gutsy Swing costs no Energy. Burn does not stop an attack, but Tantrum's Confusion can. Blacephalon (sm10-32) and Magby (sv4-19) replaced Oricorio (sm2-14) and Torkoal (sv6-30), which did little. Blacephalon's Fireball Circus does 50 damage for each Fire Energy discarded from the hand. Magby's Scorching Heater puts 6 damage counters on a Pokémon that damages it. |
+| 2026-10-23 | Synced the card list with the CubeKoga list again. Paldea Evolved Oricorio (sv2-33) replaced Blacephalon (sm10-32). Blacephalon added more Fire speed, and Oricorio's effect helps any type: Ardent Dancing heals 20 damage from your Active Evolution Pokémon each turn and needs no Energy. |
 
 ## Options
 

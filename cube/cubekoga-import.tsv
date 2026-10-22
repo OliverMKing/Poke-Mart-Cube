@@ -37,9 +37,9 @@
 1	Victini	sv8	21
 1	Heatran	sm8	48
 1	Entei	sm12	28
-1	Oricorio	sm2	14
+1	Oricorio	sv2	33
 1	Chi-Yu	sv4	29
-1	Torkoal	sv6	30
+1	Magby	sv4	19
 1	Sobble	swsh1	55
 1	Drizzile	swsh1	56
 1	Inteleon	swsh1	58
@@ -268,7 +268,6 @@
 1	Capturing Aroma	swsh12	153
 1	Evosoda	g1	62
 1	Battle VIP Pass	swsh8	225
-1	Heavy Ball	xy8	140
 1	Dusk Ball	sv8	175
 1	Friend Ball	sm7	131
 1	Luxury Ball	dp7	86
@@ -307,6 +306,7 @@
 1	Revive	xy12	85
 1	Battle Compressor Team Flare Gear	xy4	92
 1	Brilliant Blender	sv8	164
+1	Spicy Seasoned Curry	swsh10	151
 1	Energy Switch	swsh12pt5	129
 1	Crushing Hammer	swsh1	159
 1	Enhanced Hammer	sv6	148

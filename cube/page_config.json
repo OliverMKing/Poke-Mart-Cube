@@ -42,7 +42,7 @@
     },
     "Fire": {
       "headline": "Charizard · Cinderace · Arcanine",
-      "summary": "Charizard makes each Basic Fire Energy count as two. Growlithe, Volcanion, Cinderace and Arcanine pull Fire Energy from the deck or the discard pile. Salazzle makes the opponent discard up to 3 cards on the turn it evolves."
+      "summary": "Charizard makes each Basic Fire Energy count as two. Growlithe, Volcanion, Cinderace and Arcanine pull Fire Energy from the deck or the discard pile. Magby punishes any attack with 6 damage counters, and Oricorio heals 20 from your Active Evolution Pokémon every turn. Salazzle makes the opponent discard up to 3 cards on the turn it evolves."
     },
     "Water": {
       "headline": "Inteleon · Baxcalibur · Palafin",
@@ -58,7 +58,7 @@
     },
     "Fighting": {
       "headline": "Machamp · Conkeldurr · Garganacl",
-      "summary": "Garganacl heals 20 from each of your Pokémon every turn and hits for 130. Conkeldurr hits for 80 with one Energy and 250 at full power. Claydol draws to six, and Machoke and Donphan make the deck hard to knock out."
+      "summary": "Garganacl heals 20 from each of your Pokémon every turn and hits for 130. Conkeldurr hits for 80 with one Energy, and for 250 with no Energy while it has a Special Condition. Spicy Seasoned Curry Burns it on purpose. Claydol draws to six, and Machoke and Donphan make the deck hard to knock out."
     },
     "Darkness": {
       "headline": "Obstagoon · Crobat · Mightyena",

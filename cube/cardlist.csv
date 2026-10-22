@@ -38,9 +38,9 @@ Fire,Basics,Volcanion,Steam Siege,25,xy11-25,0.32,normal,Power Heater
 Fire,Basics,Victini,Surging Sparks,21,sv8-21,0.24,normal,Victory Cheer
 Fire,Basics,Heatran,Lost Thunder,48,sm8-48,0.41,holofoil,
 Fire,Basics,Entei,Cosmic Eclipse,28,sm12-28,0.65,normal,
-Fire,Basics,Oricorio,Guardians Rising,14,sm2-14,0.34,normal,Passionate Dance
+Fire,Basics,Oricorio,Paldea Evolved,33,sv2-33,0.18,holofoil,Ardent Dancing: heal 20 from your Active Evolution Pokémon
 Fire,Basics,Chi-Yu,Paradox Rift,29,sv4-29,0.15,holofoil,Flare Bringer
-Fire,Basics,Torkoal,Twilight Masquerade,30,sv6-30,0.20,normal,
+Fire,Basics,Magby,Paradox Rift,19,sv4-19,0.14,normal,Scorching Heater: 6 counters on the attacker
 Water,Inteleon,Sobble,Sword & Shield,55,swsh1-55,0.12,normal,
 Water,Inteleon,Drizzile,Sword & Shield,56,swsh1-56,0.23,normal,Shady Dealings
 Water,Inteleon,Inteleon,Sword & Shield,58,swsh1-58,0.45,holofoil,Shady Dealings x2 / 120+20
@@ -269,7 +269,6 @@ Item,Pokémon search and evolution,Dual Ball,Call of Legends,78,col1-78,0.50,nor
 Item,Pokémon search and evolution,Capturing Aroma,Silver Tempest,153,swsh12-153,0.14,normal,
 Item,Pokémon search and evolution,Evosoda,Generations,62,g1-62,0.42,normal,
 Item,Pokémon search and evolution,Battle VIP Pass,Fusion Strike,225,swsh8-225,0.24,normal,
-Item,Pokémon search and evolution,Heavy Ball,BREAKthrough,140,xy8-140,0.54,normal,
 Item,Pokémon search and evolution,Dusk Ball,Surging Sparks,175,sv8-175,0.25,normal,
 Item,Pokémon search and evolution,Friend Ball,Celestial Storm,131,sm7-131,0.27,normal,
 Item,Pokémon search and evolution,Luxury Ball,Stormfront,86,dp7-86,2.17,normal,
@@ -308,6 +307,7 @@ Item,Recovery,Energy Recycler,Ancient Origins,72,xy7-72,0.22,normal,
 Item,Recovery,Revive,Evolutions,85,xy12-85,0.17,normal,
 Item,Discard,Battle Compressor Team Flare Gear,Phantom Forces,92,xy4-92,3.12,normal,discard up to 3 from deck
 Item,Discard,Brilliant Blender,Surging Sparks,164,sv8-164,0.92,holofoil,ACE SPEC: discard up to 5 from deck
+Item,Utility,Spicy Seasoned Curry,Astral Radiance,151,swsh10-151,0.14,normal,Burns your Active and heals 40: turns on Gutsy Swing
 Item,Utility,Energy Switch,Crown Zenith,129,swsh12pt5-129,0.16,normal,
 Item,Utility,Crushing Hammer,Sword & Shield,159,swsh1-159,0.16,normal,
 Item,Utility,Enhanced Hammer,Twilight Masquerade,148,sv6-148,0.19,normal,

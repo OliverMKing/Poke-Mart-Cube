@@ -1443,11 +1443,11 @@
   "price_source": "api"
  },
  {
-  "id": "sm2-14",
+  "id": "sv2-33",
   "count": 1,
   "section": "Fire",
   "line": "Basics",
-  "note": "Passionate Dance",
+  "note": "Ardent Dancing: heal 20 from your Active Evolution Pokémon",
   "name": "Oricorio",
   "supertype": "Pokémon",
   "subtypes": [
@@ -1458,24 +1458,24 @@
    "Fire"
   ],
   "evolvesFrom": null,
-  "price": 0.34,
-  "variant": "normal",
-  "set": "Guardians Rising",
-  "setid": "sm2",
-  "number": "14",
-  "year": "2017",
-  "released": "2017/05/05",
-  "series": "Sun & Moon",
+  "price": 0.18,
+  "variant": "holofoil",
+  "set": "Paldea Evolved",
+  "setid": "sv2",
+  "number": "33",
+  "year": "2023",
+  "released": "2023/06/09",
+  "series": "Scarlet & Violet",
   "text": [
-   "[F] Passionate Dance : Search your deck for up to 3 Basic Fire Pokémon and put them onto your Bench. Then, shuffle your deck.",
-   "[FF] Kindle 30: Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon."
+   "<Ability: Ardent Dancing> Once during your turn, you may heal 20 damage from your Active Evolution Pokémon.",
+   "[FC] Flap 30: "
   ],
   "weak": [
    "Water×2"
   ],
   "retreat": 1,
   "rarity": "Rare",
-  "url": "https://www.tcgplayer.com/product/130760",
+  "url": "https://www.tcgplayer.com/product/497444",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -1517,39 +1517,38 @@
   "price_source": "api"
  },
  {
-  "id": "sv6-30",
+  "id": "sv4-19",
   "count": 1,
   "section": "Fire",
   "line": "Basics",
-  "note": "",
-  "name": "Torkoal",
+  "note": "Scorching Heater: 6 counters on the attacker",
+  "name": "Magby",
   "supertype": "Pokémon",
   "subtypes": [
    "Basic"
   ],
-  "hp": "130",
+  "hp": "30",
   "types": [
    "Fire"
   ],
   "evolvesFrom": null,
-  "price": 0.2,
+  "price": 0.14,
   "variant": "normal",
-  "set": "Twilight Masquerade",
-  "setid": "sv6",
-  "number": "30",
-  "year": "2024",
-  "released": "2024/05/24",
+  "set": "Paradox Rift",
+  "setid": "sv4",
+  "number": "19",
+  "year": "2023",
+  "released": "2023/11/03",
   "series": "Scarlet & Violet",
   "text": [
-   "[FC] Ramming Shell 30: During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-   "[FCC] Fire Spin 110: Discard 2 Energy from this Pokémon."
+   "[] Scorching Heater : During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 6 damage counters on the Attacking Pokémon."
   ],
   "weak": [
    "Water×2"
   ],
-  "retreat": 3,
+  "retreat": 0,
   "rarity": "Common",
-  "url": "https://www.tcgplayer.com/product/550074",
+  "url": "https://www.tcgplayer.com/product/523619",
   "updated": "2026/10/15",
   "price_source": "api"
  },
@@ -9655,39 +9654,6 @@
   "price_source": "api"
  },
  {
-  "id": "xy8-140",
-  "count": 1,
-  "section": "Item",
-  "line": "Pokémon search and evolution",
-  "note": "",
-  "name": "Heavy Ball",
-  "supertype": "Trainer",
-  "subtypes": [
-   "Item"
-  ],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "price": 0.54,
-  "variant": "normal",
-  "set": "BREAKthrough",
-  "setid": "xy8",
-  "number": "140",
-  "year": "2015",
-  "released": "2015/11/04",
-  "series": "XY",
-  "text": [
-   "Search your deck for a Pokémon with a Retreat Cost of 3 or more, reveal it, and put it into your hand. Shuffle your deck afterward.",
-   "You may play as many Item cards as you like during your turn (before your attack)."
-  ],
-  "weak": [],
-  "retreat": 0,
-  "rarity": "Uncommon",
-  "url": "https://www.tcgplayer.com/product/107259",
-  "updated": "2026/10/15",
-  "price_source": "api"
- },
- {
   "id": "sv8-175",
   "count": 1,
   "section": "Item",
@@ -10940,6 +10906,39 @@
   "retreat": 0,
   "rarity": "ACE SPEC Rare",
   "url": "https://www.tcgplayer.com/product/589880",
+  "updated": "2026/10/15",
+  "price_source": "api"
+ },
+ {
+  "id": "swsh10-151",
+  "count": 1,
+  "section": "Item",
+  "line": "Utility",
+  "note": "Burns your Active and heals 40: turns on Gutsy Swing",
+  "name": "Spicy Seasoned Curry",
+  "supertype": "Trainer",
+  "subtypes": [
+   "Item"
+  ],
+  "hp": null,
+  "types": [],
+  "evolvesFrom": null,
+  "price": 0.14,
+  "variant": "normal",
+  "set": "Astral Radiance",
+  "setid": "swsh10",
+  "number": "151",
+  "year": "2022",
+  "released": "2022/05/27",
+  "series": "Sword & Shield",
+  "text": [
+   "Your Active Pokémon is now Burned. Heal 40 damage from it.",
+   "You may play any number of Item cards during your turn."
+  ],
+  "weak": [],
+  "retreat": 0,
+  "rarity": "Uncommon",
+  "url": "https://www.tcgplayer.com/product/272403",
   "updated": "2026/10/15",
   "price_source": "api"
  },

@@ -35,7 +35,7 @@ add('Fire','Magcargo',[('sm7-23',),('sm7-24','Smooth Over: tutor to top')])
 add('Fire','Arcanine',[('sv1-31','Stoke: 2 Fire from deck'),('sv3pt5-59','reload / 240')])
 add('Fire','Salazzle',[('swsh12pt5-27','Call for Family'),('sv7-24','Sudden Scorching: opponent discards up to 3 / 130')])
 add('Fire','Rapidash',[('sv5-26',),('sv5-27','120 for FC')])
-add('Fire','Basics',[('xy11-25','Power Heater'),('sv8-21','Victory Cheer'),('sm8-48',),('sm12-28',),('sm2-14','Passionate Dance'),('sv4-29','Flare Bringer'),('sv6-30',)])
+add('Fire','Basics',[('xy11-25','Power Heater'),('sv8-21','Victory Cheer'),('sm8-48',),('sm12-28',),('sv2-33','Ardent Dancing: heal 20 from your Active Evolution Pokémon'),('sv4-29','Flare Bringer'),('sv4-19','Scorching Heater: 6 counters on the attacker')])
 # WATER
 add('Water','Inteleon',[('swsh1-55',),('swsh1-56','Shady Dealings'),('swsh1-58','Shady Dealings x2 / 120+20')])
 add('Water','Baxcalibur',[('sv4pt5-17','Collect: draw 1'),('sv2-59',),('sv2-60','Super Cold: attach Water from hand')])
@@ -100,13 +100,13 @@ add('Supporter','Gust and disruption',[('xy4-110',),('xy7-69',),('me1-114',),('s
 add('Supporter','Recovery and healing',[('swsh6-145',),('sm115-53',),('sv6-155',),('sm3-112',),('sm4-95',),('me1-123',),('sm4-96',),('sv1-179',)])
 add('Supporter','Energy and damage',[('sm3-116',),('swsh1-157',),('swsh4-147',),('swsh4-154',)])
 # ITEMS
-add('Item','Pokémon search and evolution',[('sv1-191',),('base4-105',),('swsh9-150',),('sv1-181',),('swsh8-237',),('swsh5-129',),('swsh1-164',),('swsh1-163',),('sm9-152',),('sv5-144',),('sm1-134',),('col1-78',),('swsh12-153',),('g1-62',),('swsh8-225',),('xy8-140',),('sv8-175',),('sm7-131',),('dp7-86',),('swsh10-146',),('sm8-187',),('xy5-125',),('swsh6-140',)])
+add('Item','Pokémon search and evolution',[('sv1-191',),('base4-105',),('swsh9-150',),('sv1-181',),('swsh8-237',),('swsh5-129',),('swsh1-164',),('swsh1-163',),('sm9-152',),('sv5-144',),('sm1-134',),('col1-78',),('swsh12-153',),('g1-62',),('swsh8-225',),('sv8-175',),('sm7-131',),('dp7-86',),('swsh10-146',),('sm8-187',),('xy5-125',),('swsh6-140',)])
 add('Item','Energy search and recursion',[('sv4-163',),('bw8-121',),('swsh1-161',),('xy1-123',),('sm10-173',),('sm2-119',),('swsh10-139',),('swsh1-170',)])
 add('Item','Card search and draw',[('sv1-186',),('xy6-92',),('xy4-109',),('swsh1-172',),('xy5-122',),('swsh12pt5-145',)])
 add('Item','Switch and gust',[('swsh12pt5-144',),('swsh5-125',),('swsh10-154',),('sm3-124',),('swsh2-165',),('sv4-160',),('swsh12pt5-138',)])
 add('Item','Recovery',[('sv2-188',),('sm2-130',),('bw1-92',),('swsh1-171',),('sv6pt5-61',),('sv2-189',),('xy7-72',),('xy12-85',)])
 add('Item','Discard',[('xy4-92','discard up to 3 from deck'),('sv8-164','ACE SPEC: discard up to 5 from deck')])
-add('Item','Utility',[('swsh12pt5-129',),('swsh1-159',),('sv6-148',),('sm2-125',),('swsh2-168',),('xy9-103',),('swsh1-166',),('xy12-87',),])
+add('Item','Utility',[('swsh10-151','Burns your Active and heals 40: turns on Gutsy Swing'),('swsh12pt5-129',),('swsh1-159',),('sv6-148',),('sm2-125',),('swsh2-168',),('xy9-103',),('swsh1-166',),('xy12-87',),])
 # TOOLS
 add('Tool','Tools',[('xy8-137',),('zsv10pt5-79',),('sm5-122',),('sv8pt5-126',),('sm1-118',),('xy1-121',),('swsh1-185',),('sv1-169',),('swsh4-159',),('sv2-173',),('swsh1-158',),('sv8-169',),('sm3-126',),('sv3pt5-163',),('sv6-158',)])
 # STADIUMS
